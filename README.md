@@ -25,8 +25,8 @@ The dataset contains the following parameters
 * **socio** - whether there are data available on the village in the Atlas of Multilingualism in Daghestan
 * **mention** - references to literature where the village is mentioned in connection with the dialect or language spoken there
 * **comment** - any additional information
-<br>
-<br>
+
+
 The first batch of data (all villages of Daghestan and the language spoken there), was mined by students of the 
 [School of Linguistics](https://ling.hse.ru/en/) at NRU HSE Moscow, under the guidance of [George Moroz](https://github.com/agricolamz). The second batch (all villages of Chechnya and Ingushetia),
 was mined by [George Moroz](https://github.com/agricolamz). Some inaccuracies in these data were corrected in the process of working with them. The third batch was created manually and contains the Avar-speaking villages in the Zaqatala and Belokan regions of Azerbaijan, and the Hunzib and Avar villages in the Kakheti region of Georgia.
