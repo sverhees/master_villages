@@ -1,0 +1,135 @@
+---
+title: "Sample maps"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here are some sample maps made in Lingtypology for R with the Daghestanian villages and languages dataset.
+
+See the RMD file in the repository for the code used to draw these maps.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(tidyverse) # data manipulation
+library(lingtypology) # drawing maps
+
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# Load data
+
+# 1. Village coordinates + languages
+
+vill <- read_tsv("villages.csv")
+
+# (take out some villages which do not have coordinates yet)
+
+vill <- vill[complete.cases(vill$Lat),]
+
+# 2. Color schemes
+
+col <- read_tsv("colors.csv")
+
+# 3. General (Glottolog) datapoints
+
+glot <- read_tsv("glottolog_points.csv")
+
+
+# Add colors
+
+vill_col <- merge(vill, col, by = "Language")
+glot_col <- merge(glot, col, by = "Language")
+
+```
+
+## Map with all villages by language
+
+The color scheme on this map more or less reflects genetic affiliation, based on the ordering in [this family tree by Schulze (2009)](https://en.wikipedia.org/wiki/Northeast_Caucasian_languages#/media/File:Northeast_Caucasian_Splits.png). Different shades of the same color are used for languages belonging to one group in the dataset. Unrelated languages spoken in the area are white. Hover over a dot to see the language spoken there.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+
+# Re-order the elements in the legend (by default they are in alphabetical order)
+
+vill_col$Language <- factor(vill_col$Language, levels =c(
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalugh", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Aghul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Xvarshi", "Armenian", "Kumyk", "Nogai", "North Azerbaijani"))
+
+map.feature(vill_col$Language,
+            latitude = vill_col$Lat,
+            longitude = vill_col$Lon,
+            features = vill_col$Language,
+            color = vill_col$`Data color`,
+            label = vill_col$Language,
+            zoom.control = T,
+            tile = c("Esri.WorldTopoMap"))
+
+```
+
+## Map with all villages by genetic group
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+
+vill_col$Group <- factor(vill_col$Group, levels =c("Dargwa", "Lak", "Nakh", "Khinalugh", "Lezgic", "Avar", "Andic", "Tsezic", "Armenian", "Kipchak", "West Oghuz"))
+
+map.feature(vill_col$Language,
+            latitude = vill_col$Lat,
+            longitude = vill_col$Lon,
+            features = vill_col$Group,
+            width = 8,
+            label = vill_col$Language,
+            color = vill_col$`Group color`,
+            zoom.control = T,
+            tile = c("Esri.WorldTopoMap"))
+
+```
+
+
+## Map with all villages by language + Glottolog points
+
+A lighter version of the previous colorscheme is also available. The idea is that you can use the lighter colors for all villages, and the brighter colors for villages that you have data for. Below is an example with Glottolog points (i.e. coordinates used in the [Glottolog](https://glottolog.org/) database to represent the general area of a language).
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+
+map.feature(vill_col$Language,
+            latitude = vill_col$Lat,
+            longitude = vill_col$Lon,
+            features = vill_col$Lang,
+            width = 8, opacity = 0.7,
+            legend = F,
+            label = vill_col$Language,
+            color = vill_col$`General color`) %>% # this pipe allows you to put a map on top of another map 
+  map.feature(glot_col$Language,
+            latitude = glot_col$Lat,
+            longitude = glot_col$Lon,
+            features = glot_col$Language,
+            legend = F,
+            label = glot_col$Language,
+            color = glot_col$`Data color`,
+            zoom.control = T,
+            pipe.data = .)
+
+```
+
+## Map with only Glottolog points
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+
+glot_col$Language <- factor(glot_col$Language, levels =c(
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalugh", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Aghul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Xvarshi"))
+
+map.feature(glot_col$Language,
+            latitude = glot_col$Lat,
+            longitude = glot_col$Lon,
+            features = glot_col$Language,
+            width = 8,
+            label = glot_col$Language,
+            color = glot_col$`Data color`,
+            zoom.control = T,
+            zoom.level = 7,
+            tile = c("Esri.WorldGrayCanvas"))
+
+```
+
