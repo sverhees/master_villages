@@ -7,9 +7,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Here are some sample maps made in Lingtypology for R with the Daghestanian villages and languages dataset.
+Here are some sample maps made in [Lingtypology](https://ropensci.org/blog/2017/05/16/lingtypology/) for R with the Daghestanian villages and languages dataset.
 
-See the RMD file in the repository for the code used to draw these maps.
+See the RMD file in the [repository](https://github.com/sverhees/master_villages) for the code used to draw these maps.
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
