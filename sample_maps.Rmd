@@ -64,6 +64,7 @@ map.feature(vill_col$Language,
             color = vill_col$`Data color`,
             label = vill_col$Language,
             zoom.control = T,
+            popup = vill_col$Name,
             tile = c("Esri.WorldTopoMap"))
 
 ```
@@ -82,6 +83,7 @@ map.feature(vill_col$Language,
             label = vill_col$Language,
             color = vill_col$`Group color`,
             zoom.control = T,
+            popup = vill_col$Name,
             tile = c("Esri.WorldTopoMap"))
 
 ```
@@ -99,7 +101,9 @@ map.feature(vill_col$Language,
             features = vill_col$Lang,
             width = 8, opacity = 0.7,
             legend = F,
+            zoom.control = T,
             label = vill_col$Language,
+            popup = vill_col$Name,
             color = vill_col$`General color`) %>% # this pipe allows you to put a map on top of another map 
   map.feature(glot_col$Language,
             latitude = glot_col$Lat,
@@ -129,6 +133,7 @@ map.feature(glot_col$Language,
             color = glot_col$`Data color`,
             zoom.control = T,
             zoom.level = 7,
+            popup = glot_col$Name,
             tile = c("Esri.WorldGrayCanvas"))
 
 ```
