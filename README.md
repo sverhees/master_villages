@@ -62,4 +62,8 @@ Sometimes you might want to contrast village-specific data with more general dat
 This table contains some pre-made colorschemes. The column **Data color** contains bright colors for points you have data for. The colors in **General color** are lighter shades of the colors in **Data color**. These allow you to contrast the locations for which you have data with locations where the same language is spoken, but for which you have no data. See some sample maps [here](https://sverhees.github.io/master_villages/sample_maps.html). **Group color** assigns the same color to each language that belongs to the same genetic group.
 
 
+#### Updates
 
+04.04.2019  village: Sary-su language: ~~Chechen~~ Nogai
+            village: Vinogradnoe (Chechnya) ~~Chechen~~ Kumyk
+            village: Braguny language ~~Chechen~~ Kumyk
