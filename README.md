@@ -64,6 +64,7 @@ This table contains some pre-made colorschemes. The column **Data color** contai
 
 #### Updates
 
-04.04.2019  village: Sary-su language: ~~Chechen~~ Nogai
-            village: Vinogradnoe (Chechnya) ~~Chechen~~ Kumyk
-            village: Braguny language ~~Chechen~~ Kumyk
+04.04.2019 - village: Sary-su language: ~~Chechen~~ Nogai;
+            village: Vinogradnoe (Chechnya) language: ~~Chechen~~ Kumyk;
+            village: Braguny language: ~~Chechen~~ Kumyk
+
