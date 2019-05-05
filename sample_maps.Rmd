@@ -138,3 +138,27 @@ map.feature(glot_col$Language,
 
 ```
 
+## Altitude of datapoints
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+
+# round off elevation to two decimals
+
+vill_col <- vill_col %>%
+  mutate(round = round(elevation, 2))
+
+
+# draw map
+
+map.feature(vill_col$Language,
+            latitude = vill_col$Lat,
+            longitude = vill_col$Lon,
+            features = vill_col$round,
+            title = "Altitude",
+            popup = paste(vill_col$Name, "<br>", "Meters above sea-level:", vill_col$elevation))
+
+```
+
+
+
+
