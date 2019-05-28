@@ -1,6 +1,7 @@
 ---
 title: "Sample maps"
 output: html_document
+date: "Version: `r Sys.Date()`"
 ---
 
 ```{r setup, include=FALSE}
@@ -139,6 +140,8 @@ map.feature(glot_col$Language,
 ```
 
 ## Altitude of datapoints
+
+The altitude for each datapoint was retrieved automatically from Google, as were the coordinates for each village. These coordinates are not always precisely in the centre of the village, and as a result, the altitude data contains some inaccuracies. The highest village in this dataset, for example, is the village Asha (Tsumadinsky district), while we know that the highest village in Daghestan is actually Kurush (Dokuzparinsky district).
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
 

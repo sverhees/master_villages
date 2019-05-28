@@ -68,3 +68,6 @@ This table contains some pre-made colorschemes. The column **Data color** contai
             village: Vinogradnoe (Chechnya) language: ~~Chechen~~ Kumyk;
             village: Braguny language: ~~Chechen~~ Kumyk
 
+05.05.2019 - [George Moroz](https://github.com/agricolamz) added parameter altitude (in meters above sea-level).
+
+28.05.2019 - added datapoint for Kurush (Dokuzparinsky district).
