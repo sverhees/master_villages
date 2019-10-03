@@ -1,7 +1,10 @@
 ---
 title: "Sample maps"
-output: html_document
-date: "Version: `r Sys.Date()`"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+date: 'Version: `r Sys.Date()`'
 ---
 
 ```{r setup, include=FALSE}
@@ -25,7 +28,7 @@ library(lingtypology) # drawing maps
 
 # 1. Village coordinates + languages
 
-vill <- read_tsv("villages.csv")
+vill <- read_tsv("data/villages.csv")
 
 # (take out some villages which do not have coordinates yet)
 
@@ -33,11 +36,11 @@ vill <- vill[complete.cases(vill$Lat),]
 
 # 2. Color schemes
 
-col <- read_tsv("colors.csv")
+col <- read_tsv("data/colors.csv")
 
 # 3. General (Glottolog) datapoints
 
-glot <- read_tsv("glottolog_points.csv")
+glot <- read_tsv("data/glottolog_points.csv")
 
 
 # Add colors
@@ -69,6 +72,7 @@ map.feature(vill_col$Language,
             tile = c("Esri.WorldTopoMap"))
 
 ```
+
 
 ## Map with all villages by genetic group
 
