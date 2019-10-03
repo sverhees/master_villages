@@ -1,0 +1,12 @@
+---
+title: "Daghestan_search"
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+read_csv("data/merged_all_census_and_samira.csv") %>% 
+  arrange(same_languages) ->
+  df
+DT::datatable(data = df, filter = 'top', rownames = FALSE, options = list(pageLength = 100, autoWidth = FALSE), escape = FALSE)
+```
+
