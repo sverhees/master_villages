@@ -73,6 +73,7 @@ This table contains some pre-made colorschemes. The column **Data color** contai
 05.05.2019 - [George Moroz](https://github.com/agricolamz) added parameter altitude (in meters above sea-level).
 
 28.05.2019 - added datapoint for Kurush (Dokuzparinsky district).
+
 03.10.2019 - added the fourth batch of data (see above); 
 village Chantliskure: changed name to Chantlisqure and language ~~Hinukh~~ Behzta;
 added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (Pankisi) - language: Chechen. (Altitude will be added for these villages later.)
