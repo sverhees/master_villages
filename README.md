@@ -1,10 +1,10 @@
 # East Caucasian villages: coordinates and languages
 
-This repository contains a dataset with all East Caucasian villages, their coordinates and the language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Daghestan in [Lingtypology](https://ropensci.github.io/lingtypology/) for R. During the last update, the data was restructured, but the old version of the dataset is still available in the folder **old data**.
+This repository contains a dataset with all East Caucasian villages, their coordinates and the language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Daghestan using the [Lingtypology](https://ropensci.github.io/lingtypology/) package for R.
 
-Feel free to use the data, but if you find any mistakes, please create an issue or contact jh.verhees@gmail.com.
+Feel free to use the data, but if you find any mistakes, please create an issue.
 
-The data format is TAB-separated CSV files.
+Data format is TAB-separated CSV files.
 
 
 ### Acknowledgements
@@ -17,51 +17,50 @@ The fourth batch was created by collapsing Yury Koryakov's database with census 
 
 ### Projects
 
-See also the [Database of Gender Systems in Nakh-Daghestanian languages](https://kartozia.github.io/Gender-Systems-Database/) created by [Inga Kartozia](https://github.com/kartozia) using these data, and [some maps on evidentiality](https://sverhees.github.io/maps/maps_v42.html) created by [me](https://github.com/sverhees).
+See also the [Database of Gender Systems in Nakh-Daghestanian languages](https://kartozia.github.io/Gender-Systems-Database/) created by [Inga Kartozia](https://github.com/kartozia) using these data, and [some maps on evidentiality](https://sverhees.github.io/dissertation_evidentiality/index.html) created by [me](https://github.com/sverhees).
 
 ---
 
 ### Data
 
-The dataset is divided into four tables containing the following parameters
+The dataset is divided into two tables containing the following parameters
 
-
-#### Languages
-
-List of languages distinguished in the dataset. I follow traditional accounts where a total of 29 independent languages are recognized. The parameter **Language** can be used to connect data from different tables.
-
-* **Language** name of the language used in the dataset
-* **Group** genetic group to which the language belongs. The division in groups is a mixture of higher and mid-level branches based on personal preferences. Other options and more detailed branching can be accessed using basic Lingtypology syntax.
-* **Family** language family to which the language belongs; used to distinguish the few non East Caucasian languages spoken in the area.
-* **Glottocode** glottocode of the language, which can be used to access background information and alternative names for the language via the [Glottolog](https://glottolog.org/) database.
 
 
 #### Villages
 
 A list of villages in the Republic of Daghestan, the Chechen and Ingush Republics, and adjacent regions where East Caucasian languages are spoken.
 
-* **Name** - name of the village in Latin script
-* **Lat** - latitudinal coordinates
-* **Lon** - longitudinal coordinates
-* **Language** - language spoken in the village
-* **Lect** - dialect or local variety spoken in a village (still mostly empty)
-* **Republic** - republic where the language is spoken
-* **Region** - administrative district to which the village belongs (still mostly empty)
+* **village** - name of the village in Latin script
+* **lat** - latitudinal coordinates
+* **lon** - longitudinal coordinates
+* **lang** - language spoken in the village
+* **idiom** - dialect or local variety spoken in a village (still mostly empty)
+* **republic** - republic where the language is spoken
+* **region** - administrative district to which the village belongs (still mostly empty)
+* **elevation** - altitude of the village (approximately)
 
+#### Metadata
 
-#### Glottolog Points
+The metadata file was based on a list of the  traditionally recognized languages of the East Caucasian family, and some additional idioms were added later. The addition of idioms, and the annotation of villages for idiom is still at an early stage, and is not carried out in a very systematic way. (For example, I added Sanzhi simply because there is a grammar for Sanzhi, so we might want to display information from it on the map.)
 
-Sometimes you might want to contrast village-specific data with more general datapoints approximating the general area where a language is spoken. For this purpose, the glottolog points can be used.
+For general maps, you can simply filter out the 29 East Caucasian languages that are usually distinguished (+ the four non-EC languages spoken in the area) using the **core** parameter.
 
-* **Name** - name of a lect in the Glottolog database
-* **Lat** - latitudinal coordinates
-* **Lon** - longitudinal coordinates	
-* **Language** - language name in this dataset
-
-
-#### Colors
-
-This table contains some pre-made colorschemes. The column **Data color** contains bright colors for points you have data for. The colors in **General color** are lighter shades of the colors in **Data color**. These allow you to contrast the locations for which you have data with locations where the same language is spoken, but for which you have no data. See some sample maps [here](https://sverhees.github.io/master_villages/sample_maps.html). **Group color** assigns the same color to each language that belongs to the same genetic group.
+* **lang** - name of the language used in the dataset
+* **idiom** - dialect or local variety spoken in a village
+* **core** - *yes:* 29 traditionally recognized East Caucasian languages + local Turkic languages and Armenian; *no:* additional idioms
+**aff** - genealogical group to which the language belongs. The division in groups is a mixture of higher and mid-level branches based on personal preferences. Other options and more detailed branching can be accessed using basic Lingtypology syntax
+* **family** - language family to which the language belongs; used to distinguish the few non East Caucasian languages spoken in the area
+* **glottocode** - glottocode of the idiom, which can be used to access background information and alternative names for the language via the [Glottolog](https://glottolog.org/) database
+* **gltc_lat** - latitudinal coordinates for a generalized datapoint for the idiom in question; idioms limited to one village have the village coordinates
+* **gltc_lon** - longitudinal coordinates for a generalized datapoint for the idiom in question; idioms limited to one village have the village coordinates
+* **general_location** - the nature of the location for the coordinates in this file. In most cases a generalized datapoint from [Glottolog](https://glottolog.org/) is used
+* **lang_color** - color scheme with a unique color for each language
+* **lang_color_pale** - a light shades of the previous color scheme, see the [sample maps](https://sverhees.github.io/master_villages/sample_maps.html)
+* **aff_color** - color scheme with a unique color for each genealogical group
+* **lang_color_dagtlas** - an alternative color scheme with a unique color for each genealogical group
+* **villages_marked** - specifies whether an (additional) idiom is marked in the dataframe with villages 
+* **comment** - any kind of comment on the datapoint
 
 
 #### Updates
@@ -77,3 +76,8 @@ This table contains some pre-made colorschemes. The column **Data color** contai
 03.10.2019 - added the fourth batch of data (see above); 
 village Chantliskure: changed name to Chantlisqure and language ~~Hinukh~~ Behzta;
 added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (Pankisi) - language: Chechen. (Altitude will be added for these villages later.)
+
+21.02.2020 - restructured the data;
+
+added the village Sanzhi, idiom: Sanzhi, language: Dargwa
+

@@ -13,9 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Here are some sample maps made in [Lingtypology](https://ropensci.org/blog/2017/05/16/lingtypology/) for R with the Daghestanian villages and languages dataset.
 
-See the RMD file in the [repository](https://github.com/sverhees/master_villages) for the code used to draw these maps.
+See the `sample_maps.rmd` file in the [repository](https://github.com/sverhees/master_villages) for the code used to draw these maps.
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# packages
 
 library(tidyverse) # data manipulation
 library(lingtypology) # drawing maps
@@ -24,122 +26,112 @@ library(lingtypology) # drawing maps
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
-# Load data
+# load data
 
-# 1. Village coordinates + languages
+vill <- read_tsv("data/villages.csv") # dataframe with all villages, coordinates and languages
+meta <- read_tsv("data/meta.csv") # dataframe with language metadata and color schemes
 
-vill <- read_tsv("data/villages.csv")
+# data preparation
 
-# (take out some villages which do not have coordinates yet)
+vill <- vill[complete.cases(vill$lat),] # remove villages without coordinates
 
-vill <- vill[complete.cases(vill$Lat),]
+meta_core <- meta %>% # remove idioms not (yet) recognized as distinct
+  filter(core == "yes")
 
-# 2. Color schemes
-
-col <- read_tsv("data/colors.csv")
-
-# 3. General (Glottolog) datapoints
-
-glot <- read_tsv("data/glottolog_points.csv")
-
-
-# Add colors
-
-vill_col <- merge(vill, col, by = "Language")
-glot_col <- merge(glot, col, by = "Language")
+vill_meta <- merge(vill, meta_core, by = "lang") # merge villages with metadata
 
 ```
 
 ## Map with all villages by language
 
-The color scheme on this map more or less reflects genetic affiliation, based on the ordering in [this family tree by Schulze (2009)](https://en.wikipedia.org/wiki/Northeast_Caucasian_languages#/media/File:Northeast_Caucasian_Splits.png). Different shades of the same color are used for languages belonging to one group in the dataset. Unrelated languages spoken in the area are white. Hover over a dot to see the language spoken there.
+The color scheme on this map more or less reflects genetic affiliation in the East Caucasian family, based on the ordering in [this family tree by Schulze (2009)](https://en.wikipedia.org/wiki/Northeast_Caucasian_languages#/media/File:Northeast_Caucasian_Splits.png). Unrelated languages are shades of grey and white. Hover over a dot to see the language spoken in a particular village.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
 
-# Re-order the elements in the legend (by default they are in alphabetical order)
+# re-order the elements in the legend (by default they are in alphabetical order)
 
-vill_col$Language <- factor(vill_col$Language, levels =c(
-  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalugh", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Aghul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Xvarshi", "Armenian", "Kumyk", "Nogai", "North Azerbaijani"))
+vill_meta$lang <- factor(vill_meta$lang, levels =c(
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian"))
 
-map.feature(vill_col$Language,
-            latitude = vill_col$Lat,
-            longitude = vill_col$Lon,
-            features = vill_col$Language,
-            color = vill_col$`Data color`,
-            label = vill_col$Language,
+# draw map
+
+map.feature(lang.gltc(vill_meta$glottocode),
+            latitude = vill_meta$lat,
+            longitude = vill_meta$lon,
+            features = vill_meta$lang,
+            color = vill_meta$lang_color,
+            label = vill_meta$lang,
             zoom.control = T,
-            popup = vill_col$Name,
+            popup = vill_meta$village,
             tile = c("Esri.WorldTopoMap"))
 
 ```
 
 
-## Map with all villages by genetic group
+## Map with all villages by genealogical group
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
 
-vill_col$Group <- factor(vill_col$Group, levels =c("Dargwa", "Lak", "Nakh", "Khinalugh", "Lezgic", "Avar", "Andic", "Tsezic", "Armenian", "Kipchak", "West Oghuz"))
+vill_meta$aff <- factor(vill_meta$aff, levels =c("Dargwa", "Lak", "Nakh", "Khinalug", "Lezgic", "Avar", "Andic", "Tsezic", "Kipchak", "Oghuz", "Armenic"))
 
-map.feature(vill_col$Language,
-            latitude = vill_col$Lat,
-            longitude = vill_col$Lon,
-            features = vill_col$Group,
+map.feature(lang.gltc(vill_meta$glottocode),
+            latitude = vill_meta$lat,
+            longitude = vill_meta$lon,
+            features = vill_meta$aff,
             width = 8,
-            label = vill_col$Language,
-            color = vill_col$`Group color`,
+            label = vill_meta$lang,
+            color = vill_meta$aff_color,
             zoom.control = T,
-            popup = vill_col$Name,
+            popup = vill_meta$village,
             tile = c("Esri.WorldTopoMap"))
 
 ```
 
+## Map with all villages by language + general datapoints
 
-## Map with all villages by language + Glottolog points
-
-A lighter version of the previous colorscheme is also available. The idea is that you can use the lighter colors for all villages, and the brighter colors for villages that you have data for. Below is an example with Glottolog points (i.e. coordinates used in the [Glottolog](https://glottolog.org/) database to represent the general area of a language).
+A lighter version of the previous colorscheme is also available. The idea is that you can use the lighter shades for all villages, and the brighter colors for villages that you have data for. Below is an example with general datapoints (i.e. one point for each traditionally recognized language and coordinates from the [Glottolog](https://glottolog.org/) database).
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
 
-map.feature(vill_col$Language,
-            latitude = vill_col$Lat,
-            longitude = vill_col$Lon,
-            features = vill_col$Lang,
-            width = 8, opacity = 0.7,
-            legend = F,
+meta_core$emphasis <- "emphasis"
+
+map.feature(lang.gltc(vill_meta$glottocode),
+            latitude = vill_meta$lat,
+            longitude = vill_meta$lon,
+            features = vill_meta$lang,
+            color = vill_meta$lang_color_pale,
+            label = vill_meta$lang,
             zoom.control = T,
-            label = vill_col$Language,
-            popup = vill_col$Name,
-            color = vill_col$`General color`) %>% # this pipe allows you to put a map on top of another map 
-  map.feature(glot_col$Language,
-            latitude = glot_col$Lat,
-            longitude = glot_col$Lon,
-            features = glot_col$Language,
-            legend = F,
-            label = glot_col$Language,
-            color = glot_col$`Data color`,
+            popup = vill_meta$village,
+            tile = c("Esri.WorldTopoMap")) %>%
+    map.feature(lang.gltc(meta_core$glottocode),
+            latitude = meta_core$gltc_lat,
+            longitude = meta_core$gltc_lon,
+            features = meta_core$lang,
+            stroke.features = meta_core$emphasis,
+            stroke.color = "black",
+            stroke.legend = F,
+            width = 3, stroke.radius = 5,
+            label = meta_core$lang,
+            color = meta_core$lang_color,
             zoom.control = T,
             pipe.data = .)
-
 ```
 
-## Map with only Glottolog points
+## Map with only general datapoints
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
 
-glot_col$Language <- factor(glot_col$Language, levels =c(
-  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalugh", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Aghul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Xvarshi"))
+meta_core$lang <- factor(meta_core$lang, levels =c(
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian"))
 
-map.feature(glot_col$Language,
-            latitude = glot_col$Lat,
-            longitude = glot_col$Lon,
-            features = glot_col$Language,
-            width = 8,
-            label = glot_col$Language,
-            color = glot_col$`Data color`,
-            zoom.control = T,
-            zoom.level = 7,
-            popup = glot_col$Name,
-            tile = c("Esri.WorldGrayCanvas"))
+map.feature(lang.gltc(meta_core$glottocode),
+            latitude = meta_core$gltc_lat,
+            longitude = meta_core$gltc_lon,
+            features = meta_core$lang,
+            label = meta_core$lang,
+            color = meta_core$lang_color,
+            zoom.control = T)
 
 ```
 
@@ -151,18 +143,15 @@ The altitude for each datapoint was retrieved automatically from Google, as were
 
 # round off elevation to two decimals
 
-vill_col <- vill_col %>%
+vill_meta <- vill_meta %>%
   mutate(round = round(elevation, 2))
 
-
-# draw map
-
-map.feature(vill_col$Language,
-            latitude = vill_col$Lat,
-            longitude = vill_col$Lon,
-            features = vill_col$round,
+map.feature(lang.gltc(vill_meta$glottocode),
+            latitude = vill_meta$lat,
+            longitude = vill_meta$lon,
+            features = vill_meta$round,
             title = "Altitude",
-            popup = paste(vill_col$Name, "<br>", "Meters above sea-level:", vill_col$elevation))
+            popup = paste(vill_meta$village, "<br>", "Meters above sea-level:", vill_meta$elevation))
 
 ```
 

@@ -1,0 +1,50 @@
+lang	idiom	core	aff	family	glottocode	gltc_lat	gltc_lon	aff_color	lang_color	lang_color_pale	lang_color_dagatlas	general_location	villages_marked	comment
+Bagvalal	Bagvalal	yes	Andic	East Caucasian	bagv1239	42.39664	46.1041	#9900ff	#000066	#0000b3	#191970	glottolog coordinates	NA	
+Chamalal	Chamalal	yes	Andic	East Caucasian	cham1309	42.50239	45.99496	#9900ff	#000099	#0000e6	#0000FF	glottolog coordinates	NA	
+Udi	Udi	yes	Lezgic	East Caucasian	udii1243	40.9	47.7236	#00cc66	#003300	#008000	#DB7093	glottolog coordinates	NA	
+Andi	Andi	yes	Andic	East Caucasian	andi1255	42.80785	46.29187	#9900ff	#003366	#0059b3	#00BFFF	glottolog coordinates	NA	
+Godoberi	Godoberi	yes	Andic	East Caucasian	ghod1238	42.74276	46.22524	#9900ff	#003399	#004de6	#00FFFF	glottolog coordinates	NA	
+Budukh	Budukh	yes	Lezgic	East Caucasian	budu1248	41.22722	48.33533	#00cc66	#006600	#00b300	#E9967A	glottolog coordinates	NA	
+Rutul	Rutul	yes	Lezgic	East Caucasian	rutu1240	41.61866	47.32436	#00cc66	#009900	#00e600	#B22222	glottolog coordinates	NA	
+Kryz	Kryz	yes	Lezgic	East Caucasian	kryt1240	41.18107	48.18457	#00cc66	#009933	#00e64d	#FFA07A	glottolog coordinates	NA	
+Avar	Avar	yes	Avar	East Caucasian	avar1256	42.43056	46.66639	#009999	#009999	#00e6e6	#8A2BE2	glottolog coordinates	NA	
+Avar	Ancux	no	Avar	East Caucasian	ancu1238	41.9086801	45.9489227	#009999	#009999	#00e6e6	#8A2BE2	village Tivi	yes	
+Avar	Zaqatala	no	Avar	East Caucasian	zaqa1242	41.615991	46.60675	#009999	#009999	#00e6e6	#8A2BE2	Zaqatala city	yes	
+Lezgian	Lezgian	yes	Lezgic	East Caucasian	lezg1247	41.51572	47.89507	#00cc66	#00cc00	#1aff1a	#CD5C5C	glottolog coordinates	NA	
+Agul	Agul	yes	Lezgic	East Caucasian	aghu1253	41.92418	47.58429	#00cc66	#00cc66	#1aff8c	#FA8072	glottolog coordinates	NA	
+Tindi	Tindi	yes	Andic	East Caucasian	tind1238	42.33164	45.92268	#9900ff	#333399	#5353c6	#6495ED	glottolog coordinates	NA	
+Botlikh	Botlikh	yes	Andic	East Caucasian	botl1242	42.665	46.22	#9900ff	#336699	#538cc6	#4682B4	glottolog coordinates	NA	
+Tabasaran	Tabasaran	yes	Lezgic	East Caucasian	taba1259	42.01976	47.83791	#00cc66	#339966	#53c68c	#DC143C	glottolog coordinates	NA	
+Ingush	Ingush	yes	Nakh	East Caucasian	ingu1240	43.16667	44.81667	#996633	#663300	#b35900	#D2691E	glottolog coordinates	NA	
+Karata	Karata	yes	Andic	East Caucasian	kara1474	42.65005	46.31511	#9900ff	#666699	#9494b8	#1E90FF	glottolog coordinates	NA	
+Tsakhur	Tsakhur	yes	Lezgic	East Caucasian	tsak1249	41.59156	46.88585	#00cc66	#669900	#99e600	#F08080	glottolog coordinates	NA	
+Tsez	Tsez	yes	Tsezic	East Caucasian	dido1241	42.26458	45.80959	#ff5050	#990033	#e6004c	#556B2F	glottolog coordinates	NA	
+Akhvakh	Akhvakh	yes	Andic	East Caucasian	akhv1239	42.40035	46.30369	#9900ff	#9900ff	#b84dff	#4169E1	glottolog coordinates	NA	
+Khwarshi	Inkhoqwari	yes	Tsezic	East Caucasian	khva1239	42.410888	46.044877	#ff5050	#993333	#c65353	#2F4F4F	glottolog coordinates	NA	more data
+Khwarshi	Khwarshi	no	Tsezic	East Caucasian	khva1239	42.353471	46.107859	#ff5050	#993333	#c65353	#2F4F4F	glottolog coordinates	no	
+Chechen	Chechen	yes	Nakh	East Caucasian	chec1245	43.5	45.5	#996633	#996600	#e69900	#DAA520	glottolog coordinates	NA	
+Bats	Bats	yes	Nakh	East Caucasian	bats1242	42.1806	45.34397	#996633	#996633	#c68c53	#BC8F8F	glottolog coordinates	NA	
+Archi	Archi	yes	Lezgic	East Caucasian	arch1244	42.0664	46.8678	#00cc66	#99cc00	#c6ff1a	#8B0000	glottolog coordinates	NA	
+Hinuq	Hinuq	yes	Tsezic	East Caucasian	hinu1240	42.45022	45.80638	#ff5050	#cc0000	#ff1a1a	#6B8E23	glottolog coordinates	NA	
+Lak	Lak	yes	Lak	East Caucasian	lakk1252	42.13275	47.0809	#cc9900	#cc9900	#ffc61a	#FFFF00	glottolog coordinates	NA	
+Khinalug	Khinalug	yes	Khinalug	East Caucasian	khin1240	41.18014	48.05714	#cccc00	#cccc00	#ffff1a	#FF00FF	glottolog coordinates	NA	
+Kumyk	Kumyk	yes	Kipchak	Turkic	kumy1244	43	47	#666666	#a6a6a6	#a6a6a6	#D3D3D3	glottolog coordinates	NA	
+Nogai	Nogai	yes	Kipchak	Turkic	noga1249	43.59168	46.66178	#666666	#666666	#8c8c8c	#DCDCDC	glottolog coordinates	NA	
+Hunzib	Hunzib	yes	Tsezic	East Caucasian	hunz1247	42.08076	46.13691	#ff5050	#ff0066	#ff4d94	#8FBC8F	glottolog coordinates	NA	
+Bezhta	Bezhta	yes	Tsezic	East Caucasian	bezh1248	42.1206	46.03319	#ff5050	#ff5050	#ff9999	#808000	glottolog coordinates	NA	
+Dargwa	Standard Dargwa	yes	Dargwa	East Caucasian	darg1241	42.42568	47.43876	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	NA	
+Dargwa	Chirag	no	Dargwa	East Caucasian	chir1284	41.8381	47.4303	#ff9900	#ff9900	#ffb84d	#00FF7F	village Chirag	yes	
+Dargwa	Cudaxar	add	Dargwa	East Caucasian	cuda1238	42.33333	47.15	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	no	
+Dargwa	Itsari	no	Dargwa	East Caucasian	itsa1239	41.99733	47.5833	#ff9900	#ff9900	#ffb84d	#00FF7F	village Itsari	yes	
+Dargwa	Kajtak	add	Dargwa	East Caucasian	kajt1238	42.06139	47.79597	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	no	
+Dargwa	Kubachi	no	Dargwa	East Caucasian	kuba1248	42.0856	47.6031	#ff9900	#ff9900	#ffb84d	#00FF7F	village Kubachi	yes	
+Dargwa	Tanti	no	Dargwa	East Caucasian	sirh1234	42.1642	47.3167	#ff9900	#ff9900	#ffb84d	#00FF7F	village Tanty	yes	
+Dargwa	Mehweb	no	Dargwa	East Caucasian	mege1234	42.2528	47.0472	#ff9900	#ff9900	#ffb84d	#00FF7F	village Megeb	yes	
+Dargwa	Amuzgi-Shiri	no	Dargwa	East Caucasian	sirz1237	42.060627	47.589895	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	no	
+Dargwa	Gapshima	add	Dargwa	East Caucasian	gaps1234	42.2122	47.3261	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	no	
+Dargwa	North-Dargwa	add	Dargwa	East Caucasian	nort3280	42.275664	47.340107	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	no	
+Dargwa	Verhnevurkunskij	add	Dargwa	East Caucasian	uppe1463	41.96638	47.51297	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	no	
+Dargwa	Muirin	add	Dargwa	East Caucasian	muir1238	42.1617	47.6944	#ff9900	#ff9900	#ffb84d	#00FF7F	glottolog coordinates	no	
+Dargwa	Sanzhi	no	Dargwa	East Caucasian	sanz1248	41.9778645	47.5644556	#ff9900	#ff9900	#ffb84d	#00FF7F	village Sanzhi	yes	
+Armenian	Eastern Armenian	yes	Armenic	Indo-European	nucl1235	40	45	#fff5ee	#fff5ee	#ffffff	#FFF8DC	glottolog coordinates	NA	
+Azerbaijani	North Azerbaijani	yes	Oghuz	Turkic	nort2697	40.977675	46.4736975	#cccccc	#cccccc	#f2f2f2	#FFFFF0	glottolog coordinates	NA	standard language
