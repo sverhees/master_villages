@@ -42,7 +42,7 @@ A list of villages in the Republic of Daghestan, the Chechen and Ingush Republic
 
 #### Metadata
 
-The metadata file was based on a list of the  traditionally recognized languages of the East Caucasian family, and some additional idioms were added later. The addition of idioms, and the annotation of villages for idiom is still at an early stage, and is not carried out in a very systematic way. (For example, I added Sanzhi simply because there is a grammar for Sanzhi, so we might want to display information from it on the map.)
+The metadata file was based on a list of the  traditionally recognized languages of the East Caucasian family and some additional idioms were added later. The addition of idioms and the annotation of villages for idiom is still at an early stage, and is not carried out in a very systematic way. (For example, I added Sanzhi simply because there is a grammar for Sanzhi, so we might want to display information from it on the map.)
 
 For general maps, you can simply filter out the 29 East Caucasian languages that are usually distinguished (+ the four non-EC languages spoken in the area) using the **core** parameter.
 
