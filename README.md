@@ -49,7 +49,7 @@ For general maps, you can simply filter out the 29 East Caucasian languages that
 * **lang** - name of the language used in the dataset
 * **idiom** - dialect or local variety spoken in a village
 * **core** - *yes:* 29 traditionally recognized East Caucasian languages + local Turkic languages and Armenian; *no:* additional idioms
-**aff** - genealogical group to which the language belongs. The division in groups is a mixture of higher and mid-level branches based on personal preferences. Other options and more detailed branching can be accessed using basic Lingtypology syntax
+* **aff** - genealogical group to which the language belongs. The division in groups is a mixture of higher and mid-level branches based on personal preferences. Other options and more detailed branching can be accessed using basic Lingtypology syntax
 * **family** - language family to which the language belongs; used to distinguish the few non East Caucasian languages spoken in the area
 * **glottocode** - glottocode of the idiom, which can be used to access background information and alternative names for the language via the [Glottolog](https://glottolog.org/) database
 * **gltc_lat** - latitudinal coordinates for a generalized datapoint for the idiom in question; idioms limited to one village have the village coordinates
