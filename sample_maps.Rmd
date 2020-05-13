@@ -156,6 +156,62 @@ map.feature(lang.gltc(vill_meta$glottocode),
 
 ```
 
+## Kutans
+
+The northern part of Dagestan was uninhabited until relatively recently. It is composed of an ethnic and linguistic mish-mash of resettlers. We have little to zero information about the language varieties spoken here, and due to their recent migration we cannot extend the areal patterns from the general region to this particular are. Therefore, we created a parameter with the label **kutans** (which refers to this type of resettler villages), which gives us the ability to filter out this type of villages.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7.5}
+
+vill_meta$lang <- as.character(vill_meta$lang)
+
+vill_meta_kutans <- vill_meta %>%
+  mutate(
+    kutanlang = case_when(
+      kutans == FALSE ~ lang,
+      TRUE ~ "Kutan")) %>%
+  mutate(
+    kutancolor = case_when(
+     kutans == FALSE ~ lang_color,
+     TRUE ~ "white"))
+
+vill_meta_kutans$lang <- factor(vill_meta_kutans$lang, levels =c(
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian", "Tat", "Georgian", "Kutan"))
+
+# draw map
+
+map.feature(lang.gltc(vill_meta_kutans$glottocode),
+            latitude = vill_meta_kutans$lat,
+            longitude = vill_meta_kutans$lon,
+            features = vill_meta_kutans$kutanlang,
+            color = vill_meta_kutans$kutancolor,
+            label = vill_meta_kutans$lang,
+            zoom.control = T,
+            popup = vill_meta_kutans$village,
+            tile = c("Esri.WorldTopoMap"))
 
 
+
+```
+
+## No kutans
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7.5}
+
+vill_meta_nokutans <- vill_meta[(vill_meta$kutans == FALSE),]
+
+vill_meta_nokutans$lang <- factor(vill_meta_nokutans$lang, levels =c(
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Tat", "Georgian"))
+
+
+map.feature(lang.gltc(vill_meta_nokutans$glottocode),
+            latitude = vill_meta_nokutans$lat,
+            longitude = vill_meta_nokutans$lon,
+            features = vill_meta_nokutans$lang,
+            color = vill_meta_nokutans$lang_color,
+            label = vill_meta_nokutans$lang,
+            zoom.control = T,
+            popup = vill_meta_nokutans$village,
+            tile = c("Esri.WorldTopoMap"))
+
+```
 

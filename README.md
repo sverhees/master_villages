@@ -6,8 +6,7 @@ Feel free to use the data. If you find any mistakes, please create an issue.
 
 Data format is TAB-separated CSV file or XLSX file.
 
-Note that a few villages in the dataset have the same name -- keep this in mind when you are merging data.
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3824151.svg)](https://doi.org/10.5281/zenodo.3824151)
 
 ### Acknowledgements
 
@@ -33,6 +32,7 @@ The dataset is divided into two tables containing the following parameters
 
 A list of villages in the Republic of Dagestan, the Chechen and Ingush Republics, and adjacent regions where East Caucasian languages are spoken.
 
+* **id** - unique id for each entry
 * **village** - name of the village in Latin script
 * **lat** - latitudinal coordinates
 * **lon** - longitudinal coordinates
@@ -41,6 +41,7 @@ A list of villages in the Republic of Dagestan, the Chechen and Ingush Republics
 * **republic** - republic where the language is spoken
 * **region** - administrative district to which the village belongs (still mostly empty)
 * **elevation** - altitude of the village (approximately)
+* **kutans** - whether the village is a relatively new settlement in the north of Dagestan or not
 
 #### Metadata
 
@@ -81,4 +82,4 @@ added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (P
 
 21.02.2020 - restructured the data; added the village Sanzhi, idiom: Sanzhi, language: Dargwa
 
-13.05.2020 - added Tat language (location: Derbent); added Georgian language; added locations Tlyarata (Avar); Tsunta (Tsez); Qum (Tsakhur); Qax (Azerbaijani); Ilisu (Azerbaijani, historically Tsakhur); Alibeglo (Georgian); Meshabash (Georgian); added .xlsx files of the datasets because some people who use Windows have problems opening the .csv files; added parameter "kutans": this helps to filter out the northern part of Dagestan, which was inhabited relatively recently and consists of a mish-mash of ethnicities and languages. In addition, very little to nothing is known about the varieties spoken there; created an official release for reference, following an [issue](https://github.com/sverhees/master_villages/issues/6) by [George Moroz](https://github.com/agricolamz).
+13.05.2020 - added Tat language (location: Derbent); added Georgian language; added locations Tlyarata (Avar); Tsunta (Tsez); Qum (Tsakhur); Qax (Azerbaijani); Ilisu (Azerbaijani, historically Tsakhur); Alibeglo (Georgian); Meshabash (Georgian); added .xlsx files of the datasets because some people who use Windows have problems opening the .csv files; added parameter "kutans": this helps to filter out the northern part of Dagestan, which was inhabited relatively recently and consists of a mish-mash of ethnicities and languages. In addition, very little to nothing is known about the varieties spoken there; added an "id" column to prevent problems with villages that have the same name; created an official release for reference, following an [issue](https://github.com/sverhees/master_villages/issues/6) by [George Moroz](https://github.com/agricolamz).
