@@ -46,12 +46,12 @@ vill_meta <- merge(vill, meta_core, by = "lang") # merge villages with metadata
 
 The color scheme on this map more or less reflects genetic affiliation in the East Caucasian family, based on the ordering in [this family tree by Schulze (2009)](https://en.wikipedia.org/wiki/Northeast_Caucasian_languages#/media/File:Northeast_Caucasian_Splits.png). Unrelated languages are shades of grey and white. Hover over a dot to see the language spoken in a particular village.
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7.5}
 
 # re-order the elements in the legend (by default they are in alphabetical order)
 
 vill_meta$lang <- factor(vill_meta$lang, levels =c(
-  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian"))
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian", "Tat", "Georgian"))
 
 # draw map
 
@@ -70,9 +70,9 @@ map.feature(lang.gltc(vill_meta$glottocode),
 
 ## Map with all villages by genealogical group
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7.5}
 
-vill_meta$aff <- factor(vill_meta$aff, levels =c("Dargwa", "Lak", "Nakh", "Khinalug", "Lezgic", "Avar", "Andic", "Tsezic", "Kipchak", "Oghuz", "Armenic"))
+vill_meta$aff <- factor(vill_meta$aff, levels =c("Dargwa", "Lak", "Nakh", "Khinalug", "Lezgic", "Avar", "Andic", "Tsezic", "Kipchak", "Oghuz", "Armenic", "Iranian", "Georgic"))
 
 map.feature(lang.gltc(vill_meta$glottocode),
             latitude = vill_meta$lat,
@@ -91,7 +91,7 @@ map.feature(lang.gltc(vill_meta$glottocode),
 
 A lighter version of the previous colorscheme is also available. The idea is that you can use the lighter shades for all villages, and the brighter colors for villages that you have data for. Below is an example with general datapoints (i.e. one point for each traditionally recognized language and coordinates from the [Glottolog](https://glottolog.org/) database).
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7.5}
 
 meta_core$emphasis <- "emphasis"
 
@@ -105,9 +105,10 @@ map.feature(lang.gltc(vill_meta$glottocode),
             popup = vill_meta$village,
             tile = c("Esri.WorldTopoMap")) %>%
     map.feature(lang.gltc(meta_core$glottocode),
-            latitude = meta_core$gltc_lat,
-            longitude = meta_core$gltc_lon,
+            latitude = meta_core$gen_lat,
+            longitude = meta_core$gen_lon,
             features = meta_core$lang,
+            legend = FALSE,
             stroke.features = meta_core$emphasis,
             stroke.color = "black",
             stroke.legend = F,
@@ -120,14 +121,14 @@ map.feature(lang.gltc(vill_meta$glottocode),
 
 ## Map with only general datapoints
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7.5}
 
 meta_core$lang <- factor(meta_core$lang, levels =c(
-  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian"))
+  "Dargwa", "Lak", "Bats", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian", "Tat", "Georgian"))
 
 map.feature(lang.gltc(meta_core$glottocode),
-            latitude = meta_core$gltc_lat,
-            longitude = meta_core$gltc_lon,
+            latitude = meta_core$gen_lat,
+            longitude = meta_core$gen_lon,
             features = meta_core$lang,
             label = meta_core$lang,
             color = meta_core$lang_color,
@@ -139,7 +140,7 @@ map.feature(lang.gltc(meta_core$glottocode),
 
 The altitude for each datapoint was retrieved automatically from Google, as were the coordinates for each village. These coordinates are not always precisely in the centre of the village, and as a result, the altitude data contains some inaccuracies. The highest village in this dataset, for example, is the village Asha (Tsumadinsky district), while we know that the highest village in Daghestan is actually Kurush (Dokuzparinsky district).
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 9.5, fig.height= 7.5}
 
 # round off elevation to two decimals
 

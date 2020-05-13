@@ -1,15 +1,17 @@
 # East Caucasian villages: coordinates and languages
 
-This repository contains a dataset with all East Caucasian villages, their coordinates and the language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Daghestan using the [Lingtypology](https://ropensci.github.io/lingtypology/) package for R.
+This repository contains a dataset with a list of villages in the eastern Caucasus, their coordinates and the language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Dagestan using the [Lingtypology](https://ropensci.github.io/lingtypology/) package for R.
 
-Feel free to use the data, but if you find any mistakes, please create an issue.
+Feel free to use the data. If you find any mistakes, please create an issue.
 
-Data format is TAB-separated CSV files.
+Data format is TAB-separated CSV file or XLSX file.
+
+Note that a few villages in the dataset have the same name -- keep this in mind when you are merging data.
 
 
 ### Acknowledgements
 
-The first batch of data (all villages of Daghestan and the language spoken there), was mined by students of the 
+The first batch of data (all villages of Dagestan and the language spoken there), was mined by students of the 
 [School of Linguistics](https://ling.hse.ru/en/) at NRU HSE Moscow, under the guidance of [George Moroz](https://github.com/agricolamz). The second batch (all villages of Chechnya and Ingushetia),
 was mined by [George Moroz](https://github.com/agricolamz). Some inaccuracies in these data were corrected in the process of working with them. The third batch was created manually and contains the Avar-speaking villages in the Zaqatala and Belokan regions of Azerbaijan, and the Hunzib and Avar villages in the Kakheti region of Georgia. Thanks to Matt Zaslansky for his help locating some villages in Zaqatala. Chechen speaking villages in Georgia were added following an issue created by [Jesse Wichers Schreur](https://github.com/JesseWS).
 
@@ -29,7 +31,7 @@ The dataset is divided into two tables containing the following parameters
 
 #### Villages
 
-A list of villages in the Republic of Daghestan, the Chechen and Ingush Republics, and adjacent regions where East Caucasian languages are spoken.
+A list of villages in the Republic of Dagestan, the Chechen and Ingush Republics, and adjacent regions where East Caucasian languages are spoken.
 
 * **village** - name of the village in Latin script
 * **lat** - latitudinal coordinates
@@ -77,7 +79,6 @@ For general maps, you can simply filter out the 29 East Caucasian languages that
 village Chantliskure: changed name to Chantlisqure and language ~~Hinukh~~ Behzta;
 added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (Pankisi) - language: Chechen. (Altitude will be added for these villages later.)
 
-21.02.2020 - restructured the data;
+21.02.2020 - restructured the data; added the village Sanzhi, idiom: Sanzhi, language: Dargwa
 
-added the village Sanzhi, idiom: Sanzhi, language: Dargwa
-
+13.05.2020 - added Tat language (location: Derbent); added Georgian language; added locations Tlyarata (Avar); Tsunta (Tsez); Qum (Tsakhur); Qax (Azerbaijani); Ilisu (Azerbaijani, historically Tsakhur); Alibeglo (Georgian); Meshabash (Georgian); added .xlsx files of the datasets because some people who use Windows have problems opening the .csv files; added parameter "kutans": this helps to filter out the northern part of Dagestan, which was inhabited relatively recently and consists of a mish-mash of ethnicities and languages. In addition, very little to nothing is known about the varieties spoken there; created an official release for reference, following an [issue](https://github.com/sverhees/master_villages/issues/6) by [George Moroz](https://github.com/agricolamz).
