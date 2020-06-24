@@ -10,15 +10,20 @@ Data format is TAB-separated CSV file or XLSX file.
 
 ### Acknowledgements
 
-The first batch of data (all villages of Dagestan and the language spoken there), was mined by students of the 
-[School of Linguistics](https://ling.hse.ru/en/) at NRU HSE Moscow, under the guidance of [George Moroz](https://github.com/agricolamz). The second batch (all villages of Chechnya and Ingushetia),
-was mined by [George Moroz](https://github.com/agricolamz). Some inaccuracies in these data were corrected in the process of working with them. The third batch was created manually and contains the Avar-speaking villages in the Zaqatala and Belokan regions of Azerbaijan, and the Hunzib and Avar villages in the Kakheti region of Georgia. Thanks to Matt Zaslansky for his help locating some villages in Zaqatala. Chechen speaking villages in Georgia were added following an issue created by [Jesse Wichers Schreur](https://github.com/JesseWS).
+The first batch of data (all villages of Dagestan and the language spoken there), was mined by [George Moroz](https://github.com/agricolamz). Daria Ignatenko (a student of the [School of Linguistics](https://ling.hse.ru/en/) at NRU HSE Moscow) also worked on the first version of the script. The second batch (all villages of Chechnya and Ingushetia), was mined by [George Moroz](https://github.com/agricolamz). Some inaccuracies in these data were corrected in the process of working with them. The third batch was created manually and contains the Avar-speaking villages in the Zaqatala and Belokan regions of Azerbaijan, and the Bezhta and Avar villages in the Kakheti region of Georgia. Thanks to Matt Zaslansky for his help locating some villages in Zaqatala. Chechen speaking villages in Georgia were added following an issue created by [Jesse Wichers Schreur](https://github.com/JesseWS).
 
-The fourth batch was created by collapsing Yury Koryakov's database with census and language information. All census data were merged by [George Moroz](https://github.com/agricolamz), Cyrillic and Latin village name correspondences were made by Lev Kazakevich. All of these data  were finally merged with the previous version of the villages dataset by [George Moroz](https://github.com/agricolamz). 
+The fourth (seperate) batch was created by collapsing Yury Koryakov's database with census and language information. All census data were merged by [George Moroz](https://github.com/agricolamz), Cyrillic and Latin village name correspondences were made by Lev Kazakevich. All of these data  were finally merged with the previous version of the villages dataset by [George Moroz](https://github.com/agricolamz).
+
+Please note that I ([Samira Verhees](https://sverhees.github.io/site/)) am merely the concierge of this dataset: I created the color palette and maintain the repository.
+
+### Contact
+
+If you have any questions about the dataset, write a letter to jh.verhees at gmail.
 
 ### Projects
 
-See also the [Database of Gender Systems in Nakh-Daghestanian languages](https://kartozia.github.io/Gender-Systems-Database/) created by [Inga Kartozia](https://github.com/kartozia) using these data, and [some maps on evidentiality](https://sverhees.github.io/dissertation_evidentiality/index.html) created by [me](https://github.com/sverhees).
+- [Typological atlas of the languages of Daghestan](https://sverhees.github.io/masterskaya_dagatlas/index.html) created by a team from the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/) (beta version)
+- [Database of Gender Systems in Nakh-Daghestanian languages](https://kartozia.github.io/Gender-Systems-Database/) created by [Inga Kartozia](https://github.com/kartozia)
 
 ---
 
@@ -66,7 +71,7 @@ For general maps, you can simply filter out the 29 East Caucasian languages that
 * **comment** - any kind of comment on the datapoint
 
 
-#### Updates
+### Updates
 
 04.04.2019 - village: Sary-su language: ~~Chechen~~ Nogai;
             village: Vinogradnoe (Chechnya) language: ~~Chechen~~ Kumyk;
@@ -83,3 +88,5 @@ added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (P
 21.02.2020 - restructured the data; added the village Sanzhi, idiom: Sanzhi, language: Dargwa
 
 13.05.2020 - added Tat language (location: Derbent); added Georgian language; added locations Tlyarata (Avar); Tsunta (Tsez); Qum (Tsakhur); Qax (Azerbaijani); Ilisu (Azerbaijani, historically Tsakhur); Alibeglo (Georgian); Meshabash (Georgian); added .xlsx files of the datasets because some people who use Windows have problems opening the .csv files; added parameter "kutans": this helps to filter out the northern part of Dagestan, which was inhabited relatively recently and consists of a mish-mash of ethnicities and languages. In addition, very little to nothing is known about the varieties spoken there; added an "id" column to prevent problems with villages that have the same name; created an official release for reference, following an [issue](https://github.com/sverhees/master_villages/issues/6) by [George Moroz](https://github.com/agricolamz).
+
+24.06.2020 - updated acknowledgements.
