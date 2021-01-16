@@ -1,0 +1,160 @@
+---
+title: "East Caucasian villages, languages, and dialects"
+output:
+  html_document: 
+   toc: yes
+date: 'Version: `r Sys.Date()`'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# packages
+
+library(tidyverse) # data manipulation
+library(lingtypology) # drawing maps
+library(DT) #datatable
+
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# load data
+
+villages_new <- read_tsv("data/villages_corr.csv")
+
+```
+
+# Maps
+
+Here are some sample maps made in [Lingtypology](https://ropensci.org/blog/2017/05/16/lingtypology/) for R.
+
+See the `maps_new.rmd` file in the [repository](https://github.com/sverhees/master_villages) to view the code used to draw these maps.
+
+## Villages and languages
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+villages <- villages_new %>%
+  filter(complete.cases(lat))
+
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 8, fig.height= 7.5}
+
+# order legend
+
+villages$lang <- factor(villages$lang, levels =c(
+  "Dargwa", "Lak", "Tsova-Tush", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian", "Tat", "Georgian"))
+
+# draw map
+
+map.feature(lang.gltc(villages$gltc_lang),
+            features = villages$lang,
+            title = "Languages",
+            lat = villages$lat,
+            long = villages$lon,
+            color = villages$lang_col,
+            label = villages$lang,
+            popup = paste("Village:", villages$village, "/", villages$rus_village),
+            zoom.control = T)
+
+```
+
+## Altitude
+
+This map shows the altitude for the set of coordinates of each village, according to data from google maps.
+
+Note that this is a very crude measure: it simply displays the altitude of the datapoints (not the village as a whole),
+
+which are situated in a more or less arbitrary place within the confines of the actual village.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 8, fig.height= 7.5}
+
+altitude <- villages %>%
+  filter(complete.cases(elevation))
+
+map.feature(lang.gltc(altitude$gltc_lang),
+            features = altitude$elevation,
+            title = "Altitude",
+            lat = altitude$lat,
+            long = altitude$lon,
+            zoom.control = T)
+
+```
+
+So the highest village on this map is not actually the village with the highest altitude in the area. 
+
+The highest village is [Kurush](https://tochka-na-karte.ru/Goroda-i-Gosudarstva/11914-Kurush.html), at an altitude of 2600m above sea-level (2498 in our data).
+
+The map below shows the location of the datapoint for Kurush in relation to the contours of the village.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 8, fig.height= 7.5}
+
+kurush <- villages %>%
+  filter(village == "Kurush")
+
+map.feature(lang.gltc(kurush$gltc_lang),
+            features = as.factor(kurush$elevation),
+            title = "Altitude",
+            lat = kurush$lat,
+            long = kurush$lon,
+            zoom.control = T)
+
+```
+
+## Dialect annotation
+
+This map shows the villages which received a dialect affiliation based on available literature 
+
+(see the references in the table below).
+
+Click on a datapoint to view the name of the village and its dialect affiliation.
+
+The maximum number of branchings is 4 (for example: Southern Avar - Antsukh - Antsrosunkhada - Kosob); 
+
+for most places we do not have so many levels, so you will see a lot of NAs.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 8, fig.height= 7.5}
+
+dialects <- villages %>%
+  filter(complete.cases(dialect_toplevel))
+
+dialects$dialect <- paste(dialects$dialect_toplevel, dialects$dialect_nt1, 
+                          dialects$dialect_nt2, dialects$dialect_nt3,
+                          sep = " - ")
+
+dialects$lang <- factor(dialects$lang, levels =c(
+  "Dargwa", "Lak", "Tsova-Tush", "Ingush", "Chechen", "Khinalug", "Archi", "Tsakhur", "Rutul", "Kryz", "Budukh", "Udi", "Lezgian", "Agul", "Tabasaran", "Avar", "Andi", "Botlikh", "Godoberi", "Chamalal", "Bagvalal", "Tindi", "Karata", "Akhvakh", "Tsez", "Hinuq", "Bezhta", "Hunzib", "Khwarshi", "Nogai", "Kumyk", "Azerbaijani", "Armenian", "Tat", "Georgian"))
+
+map.feature(lang.gltc(dialects$gltc_lang),
+            features = dialects$lang,
+            title = "Languages",
+            lat = dialects$lat,
+            long = dialects$lon,
+            color = dialects$lang_col,
+            label = dialects$lang,
+            popup = paste("Village:", dialects$village, "/", dialects$rus_village, "<br>",
+                          dialects$dialect),
+            zoom.control = T)
+
+```
+
+
+# Dialects
+
+Please report mistakes or problems [here](https://github.com/sverhees/master_villages/issues), or write a letter to jh.verhees _at_ gmail.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+villtable <- villages_new %>%
+ select(village, lang, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, rus_village, dialect_toplevel_cyr, dialect_nt1_cyr, dialect_nt2_cyr, dialect_nt3_cyr, source, page)
+
+datatable(villtable, class = 'cell-border stripe', rownames = F, filter = 'top', options = list(pageLength = 100, autoWidth = T, info = FALSE, paginate = TRUE))
+
+```
+
+
