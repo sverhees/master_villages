@@ -1,37 +1,35 @@
 
 # East Caucasian villages: coordinates and languages
 
-This repository contains a dataset with a list of villages in the eastern Caucasus, their coordinates and the language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Dagestan using the [Lingtypology](https://ropensci.github.io/lingtypology/) package for R.
+This repository contains a dataset with a list of villages in the eastern Caucasus, their coordinates and the (main) language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Daghestan using the [Lingtypology](https://ropensci.github.io/lingtypology/) package for R.
 
 Feel free to use the data. If you find any mistakes, please create an [issue](https://github.com/sverhees/master_villages/issues) here on Github.
 
-Data format is TAB-separated CSV file or XLSX file.
+Data format is tab-separated CSV or XLSX.
 
 ## Cite
 
 Moroz, George, & Verhees, Samira. (2020). *East Caucasian villages dataset (Version v1.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3824151
 
-```{r}
+<a href="https://doi.org/10.5281/zenodo.3824151"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3824151.svg" alt="DOI"></a>
 
-#[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3824151.svg)](https://doi.org/10.5281/zenodo.3824151) Zenodo badge temporarily died
+## Acknowledgments
 
-```
-
-## Acknowledgements
-
-The first batch of data (all villages of Dagestan and the language spoken there), was mined by [George Moroz](https://github.com/agricolamz). Daria Ignatenko (a student of the [School of Linguistics](https://ling.hse.ru/en/) at HSE University Moscow) also worked on the first version of the script. 
+The first batch of data (all villages of Daghestan and the language spoken there), was mined by [George Moroz](https://github.com/agricolamz). Daria Ignatenko (a student of the [School of Linguistics](https://ling.hse.ru/en/) at HSE University Moscow) also worked on the first version of the script.
 
 The second batch (all villages of Chechnya and Ingushetia), was mined by [George Moroz](https://github.com/agricolamz). Some inaccuracies in the data were corrected in the process of working with them. 
 
 The third batch was created manually and contains the Avar-speaking villages in the Zaqatala and Belokan regions of Azerbaijan, and the Bezhta and Avar villages in the Kakheti region of Georgia. Thanks to Matt Zaslansky for his help locating some villages in Zaqatala. Chechen speaking villages in Georgia were added following an issue created by [Jesse Wichers Schreur](https://github.com/JesseWS).
 
-The fourth (seperate) batch was created by collapsing Yury Koryakov's database with census and language information. All census data were merged by [George Moroz](https://github.com/agricolamz), Cyrillic and Latin village name correspondences were made by Lev Kazakevich. All of these data  were finally merged with the previous version of the villages dataset by [George Moroz](https://github.com/agricolamz). See the files in the folder [data > extra](https://github.com/sverhees/master_villages/tree/master/data/extra).
+The fourth (seperate) batch was created by collapsing Yuri Koryakov's database with census and language information (see also: [Multidagestan > Census](https://multidagestan.com/census). All census data were merged by [George Moroz](https://github.com/agricolamz), Cyrillic and Latin village name correspondences were made by Lev Kazakevich. All of these data  were finally merged with the previous version of the villages dataset by [George Moroz](https://github.com/agricolamz). See the files in the folder [data > extra](https://github.com/sverhees/master_villages/tree/master/data/extra).
 
-The fifth batch of data consists of an annotation of dialect affiliations for the villages, based on available literature. This task was carried out by Inga Kartozia and Kirill Koncha (both students of the [School of Linguistics](https://ling.hse.ru/en/) at HSE University Moscow). The data were subsequently edited by me ([Samira Verhees](https://sverhees.github.io/site/)), during which I got a lot of help from [Yuri Koryakov](https://iling-ran.ru/web/ru/scholars/koryakov).  
+The fifth batch of data consists of an annotation of dialect affiliations for the villages, based on available literature. This task was carried out by Inga Kartozia and Kirill Koncha (both students of the [School of Linguistics](https://ling.hse.ru/en/) at HSE University Moscow). The data were subsequently edited by me ([Samira Verhees](https://sverhees.github.io/site/)), during which I got a lot of help from [Yuri Koryakov](https://iling-ran.ru/web/ru/scholars/koryakov).
+
+The sixth batch of data consists of Tat-speaking villages in the area (limited to those which still had a Tat-speaking community in the 20th century), entered manually based on the work of Murad Suleymanov.
 
 ## Contact
 
-If you have any questions about the dataset, write a letter to jh.verhees at gmail.
+If you have any questions or comments about the dataset, write a letter to jh.verhees at gmail.
 
 ## Projects
 
@@ -42,24 +40,27 @@ If you have any questions about the dataset, write a letter to jh.verhees at gma
 
 ## Data
 
-The latest version of the dataset (**villages_cor**) consists of a single table with the following parameters: 
+The latest version of the dataset (**villages_oct2021** in the folder **data**) consists of a single table with the following parameters: 
 
 * **id** - unique id for each entry
 * **village** - name of the village in Latin script
 * **rus_village** - name of the village in Cyrillic script
+* **village_altnames** - alternative names for the village, for now mostly empty
 * **lat** - latitudinal coordinates
 * **lon** - longitudinal coordinates
+* **coord_source** - source from which the coordinates were retrieved (not always clear)
+* **settlement_type** - e.g. village or hamlet, for now mostly empty
 * **lang** - language spoken in the village
 * **aff** - branch to which the language belongs; mentions only uncontroversial group membership and takes an agnostic stance towards grouping among branches
 * **family** - language family
 * **republic** - republic where the language is spoken
 * **region** - administrative district to which the village belongs (still mostly empty)
 * **elevation** - altitude of the village (approximately)
-* **kutans** - whether the village is a relatively new settlement in the north of Dagestan or not                
+* **kutans** - whether the village is a relatively new settlement in the north of Dagestan or not       
 
 The dialect levels are organized from macro-groups like *Southern Avar* (**dialect_toplevel**) to village varieties (**village_dialect**); some groups may show internal branching (all **nt** - non-toplevel columns). The name for each dialect / level is given in English/Latin and Russian/Cyrillic (column names ending in **cyr**). 
 
-Note that **village_dialect** simply duplicates the column with village names (**village**); their Russian equivalents can thus be found in **rus_village**.
+Note that **village_dialect** mostly duplicates the column with village names (**village**), though in some cases we use the common spelling from the literature here, rather than a simple transcription of the Russian name (e.g. the **village** Khpyuk has **village_dialect** Huppuq'); their Russian equivalents can be found in **rus_village**.
 
 * **dialect_toplevel**     
 * **dialect_toplevel_cyr**
@@ -80,12 +81,15 @@ Note that **village_dialect** simply duplicates the column with village names (*
 * **gltc_dialect** - corresponding glottocode for the dialects in **gltl_dialect**         
 * **gltc_lang** - glottocode for the languages in our dataset           
 * **lang_col**  - standard color pallette for languages (see the example maps)         
-* **aff_col** - standard color pallette for branches (see the example maps)               
-* **comment** - any additional comments on a datapoint
+* **aff_col** - standard color pallette for branches (see the example maps)  
+
+* **dialect_comment** - any additional comments on a dialect annotation
+* **villagelang_comment** - additional comments on the village (e.g. "mixed village", "formerly Tat-speaking")
+* **manual** - whether the datapoint was manually added or corrected wrt the original legacy dataset
 
 ## Legacy data
 
-*This section describes the structure of the files **villages** and **meta**. They constitute an older version of the dataset.* 
+*This section describes the structure of the files **villages** and **meta** (folder: data > old). They constitute an older version of the dataset.*
 
 The dataset is divided into two tables containing the following parameters:
 
@@ -106,9 +110,9 @@ A list of villages in the Republic of Dagestan, the Chechen and Ingush Republics
 
 #### Metadata
 
-The metadata file was based on a list of the  traditionally recognized languages of the East Caucasian family and some additional idioms were added later. The addition of idioms and the annotation of villages for idiom is still at an early stage, and is not carried out in a very systematic way. (For example, I added Sanzhi simply because there is a grammar for Sanzhi, so we might want to display information from it on the map.)
+The metadata file was based on a list of the traditionally recognized languages of the East Caucasian family and some additional idioms were added later. The addition of idioms and the annotation of villages for idiom is still at an early stage, and is not carried out in a very systematic way. (For example, I added Sanzhi simply because there is a grammar for Sanzhi, so we might want to display information from it on the map.)
 
-For general maps, you can simply filter out the 29 East Caucasian languages that are usually distinguished (+ the four non-EC languages spoken in the area) using the **core** parameter.
+For general maps, you can simply filter out the 29 East Caucasian languages that are usually distinguished (+ the four non-East Caucasian languages spoken in the area) using the **core** parameter.
 
 * **lang** - name of the language used in the dataset
 * **idiom** - dialect or local variety spoken in a village
@@ -149,3 +153,8 @@ added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (P
 24.06.2020 - updated acknowledgements.
 
 15.01.2021 - added dialect annotation; added Cyrillic village names; removed Glavnyy-Kut (empty); updated coordinates for Siukh (1478); renewed page with example maps.
+
+15.02.2021 - corrected dialect annotation; added Budukh speaking villages in Azerbaijan; added Rutul village Borch.
+
+21.10.2021 - added references for dialect annotation (data > **dialect_refs**); resolved issues [1](https://github.com/sverhees/master_villages/issues/10), [2](https://github.com/sverhees/master_villages/issues/11), [3](https://github.com/sverhees/master_villages/issues/14); corrections thanks to Max Melenchenko: added Latin name for Аямахи	-- Ayamakhi; corrected Azerbaijani Avar data; added Azerbaijani Tat data; dataset now also available in the form of subsets, manual additions and corrections are now marked; Azeri names for villages in Azerbaijan in column **village** (instead of transcriptions of the Cyrillic name).
+

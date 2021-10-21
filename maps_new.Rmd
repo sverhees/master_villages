@@ -24,7 +24,7 @@ library(DT) #datatable
 
 # load data
 
-villages_new <- read_tsv("data/villages_corr.csv")
+villages_new <- read_tsv("data/villages_oct2021.csv")
 
 ```
 
@@ -66,11 +66,11 @@ map.feature(lang.gltc(villages$gltc_lang),
 
 ## Altitude
 
-This map shows the altitude for the set of coordinates of each village, according to data from google maps.
+<div style="max-width:700px; word-wrap:break-word;">
 
-Note that this is a very crude measure: it simply displays the altitude of the datapoints (not the village as a whole),
+This map shows the altitude for the set of coordinates of each village, according to data from google maps. Note that this is a very crude measure: it simply displays the altitude of the datapoints (not the village as a whole), which are situated in a more or less arbitrary place within the confines of the actual village.
 
-which are situated in a more or less arbitrary place within the confines of the actual village.
+</div>
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 8, fig.height= 7.5}
 
@@ -86,11 +86,11 @@ map.feature(lang.gltc(altitude$gltc_lang),
 
 ```
 
-So the highest village on this map is not actually the village with the highest altitude in the area. 
+<div style="max-width:700px; word-wrap:break-word;">
 
-The highest village is [Kurush](https://tochka-na-karte.ru/Goroda-i-Gosudarstva/11914-Kurush.html), at an altitude of 2600m above sea-level (2498 in our data).
+So the highest village on this map is not actually the village with the highest altitude in the area. The highest village is [Kurush](https://tochka-na-karte.ru/Goroda-i-Gosudarstva/11914-Kurush.html), at an altitude of 2600m above sea-level (2498 in our data). The map below shows the location of the datapoint for Kurush in relation to the contours of the village.
 
-The map below shows the location of the datapoint for Kurush in relation to the contours of the village.
+</div>
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 8, fig.height= 7.5}
 
@@ -108,15 +108,13 @@ map.feature(lang.gltc(kurush$gltc_lang),
 
 ## Dialect annotation
 
-This map shows the villages which received a dialect affiliation based on available literature 
+<div style="max-width:700px; word-wrap:break-word;">
 
-(see the references in the table below).
+This map shows the villages which received a dialect affiliation based on available literature (see the references in the table below). Click on a datapoint to view the name of the village and its dialect affiliation. The maximum number of branchings is 4 (for example: Southern Avar - Antsukh - Antsrosunkhada - Kosob); for most places we do not have so many levels, so you will see a lot of NAs.
 
-Click on a datapoint to view the name of the village and its dialect affiliation.
+The dialect annotation was created for the practical purpose of assigning doculect information to villages on the map in the [Typological Atlas of the Languages of Daghestan](http://lingconlab.ru/dagatlas/). In many cases, experts may disagree with the classification represented in this dataset. If you would like to use the dialect annotation, please keep in mind that it does not proclaim to be the absolute truth (or even the most up-to-date version thereof); it simply reflects the classification proposed in specific sources.
 
-The maximum number of branchings is 4 (for example: Southern Avar - Antsukh - Antsrosunkhada - Kosob); 
-
-for most places we do not have so many levels, so you will see a lot of NAs.
+</div>
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 8, fig.height= 7.5}
 
@@ -143,10 +141,13 @@ map.feature(lang.gltc(dialects$gltc_lang),
 
 ```
 
-
 # Dialects
 
+<div style="max-width:700px; word-wrap:break-word;">
+
 Please report mistakes or problems [here](https://github.com/sverhees/master_villages/issues), or write a letter to jh.verhees _at_ gmail.
+
+</div>
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
