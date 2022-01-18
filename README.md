@@ -9,9 +9,9 @@ Data format is tab-separated CSV or XLSX.
 
 ## Cite
 
-Moroz, George, & Verhees, Samira. (2020). *East Caucasian villages dataset (Version v1.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3824151
+Moroz, George, & Verhees, Samira. (2020). *East Caucasian villages dataset (Version v2.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
 
-<a href="https://doi.org/10.5281/zenodo.3824151"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3824151.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.5588473"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5588473.svg" alt="DOI"></a>
 
 ## Acknowledgments
 
