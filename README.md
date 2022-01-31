@@ -40,7 +40,7 @@ If you have any questions or comments about the dataset, write a letter to jh.ve
 
 ## Data
 
-The latest version of the dataset (**villages_oct2021** in the folder **data**) consists of a single table with the following parameters: 
+The latest version of the dataset (**villages_jan2022** in the folder **data**) consists of a single table with the following parameters: 
 
 * **id** - unique id for each entry
 * **village** - name of the village in Latin script
@@ -158,3 +158,4 @@ added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (P
 
 21.10.2021 - added references for dialect annotation (data > **dialect_refs**); resolved issues [1](https://github.com/sverhees/master_villages/issues/10), [2](https://github.com/sverhees/master_villages/issues/11), [3](https://github.com/sverhees/master_villages/issues/14); corrections thanks to Max Melenchenko: added Latin name for Аямахи	-- Ayamakhi; corrected Azerbaijani Avar data; added Azerbaijani Tat data; dataset now also available in the form of subsets, manual additions and corrections are now marked; Azeri names for villages in Azerbaijan in column **village** (instead of transcriptions of the Cyrillic name).
 
+31.01.2022 - corrections in Andic subset from Yuri Koryakov: Verkhnie Gakvari > Verkhnee Gakvari; Nizhnie Gakvari > Nizhnee Gakvari; removed 1485 (Old Siukh) because it was a duplicate of 448 (Old Sivukh); added Anxo (Botlikh), Egdada (Chamalal), Tlenkhori (Bagvalal), Bekhvalutchi (Tindi); added a special folder with datasets for [TALD](http://lingconlab.ru/dagatlas/); added column **village_dialect** to searchable [dialect table](https://sverhees.github.io/master_villages/maps_new.html#dialects).

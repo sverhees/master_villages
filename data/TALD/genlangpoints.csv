@@ -1,0 +1,42 @@
+lang	aff	family	gltc_lang	lat	lon	general_location	lang_col	aff_col	new_col
+Akhvakh	Andic	East Caucasian	akhv1239	42.40035	46.30369	glottolog coordinates	#9900ff	#9900ff	#9900ff
+Andi	Andic	East Caucasian	andi1255	42.80785	46.29187	glottolog coordinates	#003366	#9900ff	#003366
+Bagvalal	Andic	East Caucasian	bagv1239	42.39664	46.1041	glottolog coordinates	#000066	#9900ff	#000066
+Botlikh	Andic	East Caucasian	botl1242	42.665	46.22	glottolog coordinates	#336699	#9900ff	#336699
+Chamalal	Andic	East Caucasian	cham1309	42.50239	45.99496	glottolog coordinates	#000099	#9900ff	#000099
+Godoberi	Andic	East Caucasian	ghod1238	42.74276	46.22524	glottolog coordinates	#003399	#9900ff	#003399
+Karata	Andic	East Caucasian	kara1474	42.65005	46.31511	glottolog coordinates	#666699	#9900ff	#666699
+Tindi	Andic	East Caucasian	tind1238	42.33164	45.92268	glottolog coordinates	#333399	#9900ff	#333399
+Armenian	Armenic	Indo-European	nucl1235	41.009625	44.384086	random point in the north	#dbcfeb	#fff5ee	#dbcfeb
+Avar	Avar	East Caucasian	avar1256	42.43056	46.66639	glottolog coordinates	#009999	#009999	#009999
+Standard Dargwa	Dargwa	East Caucasian	darg1241	42.42568	47.43876	glottolog coordinates	#ff9900	#ff9900	#ff9900
+Chirag	Dargwa	East Caucasian	chir1284	41.8381	47.4303	village Chirag	#ffff4d	#ff9900	#ff9900
+Itsari	Dargwa	East Caucasian	icar1234	41.99733	47.5833	village Itsari	#ffcc00	#ff9900	#ff9900
+Kaitag	Dargwa	East Caucasian	kajt1238	42.06139	47.79597	glottolog coordinates	#ffaa80	#ff9900	#ff9900
+Kubachi	Dargwa	East Caucasian	kuba1248	42.0856	47.6031	village Kubachi	#ffcc99	#ff9900	#ff9900
+Tanty	Dargwa	East Caucasian	sirh1234	42.1642	47.3167	village Tanty	#ffe6cc	#ff9900	#ff9900
+Mehweb	Dargwa	East Caucasian	mege1234	42.2528	47.0472	village Megeb	#ffff99	#ff9900	#ff9900
+Georgian	Georgic	Kartvelian	nucl1302	41.81574	44.31883	glottolog coordinates	#fff5ee	black	#fff5ee
+Tat	Iranian	Indo-European	jude1256	42.06917	48.29583	city Derbent	#d5daff	#fffded	#d5daff
+Khinalug	Khinalug	East Caucasian	khin1240	41.18014	48.05714	glottolog coordinates	#cccc00	#cccc00	#cccc00
+Kumyk	Kipchak	Turkic	kumy1244	43	47	glottolog coordinates	#a6a6a6	#666666	#a6a6a6
+Nogai	Kipchak	Turkic	noga1249	43.59168	46.66178	glottolog coordinates	#666666	#666666	#666666
+Lak	Lak	East Caucasian	lakk1252	42.13275	47.0809	glottolog coordinates	#cc9900	#cc9900	#cc9900
+Agul	Lezgic	East Caucasian	aghu1253	41.92418	47.58429	glottolog coordinates	#00cc66	#00cc66	#00cc66
+Archi	Lezgic	East Caucasian	arch1244	42.0664	46.8678	glottolog coordinates	#99cc00	#00cc66	#99cc00
+Budukh	Lezgic	East Caucasian	budu1248	41.22722	48.33533	glottolog coordinates	#006600	#00cc66	#006600
+Kryz	Lezgic	East Caucasian	kryt1240	41.18107	48.18457	glottolog coordinates	#009933	#00cc66	#009933
+Lezgian	Lezgic	East Caucasian	lezg1247	41.51572	47.89507	glottolog coordinates	#00cc00	#00cc66	#00cc00
+Rutul	Lezgic	East Caucasian	rutu1240	41.61866	47.32436	glottolog coordinates	#009900	#00cc66	#009900
+Tabasaran	Lezgic	East Caucasian	taba1259	42.01976	47.83791	glottolog coordinates	#339966	#00cc66	#339966
+Tsakhur	Lezgic	East Caucasian	tsak1249	41.59156	46.88585	glottolog coordinates	#669900	#00cc66	#669900
+Udi	Lezgic	East Caucasian	udii1243	40.9	47.7236	glottolog coordinates	#004d00	#00cc66	#004d00
+Tsova-Tush	Nakh	East Caucasian	bats1242	42.1806	45.34397	glottolog coordinates	#996633	#996633	#996633
+Chechen	Nakh	East Caucasian	chec1245	43.5	45.5	glottolog coordinates	#996600	#996633	#996600
+Ingush	Nakh	East Caucasian	ingu1240	43.16667	44.81667	glottolog coordinates	#663300	#996633	#663300
+Azerbaijani	Oghuz	Turkic	nort2697	40.977675	46.4736975	glottolog coordinates	#cccccc	#cccccc	#cccccc
+Bezhta	Tsezic	East Caucasian	bezh1248	42.1206	46.03319	glottolog coordinates	#ff5050	#ff5050	#ff5050
+Hinuq	Tsezic	East Caucasian	hinu1240	42.45022	45.80638	glottolog coordinates	#cc0000	#ff5050	#cc0000
+Hunzib	Tsezic	East Caucasian	hunz1247	42.08076	46.13691	glottolog coordinates	#ff0066	#ff5050	#ff0066
+Khwarshi	Tsezic	East Caucasian	khva1239	42.353471	46.107859	glottolog coordinates	#993333	#ff5050	#993333
+Tsez	Tsezic	East Caucasian	dido1241	42.26458	45.80959	glottolog coordinates	#990033	#ff5050	#990033

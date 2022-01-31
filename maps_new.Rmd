@@ -24,7 +24,7 @@ library(DT) #datatable
 
 # load data
 
-villages_new <- read_tsv("data/villages_oct2021.csv")
+villages_new <- read_tsv("data/villages_jan22.csv")
 
 ```
 
@@ -152,7 +152,7 @@ Please report mistakes or problems [here](https://github.com/sverhees/master_vil
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 villtable <- villages_new %>%
- select(village, lang, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, rus_village, dialect_toplevel_cyr, dialect_nt1_cyr, dialect_nt2_cyr, dialect_nt3_cyr, source, page)
+ select(village, village_dialect, lang, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, rus_village, dialect_toplevel_cyr, dialect_nt1_cyr, dialect_nt2_cyr, dialect_nt3_cyr, source, page)
 
 datatable(villtable, class = 'cell-border stripe', rownames = F, filter = 'top', options = list(pageLength = 100, autoWidth = T, info = FALSE, paginate = TRUE))
 
