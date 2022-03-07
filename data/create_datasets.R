@@ -3,12 +3,12 @@
 
 library(tidyverse)
 
-chechnya <- readxl::read_xlsx("data/subsets/chechnya.xlsx")
-daghestan <- readxl::read_xlsx("data/subsets/daghestan.xlsx")
-ec_azerbaijan <- readxl::read_xlsx("data/subsets/ec_azerbaijan.xlsx")
-georgia <- readxl::read_xlsx("data/subsets/georgia.xlsx")
-ingushetia <- readxl::read_xlsx("data/subsets/ingushetia.xlsx")
-tat <- readxl::read_xlsx("data/subsets/tat.xlsx")
+chechnya <- readxl::read_xlsx("subsets/chechnya.xlsx")
+daghestan <- readxl::read_xlsx("subsets/daghestan.xlsx")
+ec_azerbaijan <- readxl::read_xlsx("subsets/ec_azerbaijan.xlsx")
+georgia <- readxl::read_xlsx("subsets/georgia.xlsx")
+ingushetia <- readxl::read_xlsx("subsets/ingushetia.xlsx")
+tat <- readxl::read_xlsx("subsets/tat.xlsx")
 
 # filter out entries without ID and coordinates
 # > draft entries that require more info
@@ -18,7 +18,7 @@ new_villages <- rbind(chechnya, daghestan, ec_azerbaijan,
   filter(complete.cases(id)) %>%
   filter(complete.cases(lat))
 
-write_tsv(new_villages, "data/new_villages.tsv")
+write_tsv(new_villages, "new_villages.tsv")
 
 # create TALD subset
 
