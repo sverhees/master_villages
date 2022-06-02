@@ -378,7 +378,7 @@ summary {
 <h1>East Caucasian villages: coordinates and languages</h1>
 <p>This repository contains a dataset with a list of villages in the eastern Caucasus, their coordinates and the (main) language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Daghestan using the <a href="https://ropensci.github.io/lingtypology/">Lingtypology</a> package for R.</p>
 <p>Feel free to use the data. If you find any mistakes, please create an <a href="https://github.com/sverhees/master_villages/issues">issue</a> here on Github.</p>
-<p>Data format is tab-separated CSV or XLSX.</p>
+<p>Data format is TSV or XLSX.</p>
 <div id="cite" class="section level2">
 <h2>Cite</h2>
 <p>Moroz, George, &amp; Verhees, Samira. (2020). <em>East Caucasian villages dataset (Version v2.0)</em> [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.5588473" class="uri">https://doi.org/10.5281/zenodo.5588473</a></p>
@@ -407,7 +407,7 @@ summary {
 </div>
 <div id="data" class="section level2">
 <h2>Data</h2>
-<p>The latest version of the dataset (<strong>villages_jan2022</strong> in the folder <strong>data</strong>) consists of a single table with the following parameters:</p>
+<p>The latest version of the dataset (<strong>villages</strong> in the folder <strong>data</strong>) consists of a single table with the following parameters:</p>
 <ul>
 <li><strong>id</strong> - unique id for each entry</li>
 <li><strong>village</strong> - name of the village in Latin script</li>
@@ -518,7 +518,10 @@ summary {
 <p>15.01.2021 - added dialect annotation; added Cyrillic village names; removed Glavnyy-Kut (empty); updated coordinates for Siukh (1478); renewed page with example maps.</p>
 <p>15.02.2021 - corrected dialect annotation; added Budukh speaking villages in Azerbaijan; added Rutul village Borch.</p>
 <p>21.10.2021 - added references for dialect annotation (data &gt; <strong>dialect_refs</strong>); resolved issues <a href="https://github.com/sverhees/master_villages/issues/10">1</a>, <a href="https://github.com/sverhees/master_villages/issues/11">2</a>, <a href="https://github.com/sverhees/master_villages/issues/14">3</a>; corrections thanks to Max Melenchenko: added Latin name for Аямахи – Ayamakhi; corrected Azerbaijani Avar data; added Azerbaijani Tat data; dataset now also available in the form of subsets, manual additions and corrections are now marked; Azeri names for villages in Azerbaijan in column <strong>village</strong> (instead of transcriptions of the Cyrillic name).</p>
-<p>31.01.2022 - corrections in Andic subset from Yuri Koryakov: Verkhnie Gakvari &gt; Verkhnee Gakvari; Nizhnie Gakvari &gt; Nizhnee Gakvari; removed 1485 (Old Siukh) because it was a duplicate of 448 (Old Sivukh); added Anxo (Botlikh), Egdada (Chamalal), Tlenkhori (Bagvalal), Bekhvalutchi (Tindi); added a special folder with datasets for <a href="http://lingconlab.ru/dagatlas/">TALD</a>; added column <strong>village_dialect</strong> to searchable <a href="https://sverhees.github.io/master_villages/maps_new.html#dialects">dialect table</a>.</p>
+<p>31.01.2022 - corrections in Andic subset from Yuri Koryakov: Verkhnie Gakvari &gt; Verkhnee Gakvari; Nizhnie Gakvari &gt; Nizhnee Gakvari; removed 1485 (Old Siukh) because it was a duplicate of 448 (Old Sivukh); added Ankho (Botlikh), Egdada (Chamalal), Tlenkhori (Bagvalal), Bekhvalutchi (Tindi); added a special folder with datasets for <a href="http://lingconlab.ru/dagatlas/">TALD</a>; added column <strong>village_dialect</strong> to searchable <a href="https://sverhees.github.io/master_villages/maps_new.html#dialects">dialect table</a>.</p>
+<p>05.02.2022 - <strong>village_dialect</strong> Inkhokvari &gt; Inkhoqwari; Mikikh &gt; Mikik; fixed Russian entries in <strong>dialect_toplevel</strong> / English entries in <strong>dialect_toplevel_cyr</strong>. Added code for generating datasets. Created new main file without date.</p>
+<p>07.03.2022 - <strong>village_dialect</strong> Mislesh &gt; Mishlesh.</p>
+<p>02.06.2022 - Added version column to villages.tsv. <strong>dialect_toplevel</strong> for Karabagly changed Eastern Armenian &gt; Modern Eastern Armenian.</p>
 </div>
 </div>
 

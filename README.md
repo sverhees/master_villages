@@ -163,3 +163,5 @@ added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (P
 05.02.2022 - **village_dialect** Inkhokvari > Inkhoqwari; Mikikh > Mikik; fixed Russian entries in **dialect_toplevel** / English entries in **dialect_toplevel_cyr**. Added code for generating datasets. Created new main file without date.
 
 07.03.2022 - **village_dialect** Mislesh > Mishlesh.
+
+02.06.2022 - Added version column to villages.tsv. **dialect_toplevel** for Karabagly changed Eastern Armenian > Modern Eastern Armenian.

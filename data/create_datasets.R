@@ -16,7 +16,8 @@ tat <- readxl::read_xlsx("subsets/tat.xlsx")
 new_villages <- rbind(chechnya, daghestan, ec_azerbaijan, 
                       georgia, ingushetia, tat) %>%
   filter(complete.cases(id)) %>%
-  filter(complete.cases(lat))
+  filter(complete.cases(lat)) %>%
+  mutate(version = Sys.Date())
 
 write_tsv(new_villages, "new_villages.tsv")
 
