@@ -24,7 +24,7 @@ library(DT) #datatable
 
 # load data
 
-villages_new <- read_tsv("data/villages_jan22.csv")
+villages_new <- read_tsv("data/villages.tsv")
 
 ```
 
