@@ -128,7 +128,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 759	Gaziaul	Газиаул	42.833774	45.936593	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Gaziaul	chec1245	#996600	#996633	2022-03-07
 760	Musolt-aul	Мусолт-аул	42.833849	45.772461	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Musolt-aul	chec1245	#996600	#996633	2022-03-07
 761	Dzhubikaul	Джубикаул	42.834107	45.924044	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Dzhubikaul	chec1245	#996600	#996633	2022-03-07
-762	Dekh-yiste	Дех-йисте	42.835555	45.731973000000004	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Dekh-yiste	chec1245	#996600	#996633	2022-03-07
+762	Dekh-yiste	Дех-йисте	42.835555	45.731973	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Dekh-yiste	chec1245	#996600	#996633	2022-03-07
 763	Ochaki	Очаки	42.838889	45.322222	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Ochaki	chec1245	#996600	#996633	2022-03-07
 764	Khal-kiloy	Хал-килой	42.838889	45.818056	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Khal-kiloy	chec1245	#996600	#996633	2022-03-07
 765	Kozhvinchu	Кожвинчу	42.840278	45.223611	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Kozhvinchu	chec1245	#996600	#996633	2022-03-07
@@ -139,7 +139,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 770	Muskali	Мускали	42.841914	45.736043	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Muskali	chec1245	#996600	#996633	2022-03-07
 771	Urdyukhoy	Урдюхой	42.842357	45.702284	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Urdyukhoy	chec1245	#996600	#996633	2022-03-07
 772	Borzoy	Борзой	42.8425	45.628056	Chechen	Nakh	East Caucasian		Chechen	Itum-Kali	Итум-калинский	Chinkhoy	Чинхойский	NA	NA	NA	NA	Borzoy	chec1245	#996600	#996633	2022-03-07
-774	Vyardy	Вярды	42.845041	45.690766000000004	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Vyardy	chec1245	#996600	#996633	2022-03-07
+774	Vyardy	Вярды	42.845041	45.690766	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Vyardy	chec1245	#996600	#996633	2022-03-07
 775	Zengali	Зенгали	42.845833	45.272222	Chechen	Nakh	East Caucasian		Chechen	Galanchozh	Галанчожский	NA	NA	NA	NA	NA	NA	Zengali	chec1245	#996600	#996633	2022-03-07
 776	Khay-khecaguni	Хай-хецагуни	42.847034	45.900792	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Khay-khecaguni	chec1245	#996600	#996633	2022-03-07
 777	Bicy	Бицы	42.847648	45.277371	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Bicy	chec1245	#996600	#996633	2022-03-07
@@ -151,7 +151,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 783	Gorgachi	Горгачи	42.855068	45.666837	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Gorgachi	chec1245	#996600	#996633	2022-03-07
 784	Gush-kert	Гуш-керт	42.85526	45.685567	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Gush-kert	chec1245	#996600	#996633	2022-03-07
 785	Pamyatoy	Памятой	42.856111	45.693889	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Pamyatoy	chec1245	#996600	#996633	2022-03-07
-786	Akka (Chechnya)	Акка (Чечня)	42.856944	45.240278000000004	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Akka (Chechnya)	chec1245	#996600	#996633	2022-03-07
+786	Akka (Chechnya)	Акка (Чечня)	42.856944	45.240278	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Akka (Chechnya)	chec1245	#996600	#996633	2022-03-07
 787	Chuush	Чууш	42.85702	45.3187	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Chuush	chec1245	#996600	#996633	2022-03-07
 788	Vovga	Вовга	42.857222	45.238333	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Vovga	chec1245	#996600	#996633	2022-03-07
 789	Bekum-kale	Бекум-кале	42.857429	45.714459	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Bekum-kale	chec1245	#996600	#996633	2022-03-07
@@ -232,7 +232,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 864	Agishbatoy	Агишбатой	43.012222	46.108056	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Agishbatoy	chec1245	#996600	#996633	2022-03-07
 865	Srednie kurchali	Средние курчали	43.014986	46.186189	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Srednie kurchali	chec1245	#996600	#996633	2022-03-07
 866	Mesedoy	Меседой	43.01556	46.127196	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Mesedoy	chec1245	#996600	#996633	2022-03-07
-867	Ca-vedeno	Ца-ведено	43.018333	46.052778000000004	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Ca-vedeno	chec1245	#996600	#996633	2022-03-07
+867	Ca-vedeno	Ца-ведено	43.018333	46.052778	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Ca-vedeno	chec1245	#996600	#996633	2022-03-07
 868	Dts «chishki»	"Дтс ""чишки"""	43.019082	45.71085	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Dts «chishki»	chec1245	#996600	#996633	2022-03-07
 869	Baytarki	Байтарки	43.02	46.475556	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Baytarki	chec1245	#996600	#996633	2022-03-07
 870	Agishty	Агишты	43.021667	45.891389	Chechen	Nakh	East Caucasian		Chechen	Lowland	Плоскостной	Ichkerian	Ичкерийский	NA	NA	NA	NA	Agishty	chec1245	#996600	#996633	2022-03-07
@@ -348,7 +348,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 991	Samashki	Самашки	43.292222	45.303889	Chechen	Nakh	East Caucasian		Chechen	Cheberloy	Чеберлоевский	NA	NA	NA	NA	NA	NA	Samashki	chec1245	#996600	#996633	2022-03-07
 993	Argun	Аргун	43.294444	45.883889	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Argun	chec1245	#996600	#996633	2022-03-07
 995	Primykanie	Примыкание	43.302662	45.823233	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Primykanie	chec1245	#996600	#996633	2022-03-07
-996	Centora-yurt	Центора-юрт	43.302778000000004	45.828056	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Centora-yurt	chec1245	#996600	#996633	2022-03-07
+996	Centora-yurt	Центора-юрт	43.302778	45.828056	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Centora-yurt	chec1245	#996600	#996633	2022-03-07
 998	Novyy yengenoy	Новый йенгеной	43.308333	46.026111	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Novyy yengenoy	chec1245	#996600	#996633	2022-03-07
 1000	Melchkhi	Мелчхи	43.310035	46.18759	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Melchkhi	chec1245	#996600	#996633	2022-03-07
 1002	Kadi-yurt	Кади-юрт	43.313889	46.311944	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Kadi-yurt	chec1245	#996600	#996633	2022-03-07
@@ -423,7 +423,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1083	Mekenskaya	Мекенская	43.668889	45.384444	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Mekenskaya	chec1245	#996600	#996633	2022-03-07
 1084	Gvardeyskoe	Гвардейское	43.673333	45.051944	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Gvardeyskoe	chec1245	#996600	#996633	2022-03-07
 1085	Chernokozovo	Чернокозово	43.673611	45.361111	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Chernokozovo	chec1245	#996600	#996633	2022-03-07
-1086	Znamenskoe	Знаменское	43.677778000000004	45.128056	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Znamenskoe	chec1245	#996600	#996633	2022-03-07
+1086	Znamenskoe	Знаменское	43.677778	45.128056	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Znamenskoe	chec1245	#996600	#996633	2022-03-07
 1087	Beno-yurt	Бено-юрт	43.689722	45.051944	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Beno-yurt	chec1245	#996600	#996633	2022-03-07
 1088	Kurdyukovskaya	Курдюковская	43.691111	46.45	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Kurdyukovskaya	chec1245	#996600	#996633	2022-03-07
 1089	Mirnyy	Мирный	43.694859	45.476983	Chechen	Nakh	East Caucasian		Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Mirnyy	chec1245	#996600	#996633	2022-03-07
@@ -482,14 +482,14 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 26	Lologonitl'	Лологонитль	42.51398	46.33093	Akhvakh	Andic	East Caucasian		Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Lologonitl'	akhv1239	#9900ff	#9900ff	2022-03-07
 27	Izano	Изано	42.52735	46.40389	Akhvakh	Andic	East Caucasian		Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Izano	akhv1239	#9900ff	#9900ff	2022-03-07
 28	Kudiyabroso	Кудиябросо	42.541069	46.377932	Akhvakh	Andic	East Caucasian		Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Kudiyabroso	akhv1239	#9900ff	#9900ff	2022-03-07
-29	Tad-Magitl'	Тад-магитль	42.550266	46.348953	Akhvakh	Andic	East Caucasian		Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Tad-Magitl’	akhv1239	#9900ff	#9900ff	2022-03-07
+29	Tad-Magitl'	Тад-магитль	42.550266	46.348953	Akhvakh	Andic	East Caucasian		Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Tad-Magitl'	akhv1239	#9900ff	#9900ff	2022-03-07
 30	Tsvakilkolo	Цвакилколо	42.55213	46.35351	Akhvakh	Andic	East Caucasian		Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Tsvakilkolo	akhv1239	#9900ff	#9900ff	2022-03-07
 31	Kvankero	Кванкеро	42.55244	46.3404	Akhvakh	Andic	East Caucasian		Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Kvankero	akhv1239	#9900ff	#9900ff	2022-03-07
-33	Kvankhidatl’	Кванхидатль	42.65789	46.271742	Andi	Andic	East Caucasian		Andi	Lower Andi	Нижнеандийский	NA	NA	NA	NA	NA	NA	Kvankhidatli	andi1255	#003366	#9900ff	2022-03-07
+33	Kvankhidatl'	Кванхидатль	42.65789	46.271742	Andi	Andic	East Caucasian		Andi	Lower Andi	Нижнеандийский	NA	NA	NA	NA	NA	NA	Kvankhidatli	andi1255	#003366	#9900ff	2022-03-07
 34	Muni	Муни	42.680242	46.308874	Andi	Andic	East Caucasian		Andi	Lower Andi	Нижнеандийский	NA	NA	NA	NA	NA	NA	Muni	andi1255	#003366	#9900ff	2022-03-07
 35	Mekheturi	Мехетури	42.70556	46.2375	Andi	Andic	East Caucasian		Andi	NA	NA	NA	NA	NA	NA	NA	NA	Mekheturi	andi1255	#003366	#9900ff	2022-03-07
 36	Shivor	Шивор	42.714662	46.256637	Andi	Andic	East Caucasian		Andi	NA	NA	NA	NA	NA	NA	NA	NA	Shivor	andi1255	#003366	#9900ff	2022-03-07
-37	Rushukha	Рушуха	42.715089999999996	46.28112	Andi	Andic	East Caucasian		Andi	NA	NA	NA	NA	NA	NA	NA	NA	Rushukha	andi1255	#003366	#9900ff	2022-03-07
+37	Rushukha	Рушуха	42.71509	46.28112	Andi	Andic	East Caucasian		Andi	NA	NA	NA	NA	NA	NA	NA	NA	Rushukha	andi1255	#003366	#9900ff	2022-03-07
 38	Chanko	Чанко	42.717936	46.246417	Andi	Andic	East Caucasian		Andi	Upper Andi	Верхнеандийский	NA	NA	NA	NA	NA	NA	Chanko	andi1255	#003366	#9900ff	2022-03-07
 39	Khando	Хандо	42.72694	46.23361	Andi	Andic	East Caucasian		Andi	NA	NA	NA	NA	NA	NA	NA	NA	Khando	andi1255	#003366	#9900ff	2022-03-07
 40	Zilo	Зило	42.731394	46.319223	Andi	Andic	East Caucasian		Andi	Upper Andi	Верхнеандийский	NA	NA	NA	NA	NA	NA	Zilo	andi1255	#003366	#9900ff	2022-03-07
@@ -579,7 +579,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 174	Mazada	Мазада	42.197896	46.390092	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Mazada	avar1256	#009999	#009999	2022-03-07
 175	Nachada	Начада	42.198508	46.448902	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Nachada	avar1256	#009999	#009999	2022-03-07
 176	Tinchuda	Тинчуда	42.19861	46.45306	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Tinchuda	avar1256	#009999	#009999	2022-03-07
-177	Niklida	Никлида	42.199941	46.406485000000004	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Niklida	avar1256	#009999	#009999	2022-03-07
+177	Niklida	Никлида	42.199941	46.406485	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Niklida	avar1256	#009999	#009999	2022-03-07
 178	Bezhuda	Бежуда	42.200348	46.479175	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Bezhuda	avar1256	#009999	#009999	2022-03-07
 179	Rosta	Роста	42.20056	46.39667	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Rosta	avar1256	#009999	#009999	2022-03-07
 180	Khotlob	Хотлоб	42.201243	46.432755	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Antsukh	Анцухский	Tash	Ташский	NA	NA	Khotlob	avar1256	#009999	#009999	2022-03-07
@@ -669,7 +669,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 264	Khamagib	Хамагиб	42.402538	46.850422	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Khamagib	avar1256	#009999	#009999	2022-03-07
 265	Obonub	Обонуб	42.40556	46.83972	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Obonub	avar1256	#009999	#009999	2022-03-07
 266	Enseruda	Энсеруда	42.40611	46.85278	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Enseruda	avar1256	#009999	#009999	2022-03-07
-267	Chonob	Чоноб	42.407666999999996	46.853808	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Chonob	avar1256	#009999	#009999	2022-03-07
+267	Chonob	Чоноб	42.407667	46.853808	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Chonob	avar1256	#009999	#009999	2022-03-07
 268	Khotoch	Хоточ	42.408408	46.954024	Avar	Avar	East Caucasian		Avar	Southern Avar	Южноаварский	Andalal	Андалальский	Khotoch-Khidan	Хоточ-хиданский	NA	NA	Khotoch	avar1256	#009999	#009999	2022-03-07
 269	Egeda	Эгеда	42.409124	46.844276	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Egeda	avar1256	#009999	#009999	2022-03-07
 270	Nizhnie Khvarshini	Нижние Хваршини	42.4108	45.8697	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Nizhnie Khvarshini	avar1256	#009999	#009999	2022-03-07
@@ -785,7 +785,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 380	Alak	Алак	42.6092	46.1972	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Alak	avar1256	#009999	#009999	2022-03-07
 381	Apshi	Апши	42.6094	47.1742	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Apshi	avar1256	#009999	#009999	2022-03-07
 382	Arakani	Аракани	42.610078	46.991711	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Arakani	avar1256	#009999	#009999	2022-03-07
-383	Kheleturi	Хелетури	42.612495	46.225440999999996	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Kheleturi	avar1256	#009999	#009999	2022-03-07
+383	Kheleturi	Хелетури	42.612495	46.225441	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Kheleturi	avar1256	#009999	#009999	2022-03-07
 384	Zirani	Зирани	42.61797	46.94436	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Zirani	avar1256	#009999	#009999	2022-03-07
 385	Tsalkita	Цалкита	42.61798	46.57339	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Tsalkita	avar1256	#009999	#009999	2022-03-07
 386	Taratul-Meer	Таратул-Меэр	42.619281	47.112087	Avar	Avar	East Caucasian		Avar	NA	NA	NA	NA	NA	NA	NA	NA	Taratul-Meer	avar1256	#009999	#009999	2022-03-07
@@ -877,7 +877,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 598	Kvanada	Кванада	42.561478	46.17397	Bagvalal	Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Kvanada-Gimerso	Квандинско-гимерсинский	NA	NA	NA	NA	Kvanada	bagv1239	#000066	#9900ff	2022-03-07
 599	Gimerso	Гимерсо	42.561489	46.227545	Bagvalal	Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Kvanada-Gimerso	Квандинско-гимерсинский	NA	NA	NA	NA	Gimerso	bagv1239	#000066	#9900ff	2022-03-07
 600	Tlisi	Тлиси	42.56209	46.27428	Bagvalal	Andic	East Caucasian		Bagvalal	Eastern Bagvalal	Восточнобагвалинский	Tlisi-Tlibisho	Тлисси-тлибишинский	NA	NA	NA	NA	Tlisi	bagv1239	#000066	#9900ff	2022-03-07
-604	Tlyadal	Тлядал	42.125339	46.237247000000004	Bezhta	Tsezic	East Caucasian		Bezhta	Tlyadal	Тлядальский	NA	NA	NA	NA	NA	NA	Tlyadal	bezh1248	#ff5050	#ff5050	2022-03-07
+604	Tlyadal	Тлядал	42.125339	46.237247	Bezhta	Tsezic	East Caucasian		Bezhta	Tlyadal	Тлядальский	NA	NA	NA	NA	NA	NA	Tlyadal	bezh1248	#ff5050	#ff5050	2022-03-07
 605	Khasharkhota	Хашархота	42.12912	46.142158	Bezhta	Tsezic	East Caucasian		Bezhta	Tlyadal	Тлядальский	NA	NA	NA	NA	NA	NA	Khasharkhota	bezh1248	#ff5050	#ff5050	2022-03-07
 606	Bezhta	Бежта	42.1339	46.1247	Bezhta	Tsezic	East Caucasian		Bezhta	Bezhta	Бежтинский	NA	NA	NA	NA	NA	NA	Bezhta	bezh1248	#ff5050	#ff5050	2022-03-07
 609	Miarso	Миарсо	42.654059	46.175643	Botlikh	Andic	East Caucasian		Botlikh	Miarso	Миарсинский	NA	NA	NA	NA	NA	NA	Miarso	botl1242	#336699	#9900ff	2022-03-07
@@ -956,7 +956,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1175	Mukrakari	Мукракари	42.06667	47.5	Dargwa	Dargwa	East Caucasian		Dargwa	Southern Dargwa	Южнодаргинский	Tanty-Sirhwa	Танты-сирхинский	Sirhwa	Сургинский	NA	NA	Mukrakari	darg1241	#ff9900	#ff9900	2022-03-07
 1176	Siragi	Сираги	42.06667	47.56667	Dargwa	Dargwa	East Caucasian		Dargwa	Northern Dargwa	Севернодаргинский	Urakhi	Урахинский	NA	NA	NA	NA	Siragi	darg1241	#ff9900	#ff9900	2022-03-07
 1177	Urkutamakhi 2-aya	Уркутамахи 2-ая	42.06667	47.53333	Dargwa	Dargwa	East Caucasian		Dargwa	Southern Dargwa	Южнодаргинский	Tanty-Sirhwa	Танты-сирхинский	Sirhwa	Сургинский	NA	NA	Urkutamakhi 2-aya	darg1241	#ff9900	#ff9900	2022-03-07
-1178	Amuzgi	Амузги	42.068009000000004	47.597806	Dargwa	Dargwa	East Caucasian		Dargwa	Southern Dargwa	Южнодаргинский	Amuzgi-Shiri	Амузги-ширинский	NA	NA	NA	NA	Amuzgi	darg1241	#ff9900	#ff9900	2022-03-07
+1178	Amuzgi	Амузги	42.068009	47.597806	Dargwa	Dargwa	East Caucasian		Dargwa	Southern Dargwa	Южнодаргинский	Amuzgi-Shiri	Амузги-ширинский	NA	NA	NA	NA	Amuzgi	darg1241	#ff9900	#ff9900	2022-03-07
 1179	Uragi	Ураги	42.06914	47.569377	Dargwa	Dargwa	East Caucasian		Dargwa	Southern Dargwa	Южнодаргинский	Tanty-Sirhwa	Танты-сирхинский	Sirhwa	Сургинский	NA	NA	Uragi	darg1241	#ff9900	#ff9900	2022-03-07
 1180	Mizhigli	Мижигли	42.0697	47.79989	Dargwa	Dargwa	East Caucasian		Dargwa	Kaitag	Кайтагский	NA	NA	NA	NA	NA	NA	Mizhigli	darg1241	#ff9900	#ff9900	2022-03-07
 1181	Kulegu	Кулегу	42.07003	47.88401	Dargwa	Dargwa	East Caucasian		Dargwa	Kaitag	Кайтагский	NA	NA	NA	NA	NA	NA	Kulegu	darg1241	#ff9900	#ff9900	2022-03-07
@@ -1199,7 +1199,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1422	Nakhada	Нахада	42.14406	46.19143	Hunzib	Tsezic	East Caucasian		Hunzib	NA	NA	NA	NA	NA	NA	NA	NA	Nakhada	hunz1247	#ff0066	#ff5050	2022-03-07
 1423	Garbutl'	Гарбутль	42.153227	46.219098	Hunzib	Tsezic	East Caucasian		Hunzib	NA	NA	NA	NA	NA	NA	NA	NA	Garbutl'	hunz1247	#ff0066	#ff5050	2022-03-07
 1470	Santlada	Сантлада	42.38431	46.07505	Khwarshi	Tsezic	East Caucasian		Khwarshi	Inkhoqwari	Инхокваринский	NA	NA	NA	NA	NA	NA	Santlada	khva1239	#993333	#ff5050	2022-03-07
-1471	Kvantlada	Квантлада	42.39204	46.06382	Khwarshi	Tsezic	East Caucasian		Khwarshi	Inkhoqwari	Инхокваринский	NA	NA	NA	NA	NA	NA	Kwantlada	khva1239	#993333	#ff5050	2022-03-07
+1471	Kvantlada	Квантлада	42.39204	46.06382	Khwarshi	Tsezic	East Caucasian		Khwarshi	Inkhoqwari	Инхокваринский	NA	NA	NA	NA	NA	NA	Kvantlada	khva1239	#993333	#ff5050	2022-03-07
 1472	Inkhokvari	Инхоквари	42.410888	46.044877	Khwarshi	Tsezic	East Caucasian		Khwarshi	Inkhoqwari	Инхокваринский	NA	NA	NA	NA	NA	NA	Inkhoqwari	khva1239	#993333	#ff5050	2022-03-07
 1473	Khvayni	Хвайни	42.415087	45.968736	Khwarshi	Tsezic	East Caucasian		Khwarshi	Inkhoqwari	Инхокваринский	NA	NA	NA	NA	NA	NA	Khvayni	khva1239	#993333	#ff5050	2022-03-07
 1474	Verkhnee Inkhokvari	Верхнее Инхоквари	42.415524	46.065273	Khwarshi	Tsezic	East Caucasian		Khwarshi	Inkhoqwari	Инхокваринский	NA	NA	NA	NA	NA	NA	Verkhnee Inkhokvari	khva1239	#993333	#ff5050	2022-03-07
@@ -1210,7 +1210,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1480	Mashtada	Маштада	42.61362	46.314659	Karata	Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский	NA	NA	NA	NA	Mashtada	kara1474	#666699	#9494b8	2022-03-07
 1481	Rachabulda	Рачабулда	42.617256	46.300014	Karata	Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский	NA	NA	NA	NA	Rachabulda	kara1474	#666699	#9494b8	2022-03-07
 1482	Verkhnee Inkhelo	Верхнее Инхело	42.62035	46.329732	Karata	Andic	East Caucasian		Karata	Karata	Каратинский	Chabakoroy	Чабакоринский	NA	NA	NA	NA	Verkhnee Inkhelo	kara1474	#666699	#9494b8	2022-03-07
-1483	Ratsitl'	Ратситль	42.63788	46.33455	Karata	Andic	East Caucasian		Karata	Karata	Каратинский	Ratsitl’	Рацитлинский	NA	NA	NA	NA	Ratsitl'	kara1474	#666699	#9494b8	2022-03-07
+1483	Ratsitl'	Ратситль	42.63788	46.33455	Karata	Andic	East Caucasian		Karata	Karata	Каратинский	Ratsitl'	Рацитлинский	NA	NA	NA	NA	Ratsitl'	kara1474	#666699	#9494b8	2022-03-07
 1484	Nizhnee Inkhelo	Нижнее Инхело	42.645134	46.259367	Karata	Andic	East Caucasian		Karata	Karata	Каратинский	Nizhnee Inkhelo	Нижне-энхелинский	NA	NA	NA	NA	Nizhnee Inkhelo	kara1474	#666699	#9494b8	2022-03-07
 1492	Khvarshi	Хварши	42.353471	46.107859	Khwarshi	Tsezic	East Caucasian		Khwarshi	Khwarshi	Хваршинский	NA	NA	NA	NA	NA	NA	Khvarshi	khva1239	#993333	#ff5050	2022-03-07
 1499	Tumeller	Тумеллер	42.1846	47.84238	Kumyk	Kipchak	Turkic		Kumyk	NA	NA	NA	NA	NA	NA	NA	NA	Tumeller	kumy1244	#a6a6a6	#666666	2022-03-07
@@ -1308,7 +1308,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1613	Chukna	Чукна	42.30111	47.12009	Lak	Lak	East Caucasian		Lak	Vitskhi	Вицхинский	Northern	Северный	NA	NA	NA	NA	Chukna	lakk1252	#cc9900	#cc9900	2022-03-07
 1614	Kuba	Куба	42.3247	47.1181	Lak	Lak	East Caucasian		Lak	Vitskhi	Вицхинский	Northern	Северный	NA	NA	NA	NA	Kuba	lakk1252	#cc9900	#cc9900	2022-03-07
 1626	Fiy	Фий	41.289126	47.564416	Lezgian	Lezgic	East Caucasian		Lezgian	Samur	Самурский	Fiy	Фийский	NA	NA	NA	NA	Fiy	lezg1247	#00cc00	#00cc66	2022-03-07
-1627	Gdym	Гдым	41.308839999999996	47.4668	Lezgian	Lezgic	East Caucasian		Lezgian	Samur	Самурский	Fiy	Фийский	NA	NA	NA	NA	Gdym	lezg1247	#00cc00	#00cc66	2022-03-07
+1627	Gdym	Гдым	41.30884	47.4668	Lezgian	Lezgic	East Caucasian		Lezgian	Samur	Самурский	Fiy	Фийский	NA	NA	NA	NA	Gdym	lezg1247	#00cc00	#00cc66	2022-03-07
 1628	Tekipirkent	Текипиркент	41.34201	47.88615	Lezgian	Lezgic	East Caucasian		Lezgian	Kyuri	Кюринский	NA	NA	NA	NA	NA	NA	Tekipirkent	lezg1247	#00cc00	#00cc66	2022-03-07
 1629	Ukhul	Ухул	41.35303	47.74081	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Ukhul	lezg1247	#00cc00	#00cc66	2022-03-07
 1630	Kaladzhukh	Каладжух	41.366176	47.908075	Lezgian	Lezgic	East Caucasian		Lezgian	Kyuri	Кюринский	Akhty	Ахтынский	NA	NA	NA	NA	Kaladzhukh	lezg1247	#00cc00	#00cc66	2022-03-07
@@ -1435,7 +1435,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1751	Kartas-Kazmalyar	Картас-Казмаляр	41.81717	48.39484	Lezgian	Lezgic	East Caucasian		Lezgian	Kyuri	Кюринский	NA	NA	NA	NA	NA	NA	Kartas-Kazmalyar	lezg1247	#00cc00	#00cc66	2022-03-07
 1752	Bil'bil'-Kazmalyar	Бильбиль-Казмаляр	41.82188	48.5448	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Bil'bil'-Kazmalyar	lezg1247	#00cc00	#00cc66	2022-03-07
 1753	Samur	Самур	41.829176	48.487012	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Samur	lezg1247	#00cc00	#00cc66	2022-03-07
-1754	Azadogly	Азадолгы	41.83019	48.448480000000004	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Azadogly	lezg1247	#00cc00	#00cc66	2022-03-07
+1754	Azadogly	Азадолгы	41.83019	48.44848	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Azadogly	lezg1247	#00cc00	#00cc66	2022-03-07
 1755	Kullar	Куллар	41.8364	48.3878	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Kullar	lezg1247	#00cc00	#00cc66	2022-03-07
 1756	Kumuk	Кумук	41.839407	48.420118	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Kumuk	lezg1247	#00cc00	#00cc66	2022-03-07
 1757	Primorskiy	Приморский	41.845694	48.580097	Lezgian	Lezgic	East Caucasian		Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Primorskiy	lezg1247	#00cc00	#00cc66	2022-03-07
