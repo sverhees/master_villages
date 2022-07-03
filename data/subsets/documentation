@@ -1,9 +1,11 @@
+﻿
 
-20.10.2021
+created: 20.10.2021
+updated: 03.07.2022
 
 ---
 
-ec_azerbaijan.xlsx
+ec_azerbaijan.csv
 
 - List of East Caucasian villages in Northern Azerbaijan from legacy data
 - List of villages in Qax district of Azerbaijan and the language spoken there, based on personal communication
@@ -16,38 +18,34 @@ ec_azerbaijan.xlsx
 
 ---
 
-tat.xlsx
+tat.csv
 
-sheet 1:
-- List of Tat-speaking villages and their dialects from Suleymanov (????)
+- List of Tat-speaking villages and their dialects from Suleymanov (2017)
 - Coordinates from Open Street Map
 - Russian names from Grjunberg (1963)
 
-sheet 2:
-- List of Tat-speaking villages in Azerbaijan from Grjunberg (1963)
-
 ---
 
-chechnya.xlsx
+chechnya.csv
 
 - Legacy data, manually corrected language affiliation of a few non-Chechen villages
 
 ---
 
-ingushetia.xlsx
+ingushetia.csv
 
 - Legacy data
 
 ---
 
-georgia.xlsx
+georgia.csv
 
 - Zemo-Alvani and Zinobiani were part of legacy data
 - Additional info from personal communication with Jesse Wichers Schreur
 
 ---
 
-daghestan.xlsx
+daghestan.csv
 
 - Legacy data
 - A few villages added manually

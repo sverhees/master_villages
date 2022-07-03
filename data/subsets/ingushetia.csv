@@ -1,0 +1,47 @@
+id	village	rus_village	village_altnames	lat	lon	coord_source	settlement_type	lang	aff	family	republic	region	elevation	kutans	source	page	dialect_toplevel	dialect_toplevel_cyr	dialect_nt1	dialect_nt1_cyr	dialect_nt2	dialect_nt2_cyr	dialect_nt3	dialect_nt3_cyr	village_dialect	gltl_village_dialect	gltc_village_dialect	gltl_dialect	gltc_dialect	gltc_lang	lang_col	aff_col	dialect_comment	villagelang_comment	manual
+1424	Shoani	Шоани		42.791174	44.779613	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1313.32604980469	FALSE											Shoani					ingu1240	#663300	#996633			no
+1425	Ol'geti	Ольгети		42.799632	44.756996	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1216.02648925781	FALSE	korjakov2006	map 8	Dzherakh	Джераховский							Ol'geti					ingu1240	#663300	#996633			no
+1426	Lyazhgi	Ляжги		42.808416	44.732786	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1217.72106933594	FALSE											Lyazhgi					ingu1240	#663300	#996633			no
+1427	Guli	Гули		42.810771	44.798552	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1614.28845214844	FALSE	korjakov2006	map 8	Dzherakh	Джераховский							Guli					ingu1240	#663300	#996633			no
+1428	Targim	Таргим		42.810924	44.938931	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1161.70593261719	FALSE	korjakov2006	map 8	Galgay	Галгаевский							Targim					ingu1240	#663300	#996633			no
+1429	Armkhi	Армхи		42.81195	44.7075	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1247.94958496094	FALSE	korjakov2006	26	Dzherakh	Джераховский							Armkhi					ingu1240	#663300	#996633			no
+1430	Dzheyrakh	Джейрах		42.821997	44.679701	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1114.07019042969	FALSE	korjakov2006	map 8	Dzherakh	Джераховский							Dzheyrakh					ingu1240	#663300	#996633			no
+1431	Pyaling	Пялинг		42.822778	44.986389	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1597.451171875	FALSE											Pyaling					ingu1240	#663300	#996633			no
+1432	Beyni	Бейни		42.834193	44.717048	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1490.32568359375	FALSE											Beyni					ingu1240	#663300	#996633			no
+1433	Egikkhal	Эгикхал		42.835294	44.923332	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	1202.59558105469	FALSE											Egikkhal					ingu1240	#663300	#996633			no
+1434	Alkun	Алкун		42.967123	45.022044	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	775.128295898438	FALSE											Alkun					ingu1240	#663300	#996633			no
+1435	Muzhichi	Мужичи		43.02805	44.995741	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	684.923278808594	FALSE											Muzhichi					ingu1240	#663300	#996633			no
+1436	Dattykh	Даттых		43.030344	45.09973	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	657.550964355469	FALSE											Dattykh					ingu1240	#663300	#996633			no
+1437	Galashki	Галашки		43.095888	44.98533	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	623.448364257813	FALSE											Galashki					ingu1240	#663300	#996633			no
+1438	Arshty	Аршты		43.139052	45.129402	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	541.140747070313	FALSE											Arshty					ingu1240	#663300	#996633			no
+1439	Ali-yurt	Али-юрт		43.141775	44.85396	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	718.336547851563	FALSE											Ali-yurt					ingu1240	#663300	#996633			no
+1440	Magas	Магас		43.166667	44.816667	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	577.973388671875	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Magas					ingu1240	#663300	#996633			no
+1441	Chemul'ga	Чемульга		43.178142	45.124479	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	444.430206298828	FALSE											Chemul'ga					ingu1240	#663300	#996633			no
+1442	Alkhasty	Алхасты		43.181337	44.993549	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	510.305114746094	FALSE											Alkhasty					ingu1240	#663300	#996633			no
+1443	Surkhakhi	Сурхахи		43.183333	44.9	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	662.185119628906	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Surkhakhi					ingu1240	#663300	#996633			no
+1444	Ekazhevo	Экажево		43.2	44.816667	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	539.00390625	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Ekazhevo					ingu1240	#663300	#996633			no
+1445	Nazran'	Назрань		43.216667	44.766667	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	528.320373535156	FALSE	korjakov2006	26	Lowland	Плоскостной							Nazran'					ingu1240	#663300	#996633			no
+1446	Berd-yurt	Берд-юрт		43.219063	45.110379	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	338.677490234375	FALSE											Berd-yurt					ingu1240	#663300	#996633			no
+1447	Kantyshevo	Кантышево		43.226647	44.637807	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	537.1142578125	FALSE											Kantyshevo					ingu1240	#663300	#996633			no
+1448	Dolakovo	Долаково		43.23	44.591667	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	485	FALSE											Dolakovo					ingu1240	#663300	#996633			no
+1449	Nesterovskaya	Нестеровская		43.235556	45.049167	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	407.053192138672	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Nesterovskaya					ingu1240	#663300	#996633			no
+1450	Gazi-yurt	Гази-юрт		43.260278	44.841389	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	499.317749023438	FALSE											Gazi-yurt					ingu1240	#663300	#996633			no
+1451	Barsuki	Барсуки		43.261289	44.810823	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	515.017944335937	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Barsuki					ingu1240	#663300	#996633			no
+1452	Yandare	Яндаре		43.269167	44.908611	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	500.735626220703	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Yandare					ingu1240	#663300	#996633			no
+1453	Plievo	Пилево		43.28043	44.838204	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	483.632507324219	FALSE											Plievo					ingu1240	#663300	#996633			no
+1454	Karabulak	Карабулак		43.3	44.9	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	399.662231445313	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Karabulak					ingu1240	#663300	#996633			no
+1455	Troickaya	Троицкая		43.305922	44.987378	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	345.382110595703	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Troickaya					ingu1240	#663300	#996633			no
+1456	Verkhnie achaluki	Верхние ачалуки		43.345475	44.70157	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	487.468292236328	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Verkhnie achaluki					ingu1240	#663300	#996633			no
+1457	Srednie achaluki	Средние ачалуки		43.369898	44.733855	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	418.586547851563	FALSE											Srednie achaluki					ingu1240	#663300	#996633			no
+1458	Geyrbek-yurt	Гейрбек-юрт		43.400246	44.595955	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	690.944030761719	FALSE											Geyrbek-yurt					ingu1240	#663300	#996633			no
+1459	Nizhnie achaluki	Нижние ачалуки		43.400979	44.760661	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	386.685852050781	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Nizhnie achaluki					ingu1240	#663300	#996633			no
+1460	Psedakh	Пседах		43.469167	44.568889	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	457.767333984375	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Psedakh					ingu1240	#663300	#996633			no
+1461	Inarki	Инарки		43.470756	44.541697	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	472.260589599609	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Inarki					ingu1240	#663300	#996633			no
+1462	Novyy redant	Новый редант		43.470833	44.801389	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	315.747467041016	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Novyy redant					ingu1240	#663300	#996633			no
+1463	Sagopshi	Сагопши		43.480556	44.589722	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	409.288299560547	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Sagopshi					ingu1240	#663300	#996633			no
+1464	Zyazikov-yurt	Зязиков-юрт		43.495711	44.767656	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	342.707275390625	FALSE											Zyazikov-yurt					ingu1240	#663300	#996633			no
+1465	Malgobek	Малгобек		43.516667	44.583333	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	378.082611083984	FALSE	korjakov2006	26	Lowland	Плоскостной							Malgobek					ingu1240	#663300	#996633			no
+1466	Yuzhnoe	Южное		43.51706	44.747915	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	401.395935058594	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Yuzhnoe					ingu1240	#663300	#996633			no
+1467	Aki-yurt	Аки-юрт		43.519639	44.865097	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	407.335662841797	FALSE											Aki-yurt					ingu1240	#663300	#996633			no
+1468	Voznesenskaya	Вознесенская		43.542673	44.75334	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	561.78369140625	FALSE	korjakov2006	map 8	Lowland	Плоскостной							Voznesenskaya					ingu1240	#663300	#996633			no
+1469	Vezhariy	Вежарий		43.597558	44.57435	Legacy data		Ingush	Nakh	East Caucasian	Ingushetia	NA	227.964202880859	FALSE											Vezhariy					ingu1240	#663300	#996633			no

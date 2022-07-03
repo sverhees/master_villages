@@ -1,14 +1,14 @@
-
+﻿
 # create new villages dataset from subsets
 
 library(tidyverse)
 
-chechnya <- readxl::read_xlsx("subsets/chechnya.xlsx")
-daghestan <- readxl::read_xlsx("subsets/daghestan.xlsx")
-ec_azerbaijan <- readxl::read_xlsx("subsets/ec_azerbaijan.xlsx")
-georgia <- readxl::read_xlsx("subsets/georgia.xlsx")
-ingushetia <- readxl::read_xlsx("subsets/ingushetia.xlsx")
-tat <- readxl::read_xlsx("subsets/tat.xlsx")
+chechnya <- read_tsv("subsets/chechnya.csv")
+daghestan <- read_tsv("subsets/daghestan.csv")
+ec_azerbaijan <- read_tsv("subsets/ec_azerbaijan.csv")
+georgia <- read_tsv("subsets/georgia.csv")
+ingushetia <- read_tsv("subsets/ingushetia.csv")
+tat <- read_tsv("subsets/tat.csv")
 
 # filter out entries without ID and coordinates
 # > draft entries that require more info
@@ -19,7 +19,7 @@ new_villages <- rbind(chechnya, daghestan, ec_azerbaijan,
   filter(complete.cases(lat)) %>%
   mutate(version = Sys.Date())
 
-write_tsv(new_villages, "new_villages.tsv")
+write_tsv(new_villages, "villages.tsv")
 
 # create TALD subset
 
@@ -39,10 +39,10 @@ TALDprep <- TALDprep %>%
   relocate(standard, .after = family) %>%
   relocate(default_level, .after = standard)
 
-standardlangs <- readxl::read_xlsx("standard_language_datapoints.xlsx")
+standardlangs <- read_tsv("standard_language_datapoints.csv")
 
 new_TALD <- rbind(TALDprep, standardlangs) %>%
   mutate(dataset_version = Sys.Date())
 
-write_tsv(new_TALD, "new_tald.tsv")
+write_tsv(new_TALD, "tald_villages.tsv")
 

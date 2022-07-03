@@ -1,0 +1,457 @@
+id	village	rus_village	village_altnames	lat	lon	coord_source	settlement_type	lang	aff	family	republic	region	elevation	kutans	source	page	dialect_toplevel	dialect_toplevel_cyr	dialect_nt1	dialect_nt1_cyr	dialect_nt2	dialect_nt2_cyr	dialect_nt3	dialect_nt3_cyr	village_dialect	gltl_village_dialect	gltc_village_dialect	gltl_dialect	gltc_dialect	gltc_lang	lang_col	aff_col	dialect_comment	villagelang_comment	manual
+629	Kenkhi	Кенхи		42.641667	45.945556	Legacy data		Chamalal	Andic	East Caucasian	Chechnya	NA	1557.23425292969	FALSE	magomedova1999	13	Gakvari	Гакваринский							Kenkhi			Gakvari	gakv1238	cham1309	#000099	#9900ff			yes
+634	Khulandoy	Хуландой		42.553333	45.754167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1708.62817382813	FALSE	korjakov2006	map 8	Sharoy	Шароевский							Khulandoy					chec1245	#996600	#996633			no
+635	Kesaloy	Кесалой		42.602778	45.74	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1795.72924804688	FALSE											Kesaloy					chec1245	#996600	#996633			no
+636	Khakmadoy	Хакмадой		42.620556	45.83	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1669.87829589844	FALSE											Khakmadoy					chec1245	#996600	#996633			no
+637	Chayry	Чайры		42.620556	45.909722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1738.76647949219	FALSE											Chayry					chec1245	#996600	#996633			no
+638	Sharoy	Шарой		42.629722	45.81	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1520.16357421875	FALSE											Sharoy					chec1245	#996600	#996633			no
+639	Shikaroy	Шикарой		42.630278	45.760556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1855.60144042969	FALSE											Shikaroy					chec1245	#996600	#996633			no
+640	Shkolkhe	Школхе		42.63929	45.935388	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1496.14855957031	FALSE											Shkolkhe					chec1245	#996600	#996633			no
+641	Khimoy	Химой		42.654444	45.852222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1224.49450683594	FALSE											Khimoy					chec1245	#996600	#996633			no
+642	Buti	Бути		42.661389	45.97	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1701.61120605469	FALSE											Buti					chec1245	#996600	#996633			no
+643	Kiri	Кири		42.674722	45.914167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1170.07836914063	FALSE	korjakov2006	map 8	Sharoy	Шароевский							Kiri					chec1245	#996600	#996633			no
+644	Verkhniy Camadoy	Верхний Цамадой		42.675278	45.644722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1596.90576171875	FALSE											Verkhniy Camadoy					chec1245	#996600	#996633			no
+645	Kheldi	Хелди		42.675278	45.644722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1596.90576171875	FALSE											Kheldi					chec1245	#996600	#996633			no
+646	Cesi	Цеси		42.680278	45.790833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1710.0029296875	FALSE											Cesi					chec1245	#996600	#996633			no
+647	Veduchi	Ведучи		42.684722	45.568611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1202.07214355469	FALSE	korjakov2006	map 8	Itum-Kali	Итум-калинский	Chanti	Чантинский					Veduchi			Itumkala	itum1244	chec1245	#996600	#996633			no
+648	Sakan-iiste	Сакан-Иисте		42.689444	45.476389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1370.56384277344	FALSE											Sakan-iiste					chec1245	#996600	#996633			no
+649	Shundili	Шундили		42.698533	45.417414	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1820.47961425781	FALSE											Shundili					chec1245	#996600	#996633			no
+650	Lyunki	Люнки		42.70167	45.47944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1478.56750488281	FALSE											Lyunki					chec1245	#996600	#996633			no
+651	Sadoy	Садой		42.701835	46.063155	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1788.23071289063	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Sadoy					chec1245	#996600	#996633			no
+652	Doza	Доза		42.70201	45.28279	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1168.83544921875	FALSE											Doza					chec1245	#996600	#996633			no
+653	Khindoy	Хиндой		42.703677	46.006265	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1742.41455078125	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Khindoy					chec1245	#996600	#996633			no
+654	Kamalkhi	Камалхи		42.706181	45.280203	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1345.57629394531	FALSE											Kamalkhi					chec1245	#996600	#996633			no
+655	Tazbichi	Тазбичи		42.707778	45.597222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1073.07141113281	FALSE											Tazbichi					chec1245	#996600	#996633			no
+656	Pezhey	Пежей		42.713149	45.427287	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1285.93981933594	FALSE											Pezhey					chec1245	#996600	#996633			no
+657	Malilaul	Малилаул		42.714121	46.046985	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1655.38256835938	FALSE											Malilaul					chec1245	#996600	#996633			no
+658	Cacakh	Цацах		42.714722	45.504167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1030.90075683594	FALSE											Cacakh					chec1245	#996600	#996633			no
+659	Korotakh	Коротах		42.7175	45.263333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1720.28405761719	FALSE											Korotakh					chec1245	#996600	#996633			no
+660	Khorci-pada	Хорци-Пада		42.718039	45.410685	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1153.46826171875	FALSE											Khorci-pada					chec1245	#996600	#996633			no
+661	Bechigi	Бечиги		42.72	45.49	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	896.9091796875	FALSE											Bechigi					chec1245	#996600	#996633			no
+662	Basty	Басты		42.72353	45.28124	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1410.01904296875	FALSE											Basty					chec1245	#996600	#996633			no
+663	Tuskharoy	Тусхарой		42.724444	45.530278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1346.51806640625	FALSE											Tuskharoy					chec1245	#996600	#996633			no
+664	Kharkaroy	Харкарой		42.72463	46.068851	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1542.5634765625	FALSE											Kharkaroy					chec1245	#996600	#996633			no
+665	Arsoy	Арсой		42.725755	46.034167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1579.14086914063	FALSE											Arsoy					chec1245	#996600	#996633			no
+666	Buni	Буни		42.725755	46.034167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1579.14086914063	FALSE	korjakov2006	map 8	Cheberloy	Чеберлоевский	Upper Cheberloy	Верхнечеберлоевский					Buni					chec1245	#996600	#996633			no
+667	Kulinkhoy	Кулинхой		42.725755	46.034167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1579.14086914063	FALSE											Kulinkhoy					chec1245	#996600	#996633			no
+668	Rigakhoy	Ригахой		42.725755	46.034167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1579.14086914063	FALSE											Rigakhoy					chec1245	#996600	#996633			no
+669	Sakhani	Сахани		42.725931	45.22735	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1335.2666015625	FALSE											Sakhani					chec1245	#996600	#996633			no
+670	Baskhoy	Басхой		42.726667	45.4225	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1313.28503417969	FALSE											Baskhoy					chec1245	#996600	#996633			no
+671	Pezh-baskhoy	Пеж-басхой		42.726787	45.423122	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1304.69958496094	FALSE											Pezh-baskhoy					chec1245	#996600	#996633			no
+672	Boturchu	Ботурчу		42.72694	45.54556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1249.0654296875	FALSE											Boturchu					chec1245	#996600	#996633			no
+673	Tunzhi-aul	Тунжи-аул		42.727656	46.048118	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1548.58532714844	FALSE											Tunzhi-aul					chec1245	#996600	#996633			no
+674	Beki	Беки		42.7291	45.368891	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1448.65576171875	FALSE											Beki					chec1245	#996600	#996633			no
+675	Tongakhoy	Тонгахой		42.729134	45.465145	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1144.01062011719	FALSE											Tongakhoy					chec1245	#996600	#996633			no
+676	Itum-kali	Итум-кали		42.730833	45.571944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	783.280456542969	FALSE	korjakov2006	map 8	Itum-Kali	Итум-калинский	Chanti	Чантинский					Itum-kali			Itumkala	itum1244	chec1245	#996600	#996633			no
+677	Korichu	Коричу		42.73195	45.4	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1346.2255859375	FALSE											Korichu					chec1245	#996600	#996633			no
+678	Shundi	Шунди		42.732778	45.358611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1183.20581054688	FALSE											Shundi					chec1245	#996600	#996633			no
+679	Shyunda	Шюнда		42.732778	45.358611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1183.20581054688	FALSE											Shyunda					chec1245	#996600	#996633			no
+680	Kay	Кай		42.7332	45.25552	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2249.97900390625	FALSE											Kay					chec1245	#996600	#996633			no
+681	Gezakh	Гезах		42.733611	45.441667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1515.21362304688	FALSE											Gezakh					chec1245	#996600	#996633			no
+682	Gezekhoy	Гезехой		42.733611	45.441667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1515.21362304688	FALSE											Gezekhoy					chec1245	#996600	#996633			no
+683	Tundukh	Тундух		42.734574	46.04	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1492.85815429688	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Tundukh					chec1245	#996600	#996633			no
+684	Ikil'chi	Икильчи		42.735345	45.212748	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1426.9560546875	FALSE											Ikil'chi					chec1245	#996600	#996633			no
+685	Ikharoy	Ихарой		42.735663	46.083421	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1700.14916992187	FALSE											Ikharoy					chec1245	#996600	#996633			no
+686	Erstakho	Эрстахо		42.736111	45.396389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1338.62316894531	FALSE											Erstakho					chec1245	#996600	#996633			no
+687	Erstakhoy	Эрстахой		42.736111	45.396389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1338.62316894531	FALSE											Erstakhoy					chec1245	#996600	#996633			no
+688	Obuzalaul	Обузалаул		42.736781	46.064346	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1502.77233886719	FALSE											Obuzalaul					chec1245	#996600	#996633			no
+689	Nakhorusty	Нахорусты		42.736884	45.242665	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2052.9072265625	FALSE											Nakhorusty					chec1245	#996600	#996633			no
+690	Cinchemekhi	Цинчемехи		42.737644	45.227823	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1947.99108886719	FALSE											Cinchemekhi					chec1245	#996600	#996633			no
+691	Charydy	Чарыды		42.738027	45.904195	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1329.85913085938	FALSE											Charydy					chec1245	#996600	#996633			no
+692	Baskho	Басхо		42.741171	45.547363	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1329.41149902344	FALSE											Baskho					chec1245	#996600	#996633			no
+693	Benesty	Бенесты		42.741458	45.221111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1866.19787597656	FALSE											Benesty					chec1245	#996600	#996633			no
+694	Khildekharoy	Хилдехарой		42.748333	45.667778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1270.72216796875	FALSE											Khildekharoy					chec1245	#996600	#996633			no
+695	Terta	Терта		42.74854	45.19644	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1587.31652832031	FALSE											Terta					chec1245	#996600	#996633			no
+696	Makazhoy	Макажой		42.749168	46.064999	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1704.94665527344	FALSE	korjakov2006	map 8	Cheberloy	Чеберлоевский	Upper Cheberloy	Верхнечеберлоевский					Makazhoy					chec1245	#996600	#996633			no
+697	Kokadoy	Кокадой		42.749722	45.583889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	830.855285644531	FALSE											Kokadoy					chec1245	#996600	#996633			no
+698	El'deporoy	Эльдепорой		42.75036	45.3921	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1345.08361816406	FALSE											El'deporoy					chec1245	#996600	#996633			no
+699	Khoy	Хой		42.750984	46.127223	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1736.08984375	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Khoy					chec1245	#996600	#996633			no
+700	Alikhanaul	Алиханаул		42.751391	46.050726	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1700.78198242188	FALSE											Alikhanaul					chec1245	#996600	#996633			no
+701	Charakhaul	Чарахаул		42.751768	46.05799	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1743.8740234375	FALSE											Charakhaul					chec1245	#996600	#996633			no
+702	Meshi	Меши		42.752222	45.178611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1706.50305175781	FALSE	arsakhanov1969	37	Melkhi	Мелхинский							Meshi			Melkhin	melk1240	chec1245	#996600	#996633			no
+703	Bugaroy	Бугарой		42.754722	45.616667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1515.08618164062	FALSE											Bugaroy					chec1245	#996600	#996633			no
+704	Ari-aul	Ари-аул		42.755433	46.027349	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1838.66015625	FALSE											Ari-aul					chec1245	#996600	#996633			no
+705	Senakhoy	Сенахой		42.757193	45.410183	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1609.8251953125	FALSE											Senakhoy					chec1245	#996600	#996633			no
+706	Nokhchi-keloy	Нохчи-келой		42.757485	45.93201	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1132.38952636719	FALSE	korjakov2006	map 8	Cheberloy	Чеберлоевский	Day	Дайский					Nokhchi-keloy					chec1245	#996600	#996633			no
+707	Bavloy	Бавлой		42.7575	45.450833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1269.76733398438	FALSE											Bavloy					chec1245	#996600	#996633			no
+708	Bauloy	Баулой		42.7575	45.450833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1269.76733398438	FALSE											Bauloy					chec1245	#996600	#996633			no
+709	Kezenoy	Кезеной		42.758113	46.120906	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1773.09228515625	FALSE											Kezenoy					chec1245	#996600	#996633			no
+710	Zumsoy	Зумсой		42.758333	45.640278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1100.62902832031	FALSE											Zumsoy					chec1245	#996600	#996633			no
+711	Tukhoy	Тухой		42.759357	45.436405	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1445.41796875	FALSE											Tukhoy					chec1245	#996600	#996633			no
+712	Konzhukhoy	Конжухой		42.76104	45.591216	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	755.4677734375	FALSE											Konzhukhoy					chec1245	#996600	#996633			no
+713	Dzhelashkhoy	Джелашхой		42.762717	45.401728	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1776.11401367188	FALSE											Dzhelashkhoy					chec1245	#996600	#996633			no
+714	Kenakho	Кенахо		42.763056	45.357778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1722.18481445313	FALSE											Kenakho					chec1245	#996600	#996633			no
+715	Dzheloshka	Джелошка		42.764119	46.062327	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2074.76416015625	FALSE											Dzheloshka					chec1245	#996600	#996633			no
+716	Ezikho	Эзихо		42.766389	45.503611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1598.63146972656	FALSE											Ezikho					chec1245	#996600	#996633			no
+717	Kuloy	Кулой		42.767584	45.956857	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1361.5205078125	FALSE											Kuloy					chec1245	#996600	#996633			no
+718	Oshni	Ошни		42.770556	45.378333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1350.43725585938	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Oshni					chec1245	#996600	#996633			no
+719	Idakh	Идах		42.771111	45.448333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1457.45556640625	FALSE											Idakh					chec1245	#996600	#996633			no
+720	Day	Дай		42.771944	45.854722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	919.003845214844	FALSE	korjakov2006	map 8	Cheberloy	Чеберлоевский	Day	Дайский					Day					chec1245	#996600	#996633			no
+721	Bosoy	Босой		42.776391	45.902043	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1625.03149414063	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Bosoy					chec1245	#996600	#996633			no
+722	Ushkaloy	Ушкалой		42.777778	45.611389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	715.506408691406	FALSE											Ushkaloy					chec1245	#996600	#996633			no
+723	Celtakumoy	Целтакумой		42.780514	45.459004	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1603.18908691406	FALSE											Celtakumoy					chec1245	#996600	#996633			no
+724	Chubakh-keneroy	Чубах-кенерой		42.781034	45.915814	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1587.94348144531	FALSE											Chubakh-keneroy					chec1245	#996600	#996633			no
+725	Geshi	Геши		42.783688	45.317959	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1476.47985839844	FALSE											Geshi					chec1245	#996600	#996633			no
+726	Mockaroy	Моцкарой		42.78464	45.38695	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1512.51428222656	FALSE											Mockaroy					chec1245	#996600	#996633			no
+727	Achaloy	Ачалой		42.784786	45.971356	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1607.91186523437	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Achaloy					chec1245	#996600	#996633			no
+728	Pyetyeaul	Пыетыеаул		42.7862	46.006488	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1653.66979980469	FALSE											Pyetyeaul					chec1245	#996600	#996633			no
+729	Tushikaul	Тушикаул		42.789305	46.018159	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1833.78063964844	FALSE											Tushikaul					chec1245	#996600	#996633			no
+730	Gemoroy	Геморой		42.791802	45.30704	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1512.59387207031	FALSE											Gemoroy					chec1245	#996600	#996633			no
+731	Meshteroy	Мештерой		42.791802	45.30704	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1512.59387207031	FALSE											Meshteroy					chec1245	#996600	#996633			no
+732	Gukhoy	Гухой		42.791944	45.55	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1187.1162109375	FALSE	korjakov2006	map 8	Itum-Kali	Итум-калинский	Chinkhoy	Чинхойский					Gukhoy			Itumkala	itum1244	chec1245	#996600	#996633			no
+733	Chokhoy	Чохой		42.79528	45.47041	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2064.576171875	FALSE											Chokhoy					chec1245	#996600	#996633			no
+734	Mamonaul	Мамонаул		42.795508	46.018485	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1808.09130859375	FALSE											Mamonaul					chec1245	#996600	#996633			no
+735	Sanoy	Саной		42.796389	45.791111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1098.59423828125	FALSE	korjakov2006	map 8	Cheberloy	Чеберлоевский	Day	Дайский					Sanoy					chec1245	#996600	#996633			no
+736	Guchum-kali	Гучум-кали		42.796944	45.63	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	915.888977050781	FALSE	arsakhanov1969	37	Itum-Kali	Итум-калинский							Guchum-kali			Itumkala	itum1244	chec1245	#996600	#996633			no
+737	Bekeyaul	Бекейаул		42.798395	45.975564	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1644.8818359375	FALSE											Bekeyaul					chec1245	#996600	#996633			no
+738	Nizhniy kiy	Нижний кий		42.8	45.266667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1739.94128417969	FALSE											Nizhniy kiy					chec1245	#996600	#996633			no
+739	Otta	Отта		42.80278	45.38437	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1923.43151855469	FALSE											Otta					chec1245	#996600	#996633			no
+740	Chureymokhk	Чуреймохк		42.805749	45.950235	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1628.08056640625	FALSE											Chureymokhk					chec1245	#996600	#996633			no
+741	Bashin-kali	Башин-кали		42.805843	45.619154	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	764.429504394531	FALSE											Bashin-kali					chec1245	#996600	#996633			no
+742	Arapoaul	Арапоаул		42.807979	45.971635	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1927.88659667969	FALSE											Arapoaul					chec1245	#996600	#996633			no
+743	Verkhniy Kiy	Верхний кий		42.808056	45.2475	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1716.03442382813	FALSE											Verkhniy Kiy					chec1245	#996600	#996633			no
+744	Verkhniy-bara	Верхний-бара		42.809444	45.42	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1758.17602539062	FALSE											Verkhniy-bara					chec1245	#996600	#996633			no
+745	Tarsenaul	Тарсенаул		42.810232	46.031935	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1926.91491699219	FALSE											Tarsenaul					chec1245	#996600	#996633			no
+746	Kurakhi	Курахи		42.811878	45.300976	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1949.73461914063	FALSE											Kurakhi					chec1245	#996600	#996633			no
+747	Sharo-argun	Шаро-аргун		42.812222	45.818056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	821.741333007813	FALSE	korjakov2006	map 8	Cheberloy	Чеберлоевский	Day	Дайский					Sharo-argun					chec1245	#996600	#996633			no
+748	Nezheloy	Нежелой		42.813029	45.905298	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1209.87060546875	FALSE											Nezheloy					chec1245	#996600	#996633			no
+749	Bushni	Бушни		42.81474	45.3854	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2004.38928222656	FALSE											Bushni					chec1245	#996600	#996633			no
+750	Mulkoy	Мулкой		42.815278	45.534167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1182.85791015625	FALSE											Mulkoy					chec1245	#996600	#996633			no
+751	Baginaul	Багинаул		42.816586	45.926653	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1641.23205566406	FALSE											Baginaul					chec1245	#996600	#996633			no
+752	Bakinaul	Бакинаул		42.818714	45.930168	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1704.56774902344	FALSE											Bakinaul					chec1245	#996600	#996633			no
+753	Pariaul	Париаул		42.821457	46.024116	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2114.83251953125	FALSE											Pariaul					chec1245	#996600	#996633			no
+754	Nikaroy	Никарой		42.822218	45.366323	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1781.7763671875	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Nikaroy					chec1245	#996600	#996633			no
+755	Keymekhki	Кеймехки		42.8225	45.224167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1817.2021484375	FALSE											Keymekhki					chec1245	#996600	#996633			no
+756	Bogacheroy	Богачерой		42.824533	45.86431	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1007.61834716797	FALSE											Bogacheroy					chec1245	#996600	#996633			no
+757	Erdychi	Ердычи		42.830556	45.190278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2017.80017089844	FALSE											Erdychi					chec1245	#996600	#996633			no
+758	Tumsoy	Тумсой		42.833333	45.63	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	894.984680175781	FALSE											Tumsoy					chec1245	#996600	#996633			no
+759	Gaziaul	Газиаул		42.833774	45.936593	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1696.48547363281	FALSE											Gaziaul					chec1245	#996600	#996633			no
+760	Musolt-aul	Мусолт-аул		42.833849	45.772461	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1052.33972167969	FALSE											Musolt-aul					chec1245	#996600	#996633			no
+761	Dzhubikaul	Джубикаул		42.834107	45.924044	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1593.92578125	FALSE											Dzhubikaul					chec1245	#996600	#996633			no
+762	Dekh-yiste	Дех-йисте		42.835555	45.731973	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	762.419982910156	FALSE											Dekh-yiste					chec1245	#996600	#996633			no
+763	Ochaki	Очаки		42.838889	45.322222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1805.68713378906	FALSE											Ochaki					chec1245	#996600	#996633			no
+764	Khal-kiloy	Хал-килой		42.838889	45.818056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1156.52941894531	FALSE											Khal-kiloy					chec1245	#996600	#996633			no
+765	Kozhvinchu	Кожвинчу		42.840278	45.223611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1850.63391113281	FALSE											Kozhvinchu					chec1245	#996600	#996633			no
+766	Nikhaloy	Нихалой		42.840278	45.662778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	612.3564453125	FALSE	arsakhanov1969	37	Itum-Kali	Итум-калинский							Nikhaloy			Itumkala	itum1244	chec1245	#996600	#996633			no
+767	Satti	Сатти		42.840278	45.706111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	706.867248535156	FALSE											Satti					chec1245	#996600	#996633			no
+768	Khakhalgi	Хахалги		42.840278	45.155556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2675.3681640625	FALSE											Khakhalgi					chec1245	#996600	#996633			no
+769	Aslanbek-sheripovo	Асланбек-шерипово		42.841637	45.754997	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	973.320739746094	FALSE											Aslanbek-sheripovo					chec1245	#996600	#996633			no
+770	Muskali	Мускали		42.841914	45.736043	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	804.226745605469	FALSE											Muskali					chec1245	#996600	#996633			no
+771	Urdyukhoy	Урдюхой		42.842357	45.702284	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	688.662536621094	FALSE											Urdyukhoy					chec1245	#996600	#996633			no
+772	Borzoy	Борзой		42.8425	45.628056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	908.894287109375	FALSE	korjakov2006	map 8	Itum-Kali	Итум-калинский	Chinkhoy	Чинхойский					Borzoy			Itumkala	itum1244	chec1245	#996600	#996633			no
+774	Vyardy	Вярды		42.845041	45.690766	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	719.931640625	FALSE											Vyardy					chec1245	#996600	#996633			no
+775	Zengali	Зенгали		42.845833	45.272222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1678.7216796875	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Zengali					chec1245	#996600	#996633			no
+776	Khay-khecaguni	Хай-хецагуни		42.847034	45.900792	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1687.19665527344	FALSE											Khay-khecaguni					chec1245	#996600	#996633			no
+777	Bicy	Бицы		42.847648	45.277371	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1708.88830566406	FALSE											Bicy					chec1245	#996600	#996633			no
+778	Kerety	Кереты		42.84784	45.28642	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1640.14489746094	FALSE											Kerety					chec1245	#996600	#996633			no
+779	Ryadukhoy	Рядухой		42.850278	45.649444	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	764.965026855469	FALSE											Ryadukhoy					chec1245	#996600	#996633			no
+780	Yukerch-keloy	Юкерч-келой		42.851387	45.734965	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	844.337951660156	FALSE											Yukerch-keloy					chec1245	#996600	#996633			no
+781	Leshkoroy	Лешкорой		42.8525	45.876389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1565.99462890625	FALSE											Leshkoroy					chec1245	#996600	#996633			no
+782	Peshkhoy	Пешхой		42.853158	45.480087	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1464.33471679688	FALSE											Peshkhoy					chec1245	#996600	#996633			no
+783	Gorgachi	Горгачи		42.855068	45.666837	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	649.685180664063	FALSE											Gorgachi					chec1245	#996600	#996633			no
+784	Gush-kert	Гуш-керт		42.85526	45.685567	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	641.7890625	FALSE											Gush-kert					chec1245	#996600	#996633			no
+785	Pamyatoy	Памятой		42.856111	45.693889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	622.633728027344	FALSE											Pamyatoy					chec1245	#996600	#996633			no
+786	Akka (Chechnya)	Акка (Чечня)		42.856944	45.240278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1772.53979492188	FALSE											Akka (Chechnya)					chec1245	#996600	#996633		Added republic for disambiguation.	yes
+787	Chuush	Чууш		42.85702	45.3187	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1616.08044433594	FALSE											Chuush					chec1245	#996600	#996633			no
+788	Vovga	Вовга		42.857222	45.238333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1781.7490234375	FALSE											Vovga					chec1245	#996600	#996633			no
+789	Bekum-kale	Бекум-кале		42.857429	45.714459	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	720.688903808594	FALSE											Bekum-kale					chec1245	#996600	#996633			no
+790	Machi	Мачи		42.86143	45.30445	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1508.4189453125	FALSE											Machi					chec1245	#996600	#996633			no
+791	Chikondi-pade	Чиконди-паде		42.86193	45.26158	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1900.90209960938	FALSE											Chikondi-pade					chec1245	#996600	#996633			no
+792	Khiloy	Хилой		42.862804	45.41693	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1646.66955566406	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Khiloy					chec1245	#996600	#996633			no
+793	Ami	Ами		42.869444	45.305556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1548.30139160156	FALSE											Ami					chec1245	#996600	#996633			no
+794	Vysokogornoe	Высокогорное		42.871377	45.617187	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1042.74279785156	FALSE											Vysokogornoe					chec1245	#996600	#996633			no
+795	Shatoy	Шатой		42.871667	45.699167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	694.885864257813	FALSE	korjakov2006	27	Itum-Kali	Итум-калинский	Shatoy	Шатойский					Shatoy			Itumkala	itum1244	chec1245	#996600	#996633			no
+796	Kirbit	Кирбит		42.87523	45.31163	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1592.02026367188	FALSE											Kirbit					chec1245	#996600	#996633			no
+797	Irzitkale	Ирзиткале		42.8764	45.25482	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1703.84411621094	FALSE											Irzitkale					chec1245	#996600	#996633			no
+798	Khaybakh	Хайбах		42.877222	45.357778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1463.50695800781	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Khaybakh					chec1245	#996600	#996633			no
+799	Khakkoy	Хаккой		42.881667	45.674722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	693.682861328125	FALSE											Khakkoy					chec1245	#996600	#996633			no
+800	Ityrkale	Итыркале		42.88168	45.25964	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1613.41357421875	FALSE											Ityrkale					chec1245	#996600	#996633			no
+801	Kirbichu	Кирбичу		42.88328	45.32175	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1547.75939941406	FALSE											Kirbichu					chec1245	#996600	#996633			no
+802	Galanchozh	Галанчож		42.883333	45.3	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1428.81311035156	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Galanchozh					chec1245	#996600	#996633			no
+803	Mocaroy	Моцарой		42.889705	45.370211	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1260.76879882813	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Mocaroy					chec1245	#996600	#996633			no
+804	Syuzhi	Сюжи		42.890278	45.639722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	756.253784179688	FALSE	korjakov2006	map 8	Itum-Kali	Итум-калинский	Shatoy	Шатойский					Syuzhi			Itumkala	itum1244	chec1245	#996600	#996633			no
+805	Charmakhoy	Чармахой		42.891111	45.390833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1935.42016601563	FALSE											Charmakhoy					chec1245	#996600	#996633			no
+806	Keychu	Кейчу		42.898333	45.443333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1611.61926269531	FALSE											Keychu					chec1245	#996600	#996633			no
+807	Amki	Амки		42.898611	45.2875	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1602.86950683594	FALSE											Amki					chec1245	#996600	#996633			no
+808	Bol'shie varandy	Большие варанды		42.901111	45.684167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	807.312866210938	FALSE											Bol'shie varandy					chec1245	#996600	#996633			no
+809	Kharachoy	Харачой		42.904167	46.138611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1027.41711425781	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Kharachoy			Ploskost	plost1238	chec1245	#996600	#996633			no
+810	Tol'	Толь		42.911111	45.284722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1645.2216796875	FALSE											Tol'					chec1245	#996600	#996633			no
+811	Kharsenoy	Харсеной		42.914167	45.549722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	840.752746582031	FALSE											Kharsenoy					chec1245	#996600	#996633			no
+812	Mushechu	Мушечу		42.914444	45.408889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1632.23754882813	FALSE											Mushechu					chec1245	#996600	#996633			no
+813	Basary yalkhora	Басары ялхора		42.915278	45.277778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1657.02661132813	FALSE											Basary yalkhora					chec1245	#996600	#996633			no
+814	Yalkhoroy	Ялхорой		42.916667	45.283333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1710.43115234375	FALSE											Yalkhoroy					chec1245	#996600	#996633			no
+815	Kel-baza	Кел-база		42.922338	45.455311	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1365.92468261719	FALSE											Kel-baza					chec1245	#996600	#996633			no
+816	Duc-khutor	Дуц-хутор		42.928047	45.850196	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	868.470764160156	FALSE											Duc-khutor					chec1245	#996600	#996633			no
+817	Khoch-koch	Хоч-коч		42.92909	45.42358	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1559.75415039063	FALSE											Khoch-koch					chec1245	#996600	#996633			no
+818	Dzhenchu	Дженчу		42.929167	45.305556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1750.275390625	FALSE											Dzhenchu					chec1245	#996600	#996633			no
+819	Kel'-aul	Кель-аул		42.936872	45.871524	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	838.975158691406	FALSE											Kel'-aul					chec1245	#996600	#996633			no
+820	Malyy kharsenoy	Малый харсеной		42.939051	45.5161	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	720.616027832031	FALSE											Malyy kharsenoy					chec1245	#996600	#996633			no
+821	Yakhkachara	Яхкачара		42.939444	45.430556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1481.83032226563	FALSE											Yakhkachara					chec1245	#996600	#996633			no
+822	Sakilinzhili	Сакинжили		42.94052	45.39714	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1598.76098632812	FALSE											Sakilinzhili					chec1245	#996600	#996633			no
+823	Zarkha	Зарха		42.940751	45.42166	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1349.56640625	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Zarkha					chec1245	#996600	#996633			no
+824	Sel'mentauzen	Сельментаузен		42.940833	45.863056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	796.312927246094	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Sel'mentauzen			Ploskost	plost1238	chec1245	#996600	#996633			no
+825	Lem-korc	Лем-корц		42.946425	46.313219	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	829.115539550781	FALSE											Lem-korc					chec1245	#996600	#996633			no
+826	Benoy-vedeno	Беной-ведено		42.9475	46.280833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	764.699157714844	FALSE											Benoy-vedeno					chec1245	#996600	#996633			no
+827	Zony	Зоны		42.948333	45.722222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	470.452362060547	FALSE											Zony					chec1245	#996600	#996633			no
+828	Dyshne-vedeno	Дышне-ведено		42.951389	46.134722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	844.637512207031	FALSE											Dyshne-vedeno					chec1245	#996600	#996633			no
+829	Nizhniy azhgechu	Нижний ажгечу		42.952566	45.402498	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1310.41796875	FALSE											Nizhniy azhgechu					chec1245	#996600	#996633			no
+830	Gurchu	Гурчу		42.955419	45.313221	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1463.12182617188	FALSE											Gurchu					chec1245	#996600	#996633			no
+831	Neftyanka	Нефтянка		42.956646	46.085505	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	749.192749023438	FALSE											Neftyanka					chec1245	#996600	#996633			no
+832	Vedeno	Ведено		42.956944	46.110278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	790.700500488281	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Vedeno			Ploskost	plost1238	chec1245	#996600	#996633			no
+833	yokka-yerbala	йокка-йербала		42.96084	45.26747	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1599.92810058594	FALSE											yokka-yerbala					chec1245	#996600	#996633			no
+834	Verkhniy azhgechu	Верхний ажгечу		42.9625	45.385776	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1292.82763671875	FALSE											Verkhniy azhgechu					chec1245	#996600	#996633			no
+835	Eshilkhatoy	Эшилхатой		42.963561	46.053813	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	698.101867675781	FALSE											Eshilkhatoy					chec1245	#996600	#996633			no
+836	Makhkety	Махкеты		42.963611	45.906389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	636.454956054688	FALSE											Makhkety					chec1245	#996600	#996633			no
+837	Magusty	Магусты		42.964722	45.380556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1305.61047363281	FALSE											Magusty					chec1245	#996600	#996633			no
+838	Bonchu-diga	Бончу-дига		42.96511	45.33223	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1402.97985839844	FALSE											Bonchu-diga					chec1245	#996600	#996633			no
+839	Alkhan-khutor	Алхан-хутор		42.969722	46.351667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	932.193359375	FALSE											Alkhan-khutor					chec1245	#996600	#996633			no
+840	Zhima-yerbala	Жима-йербала		42.97189	45.25772	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1592.21032714844	FALSE											Zhima-yerbala					chec1245	#996600	#996633			no
+841	Elistanzhi	Элистанжи		42.9725	46.017222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	701.387145996094	FALSE											Elistanzhi					chec1245	#996600	#996633			no
+842	Tevzana	Тевзана		42.975278	45.911111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	596.518249511719	FALSE											Tevzana					chec1245	#996600	#996633			no
+843	Oktyabr'skoe	Октябрьское		42.980278	46.080833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	670.187744140625	FALSE											Oktyabr'skoe					chec1245	#996600	#996633			no
+844	Khattuni	Хаттуни		42.980278	45.936944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	617.526977539063	FALSE											Khattuni					chec1245	#996600	#996633			no
+845	Belgatoy	Белгатой		42.980833	46.213056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	806.995483398438	FALSE											Belgatoy					chec1245	#996600	#996633			no
+846	Tazen-kala	Тазен-кала		42.980989	46.182928	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	689.259704589844	FALSE											Tazen-kala					chec1245	#996600	#996633			no
+847	Bulgat-irzu	Булгати-ирзу		42.981873	46.372068	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	806.485229492188	FALSE											Bulgat-irzu					chec1245	#996600	#996633			no
+848	Pachu	Пачу		42.983333	46.316667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	912.104431152344	FALSE											Pachu					chec1245	#996600	#996633			no
+849	Kechnyukhi	Кечнюхи		42.986147	45.273358	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	1324.10107421875	FALSE											Kechnyukhi					chec1245	#996600	#996633			no
+850	Osi-yurt	Оси-юрт		42.986703	46.299984	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	861.335388183594	FALSE											Osi-yurt					chec1245	#996600	#996633			no
+851	Ulus-kert	Улус-керт		42.988056	45.76	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	457.633880615234	FALSE											Ulus-kert					chec1245	#996600	#996633			no
+852	Sterch-kerch	Стерч-керч		42.992102	46.344103	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	835.084289550781	FALSE											Sterch-kerch					chec1245	#996600	#996633			no
+853	Yaryshmardy	Йарышмарды		42.996944	45.711667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	394.771392822266	FALSE											Yaryshmardy					chec1245	#996600	#996633			no
+854	Dengi-yurt	Денги-юрт		42.997483	46.296816	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	730.605712890625	FALSE											Dengi-yurt					chec1245	#996600	#996633			no
+855	Ersenoy	Эрсеной		42.9975	46.146389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	797.012451171875	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Ersenoy			Ploskost	plost1238	chec1245	#996600	#996633			no
+856	Gurzhi-mokhk	Гуржи-мохк		43.00056	46.33806	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	848.948852539063	FALSE											Gurzhi-mokhk					chec1245	#996600	#996633			no
+857	Ozhi-yurt	Ожи-юрт		43.001515	46.316986	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	881.571166992188	FALSE											Ozhi-yurt					chec1245	#996600	#996633			no
+858	Dachu-borzoy	Дачу-борзой		43.009167	45.726389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	417.082092285156	FALSE											Dachu-borzoy					chec1245	#996600	#996633			no
+859	Simsir	Симсир		43.009444	46.465833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	721.293518066406	FALSE											Simsir					chec1245	#996600	#996633			no
+860	Chishki	Чишки		43.010278	45.705833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	404.041717529297	FALSE											Chishki					chec1245	#996600	#996633			no
+861	Verkhnee ca-vedeno	Верхнее ца-ведено		43.010956	46.061483	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	541.609191894531	FALSE											Verkhnee ca-vedeno					chec1245	#996600	#996633			no
+862	Verkhnie kurchali	Верхние курчали		43.011249	46.194426	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	725.587585449219	FALSE											Verkhnie kurchali					chec1245	#996600	#996633			no
+863	Datta	Датта		43.011389	46.398333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	857.610229492187	FALSE											Datta					chec1245	#996600	#996633			no
+864	Agishbatoy	Агишбатой		43.012222	46.108056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	815.2177734375	FALSE											Agishbatoy					chec1245	#996600	#996633			no
+865	Srednie kurchali	Средние курчали		43.014986	46.186189	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	707.646179199219	FALSE											Srednie kurchali					chec1245	#996600	#996633			no
+866	Mesedoy	Меседой		43.01556	46.127196	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	785.768920898438	FALSE											Mesedoy					chec1245	#996600	#996633			no
+867	Ca-vedeno	Ца-ведено		43.018333	46.052778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	516.041564941406	FALSE											Ca-vedeno					chec1245	#996600	#996633			no
+868	Dts «chishki»	"Дтс ""чишки"""		43.019082	45.71085	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	393.865539550781	FALSE											Dts «chishki»					chec1245	#996600	#996633			no
+869	Baytarki	Байтарки		43.02	46.475556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	721.106994628906	FALSE											Baytarki					chec1245	#996600	#996633			no
+870	Agishty	Агишты		43.021667	45.891389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	456.133178710938	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Agishty			Ploskost	plost1238	chec1245	#996600	#996633			no
+871	Gendergen	Гендерген		43.021944	46.334722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	749.251342773438	FALSE											Gendergen					chec1245	#996600	#996633			no
+872	Chechel'-khi	Чечель-хи		43.027549	46.429399	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	760.587707519531	FALSE											Chechel'-khi					chec1245	#996600	#996633			no
+873	Nizhnie kurchali	Нижние курчали		43.02774	46.16736	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	561.033630371094	FALSE											Nizhnie kurchali					chec1245	#996600	#996633			no
+874	Zandak-ara	Зандак-ара		43.028604	46.352359	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	609.200256347656	FALSE											Zandak-ara					chec1245	#996600	#996633			no
+875	Verkhatoy	Верхатой		43.030871	46.02981	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	500.916351318359	FALSE											Verkhatoy					chec1245	#996600	#996633			no
+876	Engenoy	Энгеной		43.0375	46.284444	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	666.4287109375	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Engenoy			Ploskost	plost1238	chec1245	#996600	#996633			no
+877	Tatay-khutor	Татай-хутор		43.038611	46.485556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	548.831237792969	FALSE											Tatay-khutor					chec1245	#996600	#996633			no
+878	Sherdy-mokhk	Шерды-мохк		43.03978	46.156553	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	598.954711914063	FALSE											Sherdy-mokhk					chec1245	#996600	#996633			no
+879	Duba-yurt	Дуба-юрт		43.040278	45.730278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	368.535919189453	FALSE											Duba-yurt					chec1245	#996600	#996633			no
+880	Gordali	Гордали		43.042119	46.226801	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	658.147583007812	FALSE											Gordali					chec1245	#996600	#996633			no
+881	Pionerskoe	Пионерское		43.042469	45.708575	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	377.668151855469	FALSE											Pionerskoe					chec1245	#996600	#996633			no
+882	Bas-gordali	Бас-гордали		43.044439	46.213426	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	655.176025390625	FALSE											Bas-gordali					chec1245	#996600	#996633			no
+883	Lakha-varandy	Лаха-варанды		43.044444	45.708889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	374.373291015625	FALSE											Lakha-varandy					chec1245	#996600	#996633			no
+884	Khochi-ara	Хочи-ара		43.051831	46.320541	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	477.872314453125	FALSE											Khochi-ara					chec1245	#996600	#996633			no
+885	Gezinchu	Гезинчу		43.052957	46.171268	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	576.603454589844	FALSE											Gezinchu					chec1245	#996600	#996633			no
+886	Mekhkeshty	Мехкешты		43.055158	46.394023	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	696.892272949219	FALSE											Mekhkeshty					chec1245	#996600	#996633			no
+887	Bil'ty	Бильты		43.056106	46.347876	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	639.118896484375	FALSE											Bil'ty					chec1245	#996600	#996633			no
+888	Goy-chu	Гой-чу		43.056111	45.608611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	344.988983154297	FALSE											Goy-chu					chec1245	#996600	#996633			no
+889	Guni (Chechnya)	Гуни (Чечня)		43.056667	46.106111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	653.87841796875	FALSE											Guni (Chechnya)					chec1245	#996600	#996633		Added republic for disambiguation.	yes
+890	Zandak	Зандак		43.058333	46.455833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	866.828979492188	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Zandak			Ploskost	plost1238	chec1245	#996600	#996633			no
+891	Dzhankhoy-khutor	Джанхой-хутор		43.061111	46.136389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	414.311248779297	FALSE											Dzhankhoy-khutor					chec1245	#996600	#996633			no
+892	Sayasan	Сайасан		43.061111	46.290833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	509.729309082031	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Sayasan			Ploskost	plost1238	chec1245	#996600	#996633			no
+893	Alkhazurovo	Алхазурово		43.062222	45.654722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	360.773254394531	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Urus-Martan	Урус-мартановский					Alkhazurovo			Ploskost	plost1238	chec1245	#996600	#996633			no
+894	Benoy	Беной		43.063611	46.014167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	485.588409423828	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Benoy			Ploskost	plost1238	chec1245	#996600	#996633			no
+895	Khashki-mokhk	Хашки-мохк		43.064966	46.19528	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	519.600219726563	FALSE											Khashki-mokhk					chec1245	#996600	#996633			no
+896	Martan-chu	Мартан-чу		43.068056	45.555278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	330.659271240234	FALSE											Martan-chu					chec1245	#996600	#996633			no
+897	Tangi-chu	Танги-чу		43.071667	45.511667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	323.619720458984	FALSE											Tangi-chu					chec1245	#996600	#996633			no
+898	Rogun-kazha	Рогун-кажа		43.074444	46.348611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	507.459167480469	FALSE											Rogun-kazha					chec1245	#996600	#996633			no
+899	Enikali	Эникали		43.074444	46.1525	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	459.992858886719	FALSE											Enikali					chec1245	#996600	#996633			no
+900	Isay-yurt	Исай-юрт		43.07445	46.275598	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	579.301879882813	FALSE											Isay-yurt					chec1245	#996600	#996633			no
+901	Ishkhoy-khutor	Ишхой-хутор		43.077261	46.358045	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	516.056701660156	FALSE											Ishkhoy-khutor					chec1245	#996600	#996633			no
+902	Gilyany	Гиляны		43.078889	46.48	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	592.590454101563	FALSE											Gilyany					chec1245	#996600	#996633			no
+903	Achereshki	Ачерешки		43.080475	46.136395	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	486.57861328125	FALSE											Achereshki					chec1245	#996600	#996633			no
+904	Malye shuani	Малые шуани		43.080556	46.222778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	545.490600585937	FALSE											Malye shuani					chec1245	#996600	#996633			no
+905	Church-irzu	Чурч-ирзу		43.081259	46.396071	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	578.878967285156	FALSE											Church-irzu					chec1245	#996600	#996633			no
+906	Sovragi	Совраги		43.085328	46.334168	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	507.899200439453	FALSE											Sovragi					chec1245	#996600	#996633			no
+907	Marzoy-mokhk	Марзой-мохк		43.086401	46.101729	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	804.470581054687	FALSE											Marzoy-mokhk					chec1245	#996600	#996633			no
+908	Goyskoe	Гойское		43.086667	45.600278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	286.821929931641	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Urus-Martan	Урус-мартановский					Goyskoe			Ploskost	plost1238	chec1245	#996600	#996633			no
+909	Roshni-chu	Рошни-чу		43.088889	45.4575	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	349.974456787109	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Roshni-chu					chec1245	#996600	#996633			no
+910	Koren-benoy	Корен-беной		43.089976	46.146151	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	500.471496582031	FALSE											Koren-benoy					chec1245	#996600	#996633			no
+911	Ayti-mokhk	Айти-мохк		43.090278	46.346944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	503.870971679688	FALSE											Ayti-mokhk					chec1245	#996600	#996633			no
+912	Shalazhi	Шалажи		43.092778	45.359722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	378.537322998047	FALSE	arsakhanov1969	37	Galanchozh	Галанчожский							Shalazhi					chec1245	#996600	#996633			no
+913	Turty-khutor	Турты-хутор		43.093333	46.27	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	627.732971191406	FALSE											Turty-khutor					chec1245	#996600	#996633			no
+914	Gekhi-chu	Гехи-чу		43.094444	45.412222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	378.334136962891	FALSE											Gekhi-chu					chec1245	#996600	#996633			no
+915	Regita	Регита		43.095556	46.124722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	660.923095703125	FALSE											Regita					chec1245	#996600	#996633			no
+916	Nozhay-yurt	Ножай-юрт		43.097222	46.379167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	473.164611816406	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Nozhay-yurt			Ploskost	plost1238	chec1245	#996600	#996633			no
+917	Starye atagi	Старые атаги		43.1	45.738583	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	279.436096191406	FALSE											Starye atagi					chec1245	#996600	#996633			no
+918	Bel'ty	Бельты		43.10407	46.168959	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	422.108825683594	FALSE											Bel'ty					chec1245	#996600	#996633			no
+919	Yalkhoy-mokhk	Ялхой-мохк		43.107778	46.189722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	342.386199951172	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Yalkhoy-mokhk			Ploskost	plost1238	chec1245	#996600	#996633			no
+920	Serzhen'-yurt	Сержень-юрт		43.109722	45.974167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	412.317993164062	FALSE											Serzhen'-yurt					chec1245	#996600	#996633			no
+921	Khidi-khutor	Хиди-хутор		43.11	46.146944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	742.272399902344	FALSE											Khidi-khutor					chec1245	#996600	#996633			no
+922	Devlatbi-hutor	Девлатби-хутор		43.110833	46.3	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	660.983215332031	FALSE											Devlatbi-hutor					chec1245	#996600	#996633			no
+923	Dzhaglargi	Джагларги		43.111389	46.109167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	651.408020019531	FALSE											Dzhaglargi					chec1245	#996600	#996633			no
+924	Shovkhal-berdy	Шовхал-берды		43.1125	46.319444	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	413.265411376953	FALSE											Shovkhal-berdy					chec1245	#996600	#996633			no
+925	Betti-mokhk	Бетти-мохк		43.11527	46.33604	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	413.160308837891	FALSE											Betti-mokhk					chec1245	#996600	#996633			no
+926	Niki-khita	Ники-хита		43.115634	46.069614	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	594.214233398438	FALSE											Niki-khita					chec1245	#996600	#996633			no
+928	Usum-khutor	Усум-хутор		43.117337	46.16837	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	493.718444824219	FALSE											Usum-khutor					chec1245	#996600	#996633			no
+929	Balansu	Балансу		43.120833	46.387778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	487.066070556641	FALSE											Balansu					chec1245	#996600	#996633			no
+930	Gansolchu	Гансолчу		43.124492	46.2406	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	519.626281738281	FALSE											Gansolchu					chec1245	#996600	#996633			no
+931	Beshil-irzu	Бешил-ирзу		43.124972	46.304227	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	743.820922851563	FALSE											Beshil-irzu					chec1245	#996600	#996633			no
+932	Novye atagi	Новые атаги		43.127778	45.791111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	264.294464111328	FALSE											Novye atagi					chec1245	#996600	#996633			no
+933	Yandi	Янди		43.128056	45.328889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	300.236724853516	FALSE											Yandi					chec1245	#996600	#996633			no
+934	Urus-martan	Урус-мартан		43.129167	45.541667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	236.51416015625	FALSE	korjakov2006	27	Lowland	Плоскостной	Urus-Martan	Урус-мартановский					Urus-martan			Ploskost	plost1238	chec1245	#996600	#996633			no
+936	Akhkinchu-borzoy	Ахкинчу-борзой		43.13	46.195833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	404.704132080078	FALSE											Akhkinchu-borzoy					chec1245	#996600	#996633			no
+937	Staryy achkhoy	Старый ачхой		43.130556	45.2975	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	290.351867675781	FALSE											Staryy achkhoy					chec1245	#996600	#996633			no
+938	Novyy zamay-yurt	Новый замай-юрт		43.134106	46.358098	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	408.114959716797	FALSE											Novyy zamay-yurt					chec1245	#996600	#996633			no
+941	Shali	Шали		43.14	45.903889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	228.425308227539	FALSE											Shali					chec1245	#996600	#996633			no
+942	Sogunty	Согунты		43.141111	46.343889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	367.071899414062	FALSE											Sogunty					chec1245	#996600	#996633			no
+943	Zamay-yurt	Замай-юрт		43.150833	46.378889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	349.267791748047	FALSE											Zamay-yurt					chec1245	#996600	#996633			no
+944	Bamut	Бамут		43.1575	45.199722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	335.177124023437	FALSE	arsakhanov1969	37	Melkhi	Мелхинский							Bamut			Melkhin	melk1240	chec1245	#996600	#996633			no
+945	Dzhigurty	Джигурты		43.16	46.176667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	300.178924560547	FALSE											Dzhigurty					chec1245	#996600	#996633			no
+946	Avtury	Автуры		43.160556	46.013889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	248.768981933594	FALSE											Avtury					chec1245	#996600	#996633			no
+947	Gekhi	Гехи		43.161389	45.471111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	229	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Urus-Martan	Урус-мартановский					Gekhi			Ploskost	plost1238	chec1245	#996600	#996633			no
+948	Meskety	Мескеты		43.161389	46.357778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	395.890869140625	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Meskety			Ploskost	plost1238	chec1245	#996600	#996633			no
+950	Goyty	Гойты		43.164167	45.622222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	213	FALSE											Goyty					chec1245	#996600	#996633			no
+951	Katyr-yurt	Катыр-юрт		43.168611	45.368056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	237.153549194336	FALSE											Katyr-yurt					chec1245	#996600	#996633			no
+952	Galayty	Галайты		43.174167	46.388056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	281.111267089844	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Galayty			Ploskost	plost1238	chec1245	#996600	#996633			no
+953	Valerik	Валерик		43.176389	45.404167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	225.82600402832	FALSE											Valerik					chec1245	#996600	#996633			no
+954	Germenchuk	Герменчук		43.188889	45.924444	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	186.259872436523	FALSE											Germenchuk					chec1245	#996600	#996633			no
+955	Achkhoy-martan	Ачхой-мартан		43.189167	45.284722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	248.783294677734	FALSE											Achkhoy-martan					chec1245	#996600	#996633			no
+956	Chechen-aul	Чечен-аул		43.203333	45.783333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	201.110534667969	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Shalin	Шалинский					Chechen-aul			Ploskost	plost1238	chec1245	#996600	#996633			no
+957	Mayrtup	Майртуп		43.204167	46.131944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	189.874694824219	FALSE											Mayrtup					chec1245	#996600	#996633			no
+958	Kurchaloy	Курчалой		43.204444	46.087778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	163.788696289063	FALSE											Kurchaloy					chec1245	#996600	#996633			no
+959	Alleroy	Аллерой		43.213889	46.289722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	279.849792480469	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Alleroy			Ploskost	plost1238	chec1245	#996600	#996633			no
+960	Geldagana	Гелдагана		43.215278	46.040278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	155.187026977539	FALSE											Geldagana					chec1245	#996600	#996633			no
+961	Ishkhoy-yurt	Ишхой-юрт		43.215833	46.391111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	247.942749023438	FALSE											Ishkhoy-yurt					chec1245	#996600	#996633			no
+962	Bachi-yurt	Бачи-юрт		43.216389	46.193889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	202.337875366211	FALSE	abdullaev1954	6-9									Bachi-yurt					chec1245	#996600	#996633			no
+963	Shaami-yurt	Шаами-юрт		43.22	45.386389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	186.225204467773	FALSE											Shaami-yurt					chec1245	#996600	#996633			no
+964	Centaroy	Центарой		43.221944	46.245833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	223.649810791016	FALSE											Centaroy					chec1245	#996600	#996633			no
+965	Gikalo	Гикало		43.229167	45.733611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	182.661636352539	FALSE											Gikalo					chec1245	#996600	#996633			no
+966	Alkhan-yurt	Алхан-юрт		43.230833	45.565556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	162.488571166992	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Alkhan-yurt					chec1245	#996600	#996633			no
+967	Khambi-irzi	Хамби-ирзи		43.234167	45.451667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	171.680694580078	FALSE											Khambi-irzi					chec1245	#996600	#996633			no
+968	Kulary	Кулары		43.238333	45.500278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	167.774826049805	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Urus-Martan	Урус-мартановский					Kulary			Ploskost	plost1238	chec1245	#996600	#996633			no
+969	Coci-yurt	Цоци-юрт		43.238333	46.000556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	135.936126708984	FALSE											Coci-yurt					chec1245	#996600	#996633			no
+970	Krasnopartizanskiy	Краснопартизанский		43.243264	45.546768	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	161.01887512207	FALSE											Krasnopartizanskiy					chec1245	#996600	#996633			no
+972	Gerzel'-aul	Герзель-аул		43.249167	46.3975	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	138.092254638672	FALSE											Gerzel'-aul					chec1245	#996600	#996633			no
+973	Mesker-yurt	Мескер-юрт		43.251389	45.909444	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	132.599349975586	FALSE											Mesker-yurt					chec1245	#996600	#996633			no
+974	Koshkel'dy	Кошкельды		43.253056	46.349167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	105.343200683594	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Koshkel'dy			Ploskost	plost1238	chec1245	#996600	#996633			no
+975	Novyy sharoy	Новый шарой		43.254444	45.277778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	219.601211547852	FALSE	korjakov2006	map 8	Sharoy	Шароевский							Novyy sharoy					chec1245	#996600	#996633			no
+976	Prigorodnoe	Пригородное		43.254444	45.756944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	163.057006835938	FALSE											Prigorodnoe					chec1245	#996600	#996633			no
+977	Verkhniy Noyber	Верхний нойбер		43.255556	46.283056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	117.695541381836	FALSE											Verkhniy Noyber					chec1245	#996600	#996633			no
+978	Alkhan-kala	Алхан-кала		43.260556	45.535278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	195.502136230469	FALSE											Alkhan-kala					chec1245	#996600	#996633			no
+979	Zakan-yurt	Закан-юрт		43.263611	45.419167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	192.200225830078	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Zakan-yurt					chec1245	#996600	#996633			no
+980	Nizhniy noybera	Нижний нойбера		43.266667	46.278889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	74.7108764648438	FALSE											Nizhniy noybera					chec1245	#996600	#996633			no
+981	Davydenko	Давыденко		43.271389	45.26	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	222.363632202148	FALSE											Davydenko					chec1245	#996600	#996633			no
+982	Komsomol'skoe (Chechnya)	Комсомольское (Чечня)		43.271389	45.825556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	137.472229003906	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Shalin	Шалинский					Komsomol'skoe (Chechnya)			Ploskost	plost1238	chec1245	#996600	#996633		Added republic for disambiguation.	yes
+986	Ilaskhan-yurt	Иласхан-юрт		43.278889	46.098333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	109.45043182373	FALSE											Ilaskhan-yurt					chec1245	#996600	#996633			no
+987	Bil'toy-yurt	Бильтой-юрт		43.2825	46.295278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	44.4360198974609	FALSE											Bil'toy-yurt					chec1245	#996600	#996633			no
+989	Gordali-yurt	Гордали-юрт		43.285278	46.315833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	52.2421569824219	FALSE											Gordali-yurt					chec1245	#996600	#996633			no
+991	Samashki	Самашки		43.292222	45.303889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	219.570434570312	FALSE	arsakhanov1969	37	Cheberloy	Чеберлоевский							Samashki					chec1245	#996600	#996633			no
+993	Argun	Аргун		43.294444	45.883889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	112.203247070313	FALSE											Argun					chec1245	#996600	#996633			no
+995	Primykanie	Примыкание		43.302662	45.823233	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	112.933418273926	FALSE											Primykanie					chec1245	#996600	#996633			no
+996	Centora-yurt	Центора-юрт		43.302778	45.828056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	113.716171264648	FALSE											Centora-yurt					chec1245	#996600	#996633			no
+998	Novyy yengenoy	Новый йенгеной		43.308333	46.026111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	92.5870895385742	FALSE											Novyy yengenoy					chec1245	#996600	#996633			no
+1000	Melchkhi	Мелчхи		43.310035	46.18759	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	40.5517845153809	FALSE											Melchkhi					chec1245	#996600	#996633			no
+1002	Kadi-yurt	Кади-юрт		43.313889	46.311944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	44.8020095825195	FALSE											Kadi-yurt					chec1245	#996600	#996633			no
+1003	Groznyy	Грозный		43.316667	45.7	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	122	FALSE	korjakov2006	27	Lowland	Плоскостной							Groznyy			Ploskost	plost1238	chec1245	#996600	#996633			no
+1004	Dzhalka	Джалка		43.318889	45.993611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	82.7196884155273	FALSE											Dzhalka					chec1245	#996600	#996633			no
+1005	Berkat-yurt	Беркат-юрт		43.323611	45.829722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	108.003997802734	FALSE											Berkat-yurt					chec1245	#996600	#996633			no
+1006	Engel'-yurt	Энгель-юрт		43.326944	46.353889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	47	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Ichkerian	Ичкерийский					Engel'-yurt			Ploskost	plost1238	chec1245	#996600	#996633			no
+1007	Shuani	Шуани		43.335556	46.193889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	34.5462455749512	FALSE											Shuani					chec1245	#996600	#996633			no
+1010	Krasnostepnovskoe	Красностепновское		43.352778	45.446678	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	250.292846679688	FALSE											Krasnostepnovskoe					chec1245	#996600	#996633			no
+1011	Gudermes	Гудермес		43.355278	46.099167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	56.0666160583496	FALSE											Gudermes					chec1245	#996600	#996633			no
+1012	Il'inovskaya	Ильиновская		43.364167	45.95	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	111.638191223145	FALSE											Il'inovskaya					chec1245	#996600	#996633			no
+1013	Petropavlovskaya	Петропавловская		43.386389	45.828889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	133.8515625	FALSE											Petropavlovskaya					chec1245	#996600	#996633			no
+1014	Proletarskoe	Пролетарское		43.3875	45.597222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	148.880004882813	FALSE											Proletarskoe					chec1245	#996600	#996633			no
+1015	Gunyushki	Гунюшки		43.393951	45.38172	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	206.856918334961	FALSE											Gunyushki					chec1245	#996600	#996633			no
+1016	Darbankhi	Дарбанхи		43.3975	46.031944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	59.0992965698242	FALSE											Darbankhi					chec1245	#996600	#996633			no
+1017	Kerla-yurt	Керла-юрт		43.399879	45.307771	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	238.843566894531	FALSE											Kerla-yurt					chec1245	#996600	#996633			no
+1018	Pobedinskoe	Побединское		43.400833	45.433056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	197.071243286133	FALSE											Pobedinskoe					chec1245	#996600	#996633			no
+1019	Pervomayskaya	Первомайская		43.401944	45.522778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	173.662261962891	FALSE											Pervomayskaya					chec1245	#996600	#996633			no
+1020	Druzhba (Chechnya)	Дружба (Чечня)		43.403333	45.6575	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	187.238922119141	FALSE											Druzhba (Chechnya)					chec1245	#996600	#996633		Added republic for disambiguation.	yes
+1021	Raduzhnoe	Радужное		43.404981	45.397468	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	200.230484008789	FALSE											Raduzhnoe					chec1245	#996600	#996633			no
+1022	Dolinskiy	Долинский		43.405892	45.383715	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	225.967712402344	FALSE											Dolinskiy					chec1245	#996600	#996633			no
+1023	Sadovoe (Chechnya)	Садовое (Чечня)		43.408459	45.595744	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	196.778289794922	FALSE											Sadovoe (Chechnya)					chec1245	#996600	#996633		Added republic for disambiguation.	yes
+1024	Khangish-yurt	Хангиш-юрт		43.413056	46.236111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	26	FALSE											Khangish-yurt					chec1245	#996600	#996633			no
+1025	Nagornoe	Нагорное		43.417064	45.1803	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	254.263275146484	FALSE											Nagornoe					chec1245	#996600	#996633			no
+1026	Azamat-yurt	Азамат-юрт		43.418889	46.286111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	22.6367626190185	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Terek	Надтеречный					Azamat-yurt			Ploskost	plost1238	chec1245	#996600	#996633			no
+1029	Goryacheistochnenskaya	Горячеисточненская		43.428611	45.774167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	150.39485168457	FALSE											Goryacheistochnenskaya					chec1245	#996600	#996633			no
+1032	Tolstoy-yurt	Толстой-юрт		43.444444	45.778889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	123.321357727051	FALSE											Tolstoy-yurt					chec1245	#996600	#996633			no
+1033	Chervlyonnaya-uzlovaya	Червлённая-узловая		43.446667	45.976944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	38.1595649719238	FALSE											Chervlyonnaya-uzlovaya					chec1245	#996600	#996633			no
+1034	Bartkhoy	Бартхой		43.453913	45.230875	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	321.180206298828	FALSE											Bartkhoy					chec1245	#996600	#996633			no
+1038	Staro-shhedrinskaya	Старо-щедринская		43.469722	46.106667	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	30	FALSE											Staro-shhedrinskaya					chec1245	#996600	#996633			no
+1039	Paraboch	Парабоч		43.47266	46.294588	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	18.5973358154297	FALSE											Paraboch					chec1245	#996600	#996633			no
+1040	Mayskiy	Майский		43.473425	45.12623	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	332.891845703125	FALSE											Mayskiy					chec1245	#996600	#996633			no
+1041	Khar'kovskoe	Харьковское		43.476667	46.333889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	17.4305324554443	FALSE											Khar'kovskoe					chec1245	#996600	#996633			no
+1042	Novo-shhedrinskaya	Ново-щедринская		43.485833	46.101389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	31.8344783782959	FALSE											Novo-shhedrinskaya					chec1245	#996600	#996633			no
+1043	Shelkozavodskaya	Шелкозаводская		43.491389	46.308056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	16.9263877868652	FALSE											Shelkozavodskaya					chec1245	#996600	#996633			no
+1044	Chervlyonnaya	Червлённая		43.501389	45.883333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	46.4895439147949	FALSE											Chervlyonnaya					chec1245	#996600	#996633			no
+1045	Naberezhnyy	Набережный		43.506683	45.787822	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	54.3489456176758	FALSE											Naberezhnyy					chec1245	#996600	#996633			no
+1046	Zebir-yurt	Зебир-юрт		43.508333	45.357778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	207.202575683594	FALSE											Zebir-yurt					chec1245	#996600	#996633			no
+1047	Shelkovskaya	Шелковская		43.509167	46.327778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	13.9515800476074	FALSE											Shelkovskaya					chec1245	#996600	#996633			no
+1048	Kobi	Коби		43.513056	46.244722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	18.4808444976807	FALSE											Kobi					chec1245	#996600	#996633			no
+1049	Orlinoe	Орлиное		43.514868	45.109405	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	393.868927001953	FALSE											Orlinoe					chec1245	#996600	#996633			no
+1050	Komarovo	Комарово		43.521389	45.0425	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	406.581390380859	FALSE											Komarovo					chec1245	#996600	#996633			no
+1051	Pravoberezhnoe	Правобережное		43.524444	45.699722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	126.002899169922	FALSE	korjakov2006	map 8	Lowland	Плоскостной	Terek	Надтеречный					Pravoberezhnoe			Ploskost	plost1238	chec1245	#996600	#996633			no
+1052	Grebenskaya	Гребенская		43.526667	46.369167	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	11.6985292434692	FALSE											Grebenskaya					chec1245	#996600	#996633			no
+1053	Gazgorodok	Газгородок		43.529071	45.69083	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	134.101516723633	FALSE											Gazgorodok					chec1245	#996600	#996633			no
+1054	Nikolaevskaya	Николаевская		43.531389	45.772222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	56.439811706543	FALSE											Nikolaevskaya					chec1245	#996600	#996633			no
+1056	Ken'-yurt	Кень-юрт		43.544444	45.512222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	126.81143951416	FALSE											Ken'-yurt					chec1245	#996600	#996633			no
+1057	Usad'ba goskhoza «mineral'nyy»	Усадьба госхоза «минеральный»		43.545966	45.326088	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	195.830490112305	FALSE											Usad'ba goskhoza «mineral'nyy»					chec1245	#996600	#996633			no
+1058	Terskoe	Терское		43.551944	45.563611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	90.3102645874023	FALSE											Terskoe					chec1245	#996600	#996633			no
+1059	Voskresenovskoe	Воскресенское		43.554722	46.385278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	9.61866664886475	FALSE											Voskresenovskoe					chec1245	#996600	#996633			no
+1060	Oraz-aul	Ораз-аул		43.556944	45.960278	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	50.5012741088867	FALSE											Oraz-aul					chec1245	#996600	#996633			no
+1061	Kalaus	Калаус		43.561111	45.098611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	223.849548339844	FALSE											Kalaus					chec1245	#996600	#996633			no
+1064	Levoberezhnoe	Левобережное		43.570556	45.630556	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	68	FALSE											Levoberezhnoe					chec1245	#996600	#996633			no
+1065	Karshyga-aul	Каршыга-аул		43.572778	46.17	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	22.4280433654785	FALSE											Karshyga-aul					chec1245	#996600	#996633			no
+1066	Kalinovskaya	Калиновская		43.576944	45.522222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	68.4755096435547	FALSE											Kalinovskaya					chec1245	#996600	#996633			no
+1067	Obil'nyy	Обильный		43.578322	45.746836	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	65.1813201904297	FALSE											Obil'nyy					chec1245	#996600	#996633			no
+1068	Podgornoe	Подгорное		43.583611	45.4425	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	74.6266250610352	FALSE											Podgornoe					chec1245	#996600	#996633			no
+1069	Novoe solkushino	Новое солкушино		43.587222	45.681944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	65.0895614624023	FALSE											Novoe solkushino					chec1245	#996600	#996633			no
+1070	Yubileynoe	Юбилейное		43.596298	45.641154	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	65.7107925415039	FALSE											Yubileynoe					chec1245	#996600	#996633			no
+1071	Novoterskoe	Новотерское		43.602222	45.589444	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	70.1017990112305	FALSE											Novoterskoe					chec1245	#996600	#996633			no
+1072	Meken-yurt	Мекен-юрт		43.608611	45.405833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	79.3332214355469	FALSE											Meken-yurt					chec1245	#996600	#996633			no
+1073	Verkhniy Naur	Верхний наур		43.613611	45.2475	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	78.9662551879883	FALSE											Verkhniy Naur					chec1245	#996600	#996633			no
+1074	Nadterechnoe	Надтеречное		43.618611	45.338889	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	84.4571228027344	FALSE											Nadterechnoe					chec1245	#996600	#996633			no
+1075	Savel'evskaya	Савельевская		43.630278	45.459722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	78	FALSE											Savel'evskaya					chec1245	#996600	#996633			no
+1076	Ul'yanovskoe	Ульяновское		43.630556	45.601389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	73.6677093505859	FALSE											Ul'yanovskoe					chec1245	#996600	#996633			no
+1077	Starogladovskaya	Старогладовская		43.635833	46.416389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	2.71218919754028	FALSE											Starogladovskaya					chec1245	#996600	#996633			no
+1078	Frunzenskoe	Фрунзенское		43.6375	45.663611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	70.6089935302734	FALSE											Frunzenskoe					chec1245	#996600	#996633			no
+1079	Naurskaya	Наурская		43.648611	45.314722	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	79.6528701782227	FALSE											Naurskaya					chec1245	#996600	#996633			no
+1080	Bratskoe	Братское		43.649167	44.883611	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	153.791580200195	FALSE											Bratskoe					chec1245	#996600	#996633			no
+1081	Bezhanov	Бежанов		43.650834	45.674939	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	75.9511642456055	FALSE											Bezhanov					chec1245	#996600	#996633			no
+1082	Semikolodcev	Семиколодцев		43.662959	45.773835	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	60.7718124389648	FALSE											Semikolodcev					chec1245	#996600	#996633			no
+1083	Mekenskaya	Мекенская		43.668889	45.384444	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	83	FALSE											Mekenskaya					chec1245	#996600	#996633			no
+1084	Gvardeyskoe	Гвардейское		43.673333	45.051944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	95.5140762329102	FALSE											Gvardeyskoe					chec1245	#996600	#996633			no
+1085	Chernokozovo	Чернокозово		43.673611	45.361111	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	86	FALSE											Chernokozovo					chec1245	#996600	#996633			no
+1086	Znamenskoe	Знаменское		43.677778	45.128056	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	92.0650482177734	FALSE											Znamenskoe					chec1245	#996600	#996633			no
+1087	Beno-yurt	Бено-юрт		43.689722	45.051944	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	98.9190292358398	FALSE											Beno-yurt					chec1245	#996600	#996633			no
+1088	Kurdyukovskaya	Курдюковская		43.691111	46.45	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	0.284444451332092	FALSE											Kurdyukovskaya					chec1245	#996600	#996633			no
+1089	Mirnyy	Мирный		43.694859	45.476983	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	83.9139862060547	FALSE											Mirnyy					chec1245	#996600	#996633			no
+1090	Kotlankin	Котланкин		43.695278	45.767778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	62.1577568054199	FALSE											Kotlankin					chec1245	#996600	#996633			no
+1091	Alpatovo	Алпатово		43.704722	45.240833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	94.5460662841797	FALSE											Alpatovo					chec1245	#996600	#996633			no
+1092	Ishhyorskaya	Ищёрская		43.715278	45.133333	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	103.168235778809	FALSE											Ishhyorskaya					chec1245	#996600	#996633			no
+1093	Postnyy	Постный		43.72376	45.632907	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	74.0894165039063	FALSE											Postnyy					chec1245	#996600	#996633			no
+1094	Kozlov	Козлов		43.72561	45.555419	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	81.9265289306641	FALSE											Kozlov					chec1245	#996600	#996633			no
+1095	Rubezhnoe	Рубежное		43.728611	45.172222	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	98.4055633544922	FALSE											Rubezhnoe					chec1245	#996600	#996633			no
+1096	Sitnikov	Ситников		43.732241	45.514123	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	84.8453598022461	FALSE											Sitnikov					chec1245	#996600	#996633			no
+1097	Kargalinskaya	Каргалинская		43.743056	46.476389	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	-2.29530024528503	FALSE											Kargalinskaya					chec1245	#996600	#996633			no
+1098	Klinkov	Клинков		43.753473	45.445968	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	88.1979064941406	FALSE											Klinkov					chec1245	#996600	#996633			no
+1099	Svobodnoe	Свободное		43.75891	45.25946	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	99.0627517700195	FALSE											Svobodnoe					chec1245	#996600	#996633			no
+1100	Batyrkin	Батыркин		43.770778	45.675793	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	70.9640808105469	FALSE											Batyrkin					chec1245	#996600	#996633			no
+1101	Kapustino	Капустино		43.776929	45.334864	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	92	FALSE											Kapustino					chec1245	#996600	#996633			no
+1102	Nyrkov	Нырков		43.785403	45.386589	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	89.1246795654297	FALSE											Nyrkov					chec1245	#996600	#996633			no
+1103	Dal'nee	Дальнее		43.789633	45.092068	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	111.550590515137	FALSE											Dal'nee					chec1245	#996600	#996633			no
+1104	Dubovskaya	Дубовская		43.793333	46.5525	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	-6	FALSE											Dubovskaya					chec1245	#996600	#996633			no
+1105	Borozdinovskaya	Бороздиновская		43.81	46.590833	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	-6	FALSE											Borozdinovskaya					chec1245	#996600	#996633			no
+1106	Zelyonoe	Зелёное		43.818442	45.983529	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	42	FALSE											Zelyonoe					chec1245	#996600	#996633			no
+1107	Mayorskiy	Майорский		43.835318	45.489437	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	80.1663970947266	FALSE											Mayorskiy					chec1245	#996600	#996633			no
+1108	Voskhod	Восход		43.852125	46.40915	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	-6.71413326263428	FALSE											Voskhod					chec1245	#996600	#996633			no
+1109	Burunskoe	Бурунское		43.860278	45.777778	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	59.9555397033691	FALSE											Burunskoe					chec1245	#996600	#996633			no
+1110	Selivankin	Селиванкин		43.877187	45.6737	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	64.3301467895508	FALSE											Selivankin					chec1245	#996600	#996633			no
+1111	Krechetovo	Кречетово		43.906622	45.0916	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	107.055046081543	FALSE											Krechetovo					chec1245	#996600	#996633			no
+1112	Peschanoe	Песчаное		43.908765	45.805986	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	55	FALSE											Peschanoe					chec1245	#996600	#996633			no
+1114	Korneev	Корнеев		43.918603	45.602841	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	67	FALSE											Korneev					chec1245	#996600	#996633			no
+1115	Runnoe	Рунное		43.919694	46.044794	Legacy data		Chechen	Nakh	East Caucasian	Chechnya	NA	26.9012680053711	FALSE											Runnoe					chec1245	#996600	#996633			no
+1545	Braguny	Брагуны		43.44	46.096944	Legacy data		Kumyk	Kipchak	Turkic	Chechnya	NA	34.8754539489746	FALSE											Braguny					kumy1244	#a6a6a6	#666666			yes
+1546	Vinogradnoe (Chechnya)	Виноградное (Чечня)		43.463333	45.861111	Legacy data		Kumyk	Kipchak	Turkic	Chechnya	NA	57.9279518127441	FALSE											Vinogradnoe (Chechnya)					kumy1244	#a6a6a6	#666666		Added republic for disambiguation.	yes
+1779	Sary-su	Сары-су		43.839722	46.4325	Legacy data		Nogai	Kipchak	Turkic	Chechnya	NA	-6.40095186233521	FALSE											Sary-su					noga1249	#666666	#666666			yes

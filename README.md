@@ -1,11 +1,11 @@
-
+﻿
 # East Caucasian villages: coordinates and languages
 
 This repository contains a dataset with a list of villages in the eastern Caucasus, their coordinates and the (main) language spoken there. It can be used to plot maps on East Caucasian languages or the languages of Daghestan using the [Lingtypology](https://ropensci.github.io/lingtypology/) package for R.
 
 Feel free to use the data. If you find any mistakes, please create an [issue](https://github.com/sverhees/master_villages/issues) here on Github.
 
-Data format is TSV or XLSX.
+Data format is tsv (or tab-separated csv).
 
 ## Cite
 
@@ -39,6 +39,8 @@ If you have any questions or comments about the dataset, write a letter to jh.ve
 ---
 
 ## Data
+
+The data consists of several subsets (see **documentation** in folder subsets), which are updated when new information becomes available. The main file is created from these subsets using the script **create_datasets.R* in folder **data**. 
 
 The latest version of the dataset (**villages** in the folder **data**) consists of a single table with the following parameters: 
 
@@ -165,3 +167,5 @@ added villages: Duisi, Dzibakhevi, Dzhokolo, Shua Khalatsani, Birkiani, Omalo (P
 07.03.2022 - **village_dialect** Mislesh > Mishlesh.
 
 02.06.2022 - Added version column to villages.tsv. **dialect_toplevel** for Karabagly changed Eastern Armenian > Modern Eastern Armenian.
+
+03.07.2022 – Converted .xlsx to .tsv to allow tracking changes on Github. Added information on subsets in Readme. Edited **village_dialect** for Nizhnee Gakvari and Verkhnee Gakvari > Lower Gakvari, Upper Gakvari.

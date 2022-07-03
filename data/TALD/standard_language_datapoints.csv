@@ -1,0 +1,15 @@
+id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_toplevel	dialect_toplevel_cyr	dialect_nt1	dialect_nt1_cyr	dialect_nt2	dialect_nt2_cyr	dialect_nt3	dialect_nt3_cyr	village_dialect	gltc_lang	lang_col	aff_col
+	Standard Armenian		41.009625	44.384086	Armenian	Armenic	Indo-European	Standard Armenian	Armenian	Modern Eastern Armenian									nucl1235	#dbcfeb	#fff5ee
+	Standard Azerbaijani		40.977675	46.4736975	Azerbaijani	Oghuz	Turkic	Standard Azerbaijani	Azerbaijani										nort2697	#cccccc	#cccccc
+	Standard Lezgian		41.51572	47.89507	Lezgian	Lezgic	East Caucasian	Standard Lezgian	Lezgian										lezg1247	#00cc00	#00cc66
+	Standard Rutul		41.61866	47.32436	Rutul	Lezgic	East Caucasian	Standard Rutul	Rutul										rutu1240	#009900	#00cc66
+	Standard Georgian		41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian										nucl1302	#fff5ee	black
+	Standard Agul		41.92418	47.58429	Agul	Lezgic	East Caucasian	Standard Agul	Agul										aghu1253	#00cc66	#00cc66
+	Standard Tabasaran		42.01976	47.83791	Tabasaran	Lezgic	East Caucasian	Standard Tabasaran	Tabasaran										taba1259	#339966	#00cc66
+	Standard Lak		42.13275	47.0809	Lak	Lak	East Caucasian	Standard Lak	Lak										lakk1252	#cc9900	#cc9900
+	Standard Dargwa		42.42568	47.43876	Dargwa	Dargwa	East Caucasian	Standard Dargwa	Dargwa										darg1241	#ff9900	#ff9900
+	Standard Avar		42.43056	46.66639	Avar	Avar	East Caucasian	Standard Avar	Avar										avar1256	#009999	#009999
+	Standard Kumyk		43	47	Kumyk	Kipchak	Turkic	Standard Kumyk	Kumyk										kumy1244	#a6a6a6	#666666
+	Standard Ingush		43.16667	44.81667	Ingush	Nakh	East Caucasian	Standard Ingush	Ingush										ingu1240	#663300	#996633
+	Standard Chechen		43.5	45.5	Chechen	Nakh	East Caucasian	Standard Chechen	Chechen										chec1245	#996600	#996633
+	Standard Nogai		43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai										noga1249	#666666	#666666
