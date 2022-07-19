@@ -1457,3 +1457,4 @@ id	village	rus_village	village_altnames	lat	lon	coord_source	settlement_type	lan
 2145	Egdada	Эгдада		42.4681009	46.0549675	Yuri Koryakov		Chamalal	Andic	East Caucasian	Daghestan	NA	NA	FALSE											Egdada					cham1309	#000099	#9900ff			yes
 2146	Tlenkhori	Тленхори		42.4681009	46.0549675	Yuri Koryakov		Bagvalal	Andic	East Caucasian	Daghestan	NA	NA	FALSE											Tlenkhori					bagv1239	#000066	#9900ff			yes
 2147	Bekhvalutchi	Бехвалутчи		42.464704	46.139754	Google maps		Tindi	Andic	East Caucasian	Daghestan	NA	NA	FALSE											Bekhvalutchi					tind1238	#333399	#9900ff			yes
+2148	Kala	Кала		41.57694	47.35389	Google maps		Rutul	Lezgic	East Caucasian	Daghestan														Kala					rutu1240	#009900	#00cc66			yes
